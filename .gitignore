@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/latest_report.json
+
+# Generated synthetic data (regenerable via data/ingestion/generate_synthetic_data.py)
+data/synthetic/*.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docs kept out of the repo
+.log
+.pyc
+.tmp
+Outbreak_Vulnerability_Sentinel_PRD.md
+scaffold_prompt.md

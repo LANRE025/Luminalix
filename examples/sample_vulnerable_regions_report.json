@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-31T09:15:00Z",
+  "total_regions_evaluated": 24,
+  "total_flagged": 5,
+  "regions": [
+    {
+      "region": "Region-Oromia-Ethiopia",
+      "country": "Ethiopia",
+      "vulnerability_level": "High",
+      "justification": "Official survey data is 60 days stale while hospital admissions have risen 50% over the last 14 days, and resource allocation sits 35% below the regional average. This region is at high risk of an undetected, escalating outbreak.",
+      "confidence": "High",
+      "key_signals": [
+        "survey stale 60 days",
+        "admissions +50% over 14 days",
+        "resource allocation 35% below regional average"
+      ],
+      "days_stale": 60,
+      "flagged_at": "2026-07-31T09:14:58Z"
+    },
+    {
+      "region": "Region-North-Nigeria",
+      "country": "Nigeria",
+      "vulnerability_level": "High",
+      "justification": "Survey data is over a month and a half old and admissions are up 45%, while funding and vaccine stock are roughly 28% below average. The combination of stale reporting and rising caseload suggests a developing outbreak that official channels have not yet captured.",
+      "confidence": "High",
+      "key_signals": [
+        "survey stale 55 days",
+        "admissions +45% over 14 days",
+        "resource allocation 28% below regional average"
+      ],
+      "days_stale": 55,
+      "flagged_at": "2026-07-31T09:14:58Z"
+    },
+    {
+      "region": "Region-West-Kenya",
+      "country": "Kenya",
+      "vulnerability_level": "High",
+      "justification": "The latest survey is 42 days old and admissions have climbed 38% in two weeks, with resource levels 20% below average. This region shows all three blind-spot signals at once.",
+      "confidence": "High",
+      "key_signals": [
+        "survey stale 42 days",
+        "admissions +38% over 14 days",
+        "resource allocation 20% below regional average"
+      ],
+      "days_stale": 42,
+      "flagged_at": "2026-07-31T09:14:57Z"
+    },
+    {
+      "region": "Region-Luzon-Philippines",
+      "country": "Philippines",
+      "vulnerability_level": "Moderate",
+      "justification": "Survey data is stale and admissions are trending upward, but resource allocation is close to the regional average. The emerging trend warrants attention even though capacity is less constrained.",
+      "confidence": "Medium",
+      "key_signals": [
+        "survey stale 47 days",
+        "admissions +30% over 14 days"
+      ],
+      "days_stale": 47,
+      "flagged_at": "2026-07-31T09:14:57Z"
+    },
+    {
+      "region": "Region-North-Ghana",
+      "country": "Ghana",
+      "vulnerability_level": "Moderate",
+      "justification": "Admissions are up 22% and the survey is 39 days old. Resource levels are slightly below average, suggesting a moderate and partially-resourced risk that should be monitored.",
+      "confidence": "Medium",
+      "key_signals": [
+        "survey stale 39 days",
+        "admissions +22% over 14 days",
+        "resource allocation 10% below regional average"
+      ],
+      "days_stale": 39,
+      "flagged_at": "2026-07-31T09:14:56Z"
+    }
+  ]
+}
