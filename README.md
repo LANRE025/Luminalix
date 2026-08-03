@@ -33,7 +33,7 @@ DataHub Instance  ◄────►  MCP Server
 ```
 
 - **Backend**: Python + FastAPI (`backend/`)
-- **Reasoning**: Gemini API via the `google-genai` SDK (`backend/app/agent/reasoning.py`)
+- **Reasoning**: Gemini via Google Vertex AI (`google-genai` SDK, `backend/app/agent/reasoning.py`)
 - **Data platform**: DataHub via MCP Server — **currently stubbed**
 - **Persistence**: a single JSON file, `data/latest_report.json`
 - **Frontend**: React + TypeScript, built with Vite, styled with Tailwind CSS (`frontend/`)
@@ -76,8 +76,21 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows (use `source .venv/bin/activate` on macOS/Linux)
 pip install -r requirements.txt
 copy .env.example .env        # Windows (use `cp` on macOS/Linux)
-# then edit .env and set GEMINI_API_KEY
+# then edit .env and set VERTEX_PROJECT (and VERTEX_LOCATION if not us-central1)
 ```
+
+The reasoning agent authenticates to Vertex AI with **Application Default
+Credentials (ADC)**, not an API key. Set up auth once (requires the [Google
+Cloud CLI](https://cloud.google.com/sdk/docs/install)):
+
+```bash
+gcloud auth login
+gcloud config set project <your_gcp_project_id>
+gcloud auth application-default login
+gcloud services enable aiplatform.googleapis.com --project=<your_gcp_project_id>
+```
+
+Your account needs `roles/aiplatform.user` (or equivalent) on the project.
 
 Run the API (from the `backend/` directory):
 
@@ -195,12 +208,13 @@ Until DataHub is running, an agent run will fail at the first
 before DataHub is up, see the hand-written example report in
 `examples/sample_vulnerable_regions_report.json`.
 
-## Model note
+## Model
 
-The scaffold fixed the Gemini model as `gemini-2.5-pro`. It is still
-operational but was deprecated in June 2026 (shutdown planned for 16 Oct 2026).
-The official replacement is `gemini-3.1-pro-preview` — set `GEMINI_MODEL` in
-`backend/.env` to migrate.
+The reasoning agent uses `gemini-3.5-flash` by default (see
+`GEMINI_MODEL` in `backend/.env`). The model runs through Vertex AI, which uses
+the same model names as the Gemini Developer API — only the auth/endpoint path
+differs. The caller retries transient 429/503 errors with exponential backoff,
+so quota/availability hiccups don't fail a run outright.
 
 ## License
 
