@@ -52,6 +52,7 @@ class RegionAssessment(BaseModel):
 
     region: str
     country: str
+    disease: str | None = None
     vulnerability_level: VulnerabilityLevel
     justification: str
     confidence: Confidence

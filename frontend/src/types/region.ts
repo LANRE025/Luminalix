@@ -8,6 +8,7 @@ export type AgentRunStatusValue = "idle" | "running" | "complete" | "error";
 export interface RegionAssessment {
   region: string;
   country: string;
+  disease: string | null;
   vulnerability_level: VulnerabilityLevel;
   justification: string;
   confidence: Confidence;

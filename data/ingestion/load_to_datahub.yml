@@ -1,0 +1,72 @@
+# load_to_datahub.yml
+#
+# DataHub ingestion recipe using the CSV-as-dataset source connector.
+# This loads your three combined datasets as proper DataHub entities with
+# real schemas, so your agent can query them via MCP/GMS like any other
+# dataset.
+#
+# Run with:
+#   datahub ingest -c data/ingestion/load_to_datahub.yml
+#
+# Prerequisite: run these first, in order, to produce the CSVs referenced below:
+#   python3 data/ingestion/process_covid.py
+#   python3 data/ingestion/process_who_datasets.py      (after manual downloads)
+#   python3 data/ingestion/generate_synthetic_diseases.py
+#   python3 data/ingestion/combine_regional_survey_data.py
+#   python3 data/ingestion/generate_hospital_admissions.py
+#   python3 data/ingestion/generate_resource_allocation.py
+
+source:
+  type: csv-enricher
+  config:
+    # NOTE: csv-enricher is designed to ENRICH existing DataHub entities with
+    # extra metadata, not create new ones from scratch. For creating brand-new
+    # dataset entities from CSV files, use the "file" source below instead,
+    # which DataHub treats as a generic tabular source with automatic schema
+    # inference. Keeping both documented here since which one applies depends
+    # on your installed DataHub CLI version's available source plugins —
+    # verify with `datahub ingest list-source-types` and adjust accordingly.
+    filename: data/combined/regional_survey_data.csv
+
+---
+# Alternative / recommended: separate recipes per dataset using the "file"
+# source, one recipe file per dataset, each run separately:
+#
+# recipe_regional_survey_data.yml
+# source:
+#   type: file
+#   config:
+#     path: data/combined/regional_survey_data.csv
+# sink:
+#   type: datahub-rest
+#   config:
+#     server: http://localhost:8080
+#     token: ${DATAHUB_TOKEN}
+#
+# recipe_hospital_admissions.yml
+# source:
+#   type: file
+#   config:
+#     path: data/synthetic/hospital_admissions.csv
+# sink:
+#   type: datahub-rest
+#   config:
+#     server: http://localhost:8080
+#     token: ${DATAHUB_TOKEN}
+#
+# recipe_resource_allocation.yml
+# source:
+#   type: file
+#   config:
+#     path: data/synthetic/resource_allocation.csv
+# sink:
+#   type: datahub-rest
+#   config:
+#     server: http://localhost:8080
+#     token: ${DATAHUB_TOKEN}
+
+sink:
+  type: datahub-rest
+  config:
+    server: http://localhost:8080
+    token: ${DATAHUB_TOKEN}

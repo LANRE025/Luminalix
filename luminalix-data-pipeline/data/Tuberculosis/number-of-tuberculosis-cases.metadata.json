@@ -1,0 +1,34 @@
+{
+  "chart": {
+    "title": "Tuberculosis cases",
+    "subtitle": "The estimated number of new and relapse tuberculosis cases arising in a given year. All forms of the disease are included, including cases in people living with HIV.",
+    "citation": "WHO (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/number-of-tuberculosis-cases?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Oceania",
+      "North America",
+      "South America"
+    ]
+  },
+  "columns": {
+    "Estimated number of new cases of all forms of tuberculosis": {
+      "titleShort": "Estimated number of new cases of all forms of tuberculosis",
+      "titleLong": "Estimated number of new cases of all forms of tuberculosis",
+      "descriptionProcessing": "Regional aggregates were calculated by Our World in Data.",
+      "unit": "cases",
+      "timespan": "2000-2024",
+      "type": "Integer",
+      "owidVariableId": 1146138,
+      "shortName": "e_inc_num",
+      "lastUpdated": "2026-02-05",
+      "citationShort": "WHO (2025) – with minor processing by Our World in Data",
+      "citationLong": "WHO (2025) – with minor processing by Our World in Data. “Estimated number of new cases of all forms of tuberculosis” [dataset]. WHO, “Global Tuberculosis Report - Burden Estimates” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1146138.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-08-03",
+  "activeFilters": {}
+}

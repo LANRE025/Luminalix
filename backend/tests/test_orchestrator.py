@@ -1,154 +1,225 @@
-"""Unit tests for the agent orchestrator, using a mocked DataHubClient and a
-mocked Gemini response (no live DataHub / Gemini required)."""
+"""Unit tests for the orchestrator run(), using a fake DataAccess, a mocked
+DataHubClient, and a stubbed assess_region (no live SQLite / Gemini / MCP)."""
 
 from __future__ import annotations
 
+import json
 from unittest.mock import Mock
 
 import pytest
 
-from app.agent.orchestrator import Orchestrator
-from app.agent.reasoning import RegionReasoning, ReasoningError
-from app.config import Settings
-from app.models.schemas import RegionFreshness, RegionInfo
-from app.storage.report_store import ReportStore
+from app.agent.data_access import (
+    AdmissionsTrend,
+    RegionSurveyRow,
+    ResourceLevel,
+)
+from app.agent.orchestrator import run
+from app.agent.reasoning import VulnerabilityAssessment
 
 
-def _settings(**overrides) -> Settings:
-    return Settings(
-        gemini_api_key="test-key",
-        gemini_model="test-model",
-        staleness_threshold_days=30,
-        report_file_path="data/latest_report.json",
-        **overrides,
+def _survey(region: str, days_stale: int, disease: str = "Lassa fever", country: str = "Nigeria"):
+    return RegionSurveyRow(
+        region=region,
+        country=country,
+        disease=disease,
+        last_survey_date=None,  # not read by run()
+        reported_case_rate=0.0,
+        data_source="test",
+        days_stale=days_stale,
     )
 
 
-def _region(region: str, country: str = "Kenya") -> RegionInfo:
-    return RegionInfo(region=region, country=country)
+def _trend(region: str, pct_change: float = 20.0) -> AdmissionsTrend:
+    return AdmissionsTrend(
+        region=region,
+        daily_counts=[100, 110, 120],
+        first_value=100,
+        last_value=120,
+        pct_change=pct_change,
+    )
 
 
-def _reasoning(
-    region: str,
-    level: str,
-    confidence: str = "High",
-    key_signals: list[str] | None = None,
-) -> RegionReasoning:
-    return RegionReasoning(
+def _resources(region: str) -> ResourceLevel:
+    return ResourceLevel(
+        region=region,
+        country="Nigeria",
+        funding_level_pct_of_avg=80.0,
+        staff_count=15,
+        vaccine_stock_units=500,
+    )
+
+
+class FakeDataAccess:
+    """Stands in for the real SQLite-backed DataAccess with canned rows."""
+
+    def __init__(self, regions, surveys, trends=None, resources=None):
+        self.regions = regions
+        self.surveys = surveys
+        self.trends = trends or {}
+        self.resources = resources or {}
+
+    def list_regions(self) -> list[str]:
+        return list(self.regions)
+
+    def get_survey_row(self, region: str):
+        return self.surveys.get(region)
+
+    def get_admissions_trend(self, region: str):
+        return self.trends.get(region, _trend(region))
+
+    def get_resource_level(self, region: str):
+        return self.resources.get(region, _resources(region))
+
+
+def _assessment(region: str, level: str, confidence: str = "High") -> VulnerabilityAssessment:
+    return VulnerabilityAssessment(
         region=region,
         vulnerability_level=level,
         justification=f"Justification for {region}.",
         confidence=confidence,
-        key_signals=key_signals or [f"signal for {region}"],
+        key_signals=[f"signal for {region}"],
     )
 
 
-def _build_orchestrator(
-    regions: list[RegionInfo],
-    stale_days: dict[str, int],
-    reasoning_by_region: dict[str, RegionReasoning],
-) -> tuple[Orchestrator, Mock, Mock, Mock]:
-    datahub = Mock(spec=["get_regions", "get_freshness", "get_recent_values", "get_values", "write_annotation"])
-    datahub.get_regions.return_value = regions
-    datahub.get_freshness.side_effect = lambda region, dataset: RegionFreshness(
-        region=region, dataset=dataset, days_stale=stale_days[region]
-    )
-    datahub.get_recent_values.return_value = [100.0, 110.0, 120.0, 130.0, 140.0]
-    datahub.get_values.return_value = {"funding_usd": 1_000_000.0, "staff_count": 120.0}
-
-    reasoner = Mock(spec=["evaluate_region"])
-    reasoner.evaluate_region.side_effect = lambda **kwargs: reasoning_by_region[kwargs["region"]]
-
-    store = Mock(spec=ReportStore)
-
-    orchestrator = Orchestrator(
-        settings=_settings(),
-        datahub=datahub,
-        reasoner=reasoner,
-        report_store=store,
-    )
-    return orchestrator, datahub, reasoner, store
+def _make_datahub(write_back_enabled: bool = True):
+    datahub = Mock()
+    if write_back_enabled:
+        datahub.write_finding.return_value = True
+    else:
+        datahub.write_finding.side_effect = NotImplementedError("not wired yet")
+    return datahub
 
 
-def test_flags_high_and_moderate_but_not_low_or_fresh():
-    regions = [_region("Region-A"), _region("Region-B"), _region("Region-C"), _region("Region-D")]
-    stale_days = {"Region-A": 45, "Region-B": 40, "Region-C": 10, "Region-D": 60}
-    reasoning_by_region = {
-        "Region-A": _reasoning("Region-A", "High"),
-        "Region-B": _reasoning("Region-B", "Low", confidence="Low"),
-        "Region-D": _reasoning("Region-D", "Moderate", confidence="Medium"),
+def test_flags_high_and_moderate_but_not_low_or_fresh(tmp_path, monkeypatch):
+    regions = ["Region-A", "Region-B", "Region-C", "Region-D"]
+    surveys = {
+        "Region-A": _survey("Region-A", 45, disease="Ebola", country="Uganda"),
+        "Region-B": _survey("Region-B", 40),
+        "Region-C": _survey("Region-C", 10),  # not stale -> never assessed
+        "Region-D": _survey("Region-D", 60),
+    }
+    by_region = {
+        "Region-A": _assessment("Region-A", "High"),
+        "Region-B": _assessment("Region-B", "Low", confidence="Low"),
+        "Region-D": _assessment("Region-D", "Moderate", confidence="Medium"),
     }
 
-    orchestrator, datahub, reasoner, store = _build_orchestrator(
-        regions, stale_days, reasoning_by_region
-    )
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return by_region[region]
 
-    report = orchestrator.run()
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+    datahub = _make_datahub()
+    da = FakeDataAccess(regions, surveys)
 
-    assert report.total_regions_evaluated == 4
-    assert report.total_flagged == 2
-    assert [r.region for r in report.regions] == ["Region-A", "Region-D"]
-    assert report.regions[0].days_stale == 45
-    assert report.regions[0].country == "Kenya"
+    results = run(da, datahub, output_path=str(tmp_path / "report.json"))
 
-    # Fresh region never evaluated; Low region evaluated but not flagged.
-    assert reasoner.evaluate_region.call_count == 3
-    assert datahub.write_annotation.call_count == 2
-    store.save.assert_called_once_with(report)
+    assert [r["region"] for r in results] == ["Region-A", "Region-D"]
+    assert results[0]["disease"] == "Ebola"
+    assert results[0]["country"] == "Uganda"
+    assert results[0]["days_stale"] == 45
+    assert datahub.write_finding.call_count == 2
 
 
-def test_report_sorted_by_level_then_staleness_desc():
-    regions = [_region("Region-A"), _region("Region-B"), _region("Region-C")]
-    stale_days = {"Region-A": 50, "Region-B": 70, "Region-C": 90}
-    reasoning_by_region = {
-        "Region-A": _reasoning("Region-A", "High"),
-        "Region-B": _reasoning("Region-B", "Moderate"),
-        "Region-C": _reasoning("Region-C", "High"),
+def test_report_sorted_by_level_then_staleness_desc(tmp_path, monkeypatch):
+    regions = ["Region-A", "Region-B", "Region-C"]
+    surveys = {
+        "Region-A": _survey("Region-A", 50),
+        "Region-B": _survey("Region-B", 70),
+        "Region-C": _survey("Region-C", 90),
+    }
+    by_region = {
+        "Region-A": _assessment("Region-A", "High"),
+        "Region-B": _assessment("Region-B", "Moderate"),
+        "Region-C": _assessment("Region-C", "High"),
     }
 
-    orchestrator, _, _, _ = _build_orchestrator(regions, stale_days, reasoning_by_region)
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return by_region[region]
 
-    report = orchestrator.run()
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
 
-    # High regions (C has more days_stale than A) come first, then Moderate.
-    assert [r.region for r in report.regions] == ["Region-C", "Region-A", "Region-B"]
-    assert [r.vulnerability_level for r in report.regions] == ["High", "High", "Moderate"]
-
-
-def test_no_stale_regions_produces_empty_report():
-    regions = [_region("Region-A"), _region("Region-B")]
-    stale_days = {"Region-A": 5, "Region-B": 12}
-    orchestrator, datahub, reasoner, store = _build_orchestrator(regions, stale_days, {})
-
-    report = orchestrator.run()
-
-    assert report.total_regions_evaluated == 2
-    assert report.total_flagged == 0
-    assert report.regions == []
-    reasoner.evaluate_region.assert_not_called()
-    datahub.write_annotation.assert_not_called()
-    store.save.assert_called_once_with(report)
-
-
-def test_reasoner_failure_propagates_for_error_status():
-    regions = [_region("Region-A")]
-    stale_days = {"Region-A": 45}
-    datahub = Mock(spec=["get_regions", "get_freshness", "get_recent_values", "get_values", "write_annotation"])
-    datahub.get_regions.return_value = regions
-    datahub.get_freshness.side_effect = lambda region, dataset: RegionFreshness(
-        region=region, dataset=dataset, days_stale=stale_days[region]
-    )
-    datahub.get_values.return_value = {}
-
-    reasoner = Mock(spec=["evaluate_region"])
-    reasoner.evaluate_region.side_effect = ReasoningError("Gemini is down")
-
-    orchestrator = Orchestrator(
-        settings=_settings(),
-        datahub=datahub,
-        reasoner=reasoner,
-        report_store=Mock(spec=ReportStore),
+    results = run(
+        FakeDataAccess(regions, surveys),
+        _make_datahub(),
+        output_path=str(tmp_path / "report.json"),
     )
 
-    with pytest.raises(ReasoningError, match="Gemini is down"):
-        orchestrator.run()
+    assert [r["region"] for r in results] == ["Region-C", "Region-A", "Region-B"]
+    assert [r["vulnerability_level"] for r in results] == ["High", "High", "Moderate"]
+
+
+def test_write_back_not_implemented_does_not_block(tmp_path, monkeypatch):
+    regions = ["Region-A", "Region-D"]
+    surveys = {
+        "Region-A": _survey("Region-A", 45),
+        "Region-D": _survey("Region-D", 60),
+    }
+    by_region = {
+        "Region-A": _assessment("Region-A", "High"),
+        "Region-D": _assessment("Region-D", "Moderate"),
+    }
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return by_region[region]
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+    datahub = _make_datahub(write_back_enabled=False)  # write_finding raises NotImplementedError
+
+    results = run(da := FakeDataAccess(regions, surveys), datahub, output_path=str(tmp_path / "report.json"))
+
+    assert len(results) == 2
+    datahub.write_finding.assert_called()
+
+
+def test_no_stale_regions_produces_empty_report_and_no_writes(tmp_path, monkeypatch):
+    regions = ["Region-A", "Region-B"]
+    surveys = {
+        "Region-A": _survey("Region-A", 5),
+        "Region-B": _survey("Region-B", 12),
+    }
+    datahub = _make_datahub()
+
+    def fake_assess_region(*args, **kwargs):  # noqa: ANN002, ANN003
+        raise AssertionError("should not be called for fresh regions")
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+
+    results = run(FakeDataAccess(regions, surveys), datahub, output_path=str(tmp_path / "report.json"))
+
+    assert results == []
+    datahub.write_finding.assert_not_called()
+
+
+def test_writes_report_json_to_output_path(tmp_path, monkeypatch):
+    regions = ["Region-A"]
+    surveys = {"Region-A": _survey("Region-A", 45, disease="Malaria", country="Kenya")}
+    by_region = {"Region-A": _assessment("Region-A", "High")}
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return by_region[region]
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+
+    out = tmp_path / "nested" / "report.json"
+    run(FakeDataAccess(regions, surveys), _make_datahub(), output_path=str(out))
+
+    payload = json.loads(out.read_text())
+    assert payload[0]["region"] == "Region-A"
+    assert payload[0]["disease"] == "Malaria"
+    assert payload[0]["country"] == "Kenya"
+
+
+def test_region_without_survey_or_resources_is_skipped(tmp_path, monkeypatch):
+    regions = ["Region-A", "Region-B"]
+    surveys = {"Region-A": _survey("Region-A", 45)}
+    resources = {"Region-A": _resources("Region-A")}  # Region-B has none
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return _assessment(region, "High")
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+
+    da = FakeDataAccess(regions, surveys, resources=resources)
+    results = run(da, _make_datahub(), output_path=str(tmp_path / "report.json"))
+
+    assert [r["region"] for r in results] == ["Region-A"]

@@ -1,7 +1,7 @@
 """Application configuration, loaded from environment variables (and `.env`).
 
 Values can be overridden with the usual environment variables (e.g.
-``GEMINI_API_KEY``). Run the backend from the ``backend/`` directory and it
+``VERTEX_PROJECT``). Run the backend from the ``backend/`` directory and it
 picks up ``backend/.env`` automatically.
 """
 
@@ -20,12 +20,20 @@ BACKEND_DIR = Path(__file__).resolve().parent.parent
 class Settings(BaseSettings):
     """Settings for the Outbreak Vulnerability Sentinel backend."""
 
-    # Gemini API. `gemini-2.5-pro` was fixed in the hackathon scaffold and is
-    # still operational, but it was deprecated in June 2026 (shutdown planned for
-    # 16 Oct 2026). The official replacement is `gemini-3.1-pro-preview`; set
-    # GEMINI_MODEL to override once you are ready to migrate.
+    # Vertex AI. Auth uses Google Cloud Application Default Credentials (ADC) —
+    # set up locally via `gcloud auth application-default login` — not an API key.
+    vertex_project: str = ""
+    vertex_location: str = "us-central1"
+
+    # Gemini Developer API. Kept only as a legacy fallback; Vertex AI is the
+    # active backend and does not use an API key. Model defaults to
+    # `gemini-3.5-flash`; override via GEMINI_MODEL in backend/.env if needed.
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.5-pro"
+    gemini_model: str = "gemini-3.5-flash"
+
+    # DataHub GMS / MCP connection (see backend/.env: DATAHUB_GMS_URL, DATAHUB_TOKEN).
+    datahub_gms_url: str = "http://localhost:8080"
+    datahub_token: str = ""
 
     # Agent tuning.
     staleness_threshold_days: int = 30

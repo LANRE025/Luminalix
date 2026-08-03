@@ -1,138 +1,123 @@
-"""Main agent loop: read data → reason → write back → build report.
+"""
+orchestrator.py (corrected)
 
-The orchestrator depends only on the ``DataHubClient`` *interface*, so the full
-loop can be unit-tested (see ``tests/test_orchestrator.py``) before the real MCP
-calls are implemented.
+Key architectural fix from the earlier version: region-level staleness,
+admissions trend, and resource levels all come from DataAccess (real
+SQLite queries) — NOT from DataHub MCP, which has no concept of a
+"region" entity to query. DataHub MCP is used only for what it can
+actually do: confirming dataset-level metadata exists/is fresh, and
+writing the agent's findings back as a discoverable note on the
+regional_survey_data dataset entity.
+
+    for each region (from DataAccess, real data):
+        get survey row (real data) -> days_stale
+        if stale:
+            get admissions trend (real data)
+            get resource level (real data)
+            ask Gemini to assess vulnerability
+            if Moderate/High:
+                write_finding via DataHubClient (real MCP write-back)
+    compile Highly Vulnerable Regions report
 """
 
-from __future__ import annotations
+import json
+from datetime import datetime
+from pathlib import Path
 
-import logging
-from datetime import datetime, timezone
-
+from app.agent.data_access import DataAccess
 from app.agent.datahub_client import DataHubClient
-from app.agent.reasoning import GeminiReasoner
-from app.config import Settings
-from app.models.schemas import (
-    RegionAssessment,
-    VulnerabilityLevel,
-    VulnerableRegionsReport,
-)
-from app.storage.report_store import ReportStore
+from app.agent.reasoning import assess_region, VulnerabilityAssessment  # from reasoning.py (Gemini call)
 
-logger = logging.getLogger(__name__)
-
-SURVEY_DATASET = "regional_survey_data"
-ADMISSIONS_DATASET = "hospital_admissions"
-RESOURCES_DATASET = "resource_allocation"
-
-_LEVEL_RANK = {
-    VulnerabilityLevel.HIGH: 3,
-    VulnerabilityLevel.MODERATE: 2,
-    VulnerabilityLevel.LOW: 1,
-}
+STALENESS_THRESHOLD_DAYS = 14  # tune based on what your demo data actually shows
+MIN_REPORT_LEVEL = "Moderate"
+LEVEL_RANK = {"Low": 0, "Moderate": 1, "High": 2}
 
 
-def _now() -> datetime:
-    return datetime.now(timezone.utc)
+def run(
+    data_access: DataAccess,
+    datahub_client: DataHubClient,
+    output_path: str = "examples/vulnerable_regions_report.json",
+    write_back_enabled: bool = True,
+) -> list[dict]:
+    flagged_regions: list[dict] = []
+    regions = data_access.list_regions()
+    print(f"[orchestrator] Evaluating {len(regions)} regions from real data")
 
+    for region in regions:
+        survey = data_access.get_survey_row(region)
+        if survey is None:
+            continue
 
-class Orchestrator:
-    """Runs one full vulnerability-scan cycle and persists the resulting report."""
+        if survey.days_stale < STALENESS_THRESHOLD_DAYS:
+            continue  # this region's data is current enough, skip
 
-    def __init__(
-        self,
-        settings: Settings,
-        datahub: DataHubClient,
-        reasoner: GeminiReasoner,
-        report_store: ReportStore,
-    ) -> None:
-        self._settings = settings
-        self._datahub = datahub
-        self._reasoner = reasoner
-        self._store = report_store
+        print(f"[orchestrator] {region}: stale by {survey.days_stale} days ({survey.disease}) — checking proxy signals")
 
-    def run(self) -> VulnerableRegionsReport:
-        """Execute the scan and return the aggregated, persisted report."""
-        regions = self._datahub.get_regions(SURVEY_DATASET)
+        trend = data_access.get_admissions_trend(region)
+        resources = data_access.get_resource_level(region)
 
-        # Pull resource levels up front so the regional average can be computed
-        # and passed to the model as reference context.
-        resource_levels: dict[str, dict[str, float]] = {
-            info.region: self._datahub.get_values(info.region, RESOURCES_DATASET)
-            for info in regions
-        }
-        resource_average = _average_resources(resource_levels)
+        if resources is None:
+            print(f"[orchestrator] {region}: no resource data, skipping")
+            continue
 
-        assessments: list[RegionAssessment] = []
-        flagged = 0
-        for info in regions:
-            freshness = self._datahub.get_freshness(info.region, SURVEY_DATASET)
-            if freshness.days_stale < self._settings.staleness_threshold_days:
-                logger.info("Region %s not stale (%d days); skipped", info.region, freshness.days_stale)
-                continue
-
-            admissions_trend = self._datahub.get_recent_values(
-                info.region,
-                ADMISSIONS_DATASET,
-                self._settings.admissions_lookback_days,
-            )
-
-            reasoning = self._reasoner.evaluate_region(
-                region=info.region,
-                country=info.country,
-                days_stale=freshness.days_stale,
-                admissions_trend=admissions_trend,
-                resources=resource_levels.get(info.region, {}),
-                resource_average=resource_average,
-            )
-
-            assessment = RegionAssessment(
-                region=info.region,
-                country=info.country,
-                vulnerability_level=reasoning.vulnerability_level,
-                justification=reasoning.justification,
-                confidence=reasoning.confidence,
-                key_signals=reasoning.key_signals,
-                days_stale=freshness.days_stale,
-                flagged_at=_now(),
-            )
-
-            if assessment.vulnerability_level in (
-                VulnerabilityLevel.MODERATE,
-                VulnerabilityLevel.HIGH,
-            ):
-                self._datahub.write_annotation(
-                    region=info.region,
-                    dataset=SURVEY_DATASET,
-                    assessment=assessment,
-                )
-                assessments.append(assessment)
-                flagged += 1
-            else:
-                logger.info("Region %s assessed as Low; not flagged", info.region)
-
-        # Sort by vulnerability level (High first), then by staleness (days).
-        assessments.sort(key=lambda a: (_LEVEL_RANK[a.vulnerability_level], a.days_stale), reverse=True)
-
-        report = VulnerableRegionsReport(
-            generated_at=_now(),
-            total_regions_evaluated=len(regions),
-            total_flagged=flagged,
-            regions=assessments,
+        assessment: VulnerabilityAssessment = assess_region(
+            region=region,
+            days_stale=survey.days_stale,
+            admissions_trend={
+                "first_value": trend.first_value,
+                "last_value": trend.last_value,
+                "pct_change": trend.pct_change,
+            },
+            resources={
+                "funding_level_pct_of_avg": resources.funding_level_pct_of_avg,
+                "staff_count": resources.staff_count,
+                "vaccine_stock_units": resources.vaccine_stock_units,
+            },
         )
-        self._store.save(report)
-        logger.info("Scan complete: %d regions evaluated, %d flagged", len(regions), flagged)
-        return report
+
+        print(f"[orchestrator] {region}: {assessment.vulnerability_level} (confidence={assessment.confidence})")
+
+        if LEVEL_RANK[assessment.vulnerability_level] < LEVEL_RANK[MIN_REPORT_LEVEL]:
+            continue
+
+        if write_back_enabled:
+            try:
+                datahub_client.write_finding(
+                    dataset="regional_survey_data",
+                    region=region,
+                    vulnerability_level=assessment.vulnerability_level,
+                    justification=assessment.justification,
+                    confidence=assessment.confidence,
+                    key_signals=assessment.key_signals,
+                )
+            except NotImplementedError:
+                # Expected until datahub_client.py's MCP calls are wired
+                # against a live session — don't let this block the rest
+                # of the demo/report generation.
+                print(f"[orchestrator] (write-back not yet wired for {region} — see datahub_client.py TODOs)")
+
+        flagged_regions.append({
+            **assessment.to_dict(),
+            "days_stale": survey.days_stale,
+            "disease": survey.disease,
+            "country": survey.country,
+            "flagged_at": datetime.utcnow().isoformat(),
+        })
+
+    flagged_regions.sort(
+        key=lambda r: (LEVEL_RANK[r["vulnerability_level"]], r["days_stale"]),
+        reverse=True,
+    )
+
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w") as f:
+        json.dump(flagged_regions, f, indent=2, default=str)
+
+    print(f"[orchestrator] Wrote {len(flagged_regions)} flagged regions to {output_path}")
+    return flagged_regions
 
 
-def _average_resources(resource_levels: dict[str, dict[str, float]]) -> dict[str, float]:
-    """Mean of each resource metric across all regions (empty-safe)."""
-    keys: set[str] = set()
-    for values in resource_levels.values():
-        keys.update(values)
-    averages: dict[str, float] = {}
-    for key in keys:
-        values = [v[key] for v in resource_levels.values() if key in v]
-        averages[key] = round(sum(values) / len(values), 2) if values else 0.0
-    return averages
+if __name__ == "__main__":
+    da = DataAccess()
+    dh = DataHubClient(gms_url="http://localhost:8080", token="")
+    run(da, dh)

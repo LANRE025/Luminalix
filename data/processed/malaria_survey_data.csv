@@ -1,0 +1,18 @@
+region,country,disease,last_survey_date,reported_case_rate,data_source
+India,India,Malaria,2024-12-31,1.48,real
+Mexico,Mexico,Malaria,2024-12-31,0.1,real
+Vietnam,Vietnam,Malaria,2024-12-31,0.0,real
+Indonesia,Indonesia,Malaria,2024-12-31,2.23,real
+Kenya,Kenya,Malaria,2024-12-31,74.17,real
+Bangladesh,Bangladesh,Malaria,2024-12-31,0.86,real
+Nigeria,Nigeria,Malaria,2024-12-31,294.25,real
+Pakistan,Pakistan,Malaria,2024-12-31,12.77,real
+Peru,Peru,Malaria,2024-12-31,3.25,real
+Philippines,Philippines,Malaria,2024-12-31,0.35,real
+Egypt,Egypt,Malaria,2024-12-31,0.0,real
+Ethiopia,Ethiopia,Malaria,2024-12-31,138.5,real
+Ghana,Ghana,Malaria,2024-12-31,195.77,real
+South Africa,South Africa,Malaria,2024-12-31,0.11,real
+Uganda,Uganda,Malaria,2024-12-31,264.23,real
+Democratic Republic of Congo,Democratic Republic of Congo,Malaria,2024-12-31,321.89,real
+Brazil,Brazil,Malaria,2024-12-31,3.75,real

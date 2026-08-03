@@ -1,0 +1,14 @@
+source:
+  type: sqlalchemy
+  config:
+    platform: sqlite
+    connect_uri: "sqlite:///data/combined/luminalix.db"
+    profiling:
+      enabled: false
+      profile_table_level_only: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: http://localhost:8080
+    token: ${DATAHUB_TOKEN}

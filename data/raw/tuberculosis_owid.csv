@@ -1,0 +1,5598 @@
+Entity,Code,Year,Estimated number of new cases of all forms of tuberculosis
+Afghanistan,AFG,2000,30000
+Afghanistan,AFG,2001,35000
+Afghanistan,AFG,2002,42000
+Afghanistan,AFG,2003,49000
+Afghanistan,AFG,2004,54000
+Afghanistan,AFG,2005,58000
+Afghanistan,AFG,2006,62000
+Afghanistan,AFG,2007,63000
+Afghanistan,AFG,2008,62000
+Afghanistan,AFG,2009,63000
+Afghanistan,AFG,2010,62000
+Afghanistan,AFG,2011,60000
+Afghanistan,AFG,2012,59000
+Afghanistan,AFG,2013,61000
+Afghanistan,AFG,2014,65000
+Afghanistan,AFG,2015,68000
+Afghanistan,AFG,2016,71000
+Afghanistan,AFG,2017,75000
+Afghanistan,AFG,2018,78000
+Afghanistan,AFG,2019,80000
+Afghanistan,AFG,2020,80000
+Afghanistan,AFG,2021,82000
+Afghanistan,AFG,2022,84000
+Afghanistan,AFG,2023,84000
+Afghanistan,AFG,2024,87000
+Africa,OWID_AFR,2000,2554650
+Africa,OWID_AFR,2001,2657909
+Africa,OWID_AFR,2002,2772529
+Africa,OWID_AFR,2003,2902480
+Africa,OWID_AFR,2004,3000828
+Africa,OWID_AFR,2005,3078184
+Africa,OWID_AFR,2006,3136187
+Africa,OWID_AFR,2007,3166487
+Africa,OWID_AFR,2008,3150586
+Africa,OWID_AFR,2009,3174385
+Africa,OWID_AFR,2010,3164907
+Africa,OWID_AFR,2011,3163641
+Africa,OWID_AFR,2012,3140250
+Africa,OWID_AFR,2013,3094414
+Africa,OWID_AFR,2014,3077363
+Africa,OWID_AFR,2015,3020658
+Africa,OWID_AFR,2016,2908022
+Africa,OWID_AFR,2017,2860216
+Africa,OWID_AFR,2018,2822165
+Africa,OWID_AFR,2019,2780204
+Africa,OWID_AFR,2020,2742289
+Africa,OWID_AFR,2021,2743401
+Africa,OWID_AFR,2022,2747646
+Africa,OWID_AFR,2023,2740153
+Africa,OWID_AFR,2024,2739132
+Albania,ALB,2000,680
+Albania,ALB,2001,620
+Albania,ALB,2002,670
+Albania,ALB,2003,620
+Albania,ALB,2004,620
+Albania,ALB,2005,570
+Albania,ALB,2006,530
+Albania,ALB,2007,490
+Albania,ALB,2008,480
+Albania,ALB,2009,500
+Albania,ALB,2010,480
+Albania,ALB,2011,470
+Albania,ALB,2012,460
+Albania,ALB,2013,530
+Albania,ALB,2014,460
+Albania,ALB,2015,470
+Albania,ALB,2016,470
+Albania,ALB,2017,570
+Albania,ALB,2018,500
+Albania,ALB,2019,460
+Albania,ALB,2020,450
+Albania,ALB,2021,430
+Albania,ALB,2022,430
+Albania,ALB,2023,420
+Albania,ALB,2024,410
+Algeria,DZA,2000,36000
+Algeria,DZA,2001,35000
+Algeria,DZA,2002,35000
+Algeria,DZA,2003,36000
+Algeria,DZA,2004,36000
+Algeria,DZA,2005,37000
+Algeria,DZA,2006,36000
+Algeria,DZA,2007,35000
+Algeria,DZA,2008,33000
+Algeria,DZA,2009,34000
+Algeria,DZA,2010,34000
+Algeria,DZA,2011,32000
+Algeria,DZA,2012,32000
+Algeria,DZA,2013,29000
+Algeria,DZA,2014,31000
+Algeria,DZA,2015,32000
+Algeria,DZA,2016,31000
+Algeria,DZA,2017,31000
+Algeria,DZA,2018,32000
+Algeria,DZA,2019,28000
+Algeria,DZA,2020,23000
+Algeria,DZA,2021,26000
+Algeria,DZA,2022,25000
+Algeria,DZA,2023,25000
+Algeria,DZA,2024,25000
+American Samoa,ASM,2000,3
+American Samoa,ASM,2001,3
+American Samoa,ASM,2002,2
+American Samoa,ASM,2003,3
+American Samoa,ASM,2004,5
+American Samoa,ASM,2005,6
+American Samoa,ASM,2006,4
+American Samoa,ASM,2007,3
+American Samoa,ASM,2008,3
+American Samoa,ASM,2009,4
+American Samoa,ASM,2010,4
+American Samoa,ASM,2011,3
+American Samoa,ASM,2012,3
+American Samoa,ASM,2013,3
+American Samoa,ASM,2014,3
+American Samoa,ASM,2015,4
+American Samoa,ASM,2016,3
+American Samoa,ASM,2017,5
+American Samoa,ASM,2018,0
+American Samoa,ASM,2019,1
+American Samoa,ASM,2020,3
+American Samoa,ASM,2021,2
+American Samoa,ASM,2022,2
+American Samoa,ASM,2023,2
+American Samoa,ASM,2024,2
+Andorra,AND,2000,12
+Andorra,AND,2001,10
+Andorra,AND,2002,5
+Andorra,AND,2003,11
+Andorra,AND,2004,7
+Andorra,AND,2005,10
+Andorra,AND,2006,12
+Andorra,AND,2007,5
+Andorra,AND,2008,4
+Andorra,AND,2009,8
+Andorra,AND,2010,7
+Andorra,AND,2011,3
+Andorra,AND,2012,9
+Andorra,AND,2013,5
+Andorra,AND,2014,6
+Andorra,AND,2015,4
+Andorra,AND,2016,4
+Andorra,AND,2017,1
+Andorra,AND,2018,2
+Andorra,AND,2019,5
+Andorra,AND,2020,2
+Andorra,AND,2021,2
+Andorra,AND,2022,4
+Andorra,AND,2023,4
+Andorra,AND,2024,4
+Angola,AGO,2000,44000
+Angola,AGO,2001,56000
+Angola,AGO,2002,68000
+Angola,AGO,2003,78000
+Angola,AGO,2004,87000
+Angola,AGO,2005,95000
+Angola,AGO,2006,101000
+Angola,AGO,2007,106000
+Angola,AGO,2008,108000
+Angola,AGO,2009,110000
+Angola,AGO,2010,112000
+Angola,AGO,2011,113000
+Angola,AGO,2012,115000
+Angola,AGO,2013,119000
+Angola,AGO,2014,122000
+Angola,AGO,2015,125000
+Angola,AGO,2016,126000
+Angola,AGO,2017,126000
+Angola,AGO,2018,126000
+Angola,AGO,2019,126000
+Angola,AGO,2020,125000
+Angola,AGO,2021,128000
+Angola,AGO,2022,135000
+Angola,AGO,2023,141000
+Angola,AGO,2024,141000
+Anguilla,AIA,2000,0
+Anguilla,AIA,2001,0
+Anguilla,AIA,2002,0
+Anguilla,AIA,2003,0
+Anguilla,AIA,2004,0
+Anguilla,AIA,2005,0
+Anguilla,AIA,2006,0
+Anguilla,AIA,2007,0
+Anguilla,AIA,2008,0
+Anguilla,AIA,2009,0
+Anguilla,AIA,2010,1
+Anguilla,AIA,2011,0
+Anguilla,AIA,2012,0
+Anguilla,AIA,2013,0
+Anguilla,AIA,2014,1
+Anguilla,AIA,2015,0
+Anguilla,AIA,2016,0
+Anguilla,AIA,2017,0
+Anguilla,AIA,2018,0
+Anguilla,AIA,2019,0
+Anguilla,AIA,2020,0
+Anguilla,AIA,2021,0
+Anguilla,AIA,2022,1
+Anguilla,AIA,2023,0
+Anguilla,AIA,2024,0
+Antigua and Barbuda,ATG,2000,4
+Antigua and Barbuda,ATG,2001,1
+Antigua and Barbuda,ATG,2002,4
+Antigua and Barbuda,ATG,2003,1
+Antigua and Barbuda,ATG,2004,4
+Antigua and Barbuda,ATG,2005,6
+Antigua and Barbuda,ATG,2006,4
+Antigua and Barbuda,ATG,2007,2
+Antigua and Barbuda,ATG,2008,1
+Antigua and Barbuda,ATG,2009,3
+Antigua and Barbuda,ATG,2010,7
+Antigua and Barbuda,ATG,2011,6
+Antigua and Barbuda,ATG,2012,3
+Antigua and Barbuda,ATG,2013,10
+Antigua and Barbuda,ATG,2014,3
+Antigua and Barbuda,ATG,2015,3
+Antigua and Barbuda,ATG,2016,3
+Antigua and Barbuda,ATG,2017,1
+Antigua and Barbuda,ATG,2018,5
+Antigua and Barbuda,ATG,2019,0
+Antigua and Barbuda,ATG,2020,2
+Antigua and Barbuda,ATG,2021,4
+Antigua and Barbuda,ATG,2022,1
+Antigua and Barbuda,ATG,2023,1
+Antigua and Barbuda,ATG,2024,1
+Argentina,ARG,2000,18000
+Argentina,ARG,2001,17000
+Argentina,ARG,2002,17000
+Argentina,ARG,2003,16000
+Argentina,ARG,2004,16000
+Argentina,ARG,2005,15000
+Argentina,ARG,2006,13000
+Argentina,ARG,2007,14000
+Argentina,ARG,2008,13000
+Argentina,ARG,2009,10000
+Argentina,ARG,2010,9800
+Argentina,ARG,2011,13000
+Argentina,ARG,2012,11000
+Argentina,ARG,2013,12000
+Argentina,ARG,2014,12000
+Argentina,ARG,2015,12000
+Argentina,ARG,2016,13000
+Argentina,ARG,2017,13000
+Argentina,ARG,2018,13000
+Argentina,ARG,2019,15000
+Argentina,ARG,2020,12000
+Argentina,ARG,2021,15000
+Argentina,ARG,2022,16000
+Argentina,ARG,2023,18000
+Argentina,ARG,2024,20000
+Armenia,ARM,2000,3600
+Armenia,ARM,2001,3600
+Armenia,ARM,2002,3500
+Armenia,ARM,2003,3600
+Armenia,ARM,2004,3800
+Armenia,ARM,2005,4800
+Armenia,ARM,2006,3700
+Armenia,ARM,2007,3400
+Armenia,ARM,2008,3200
+Armenia,ARM,2009,2900
+Armenia,ARM,2010,2500
+Armenia,ARM,2011,2200
+Armenia,ARM,2012,2000
+Armenia,ARM,2013,2300
+Armenia,ARM,2014,2100
+Armenia,ARM,2015,1800
+Armenia,ARM,2016,1600
+Armenia,ARM,2017,1300
+Armenia,ARM,2018,1100
+Armenia,ARM,2019,910
+Armenia,ARM,2020,830
+Armenia,ARM,2021,750
+Armenia,ARM,2022,680
+Armenia,ARM,2023,620
+Armenia,ARM,2024,550
+Aruba,ABW,2000,6
+Aruba,ABW,2001,6
+Aruba,ABW,2002,6
+Aruba,ABW,2003,7
+Aruba,ABW,2004,7
+Aruba,ABW,2005,7
+Aruba,ABW,2006,8
+Aruba,ABW,2007,8
+Aruba,ABW,2008,8
+Aruba,ABW,2009,9
+Aruba,ABW,2010,6
+Aruba,ABW,2011,8
+Aruba,ABW,2012,28
+Aruba,ABW,2013,11
+Aruba,ABW,2014,2
+Aruba,ABW,2015,6
+Aruba,ABW,2016,8
+Aruba,ABW,2017,8
+Aruba,ABW,2018,5
+Aruba,ABW,2019,2
+Aruba,ABW,2020,1
+Aruba,ABW,2021,6
+Aruba,ABW,2022,5
+Aruba,ABW,2023,4
+Aruba,ABW,2024,9
+Asia,OWID_ASI,2000,8069570
+Asia,OWID_ASI,2001,8136160
+Asia,OWID_ASI,2002,8172100
+Asia,OWID_ASI,2003,8199071
+Asia,OWID_ASI,2004,8181734
+Asia,OWID_ASI,2005,8175133
+Asia,OWID_ASI,2006,8122977
+Asia,OWID_ASI,2007,8046169
+Asia,OWID_ASI,2008,8004921
+Asia,OWID_ASI,2009,7956830
+Asia,OWID_ASI,2010,7843603
+Asia,OWID_ASI,2011,7796583
+Asia,OWID_ASI,2012,7694592
+Asia,OWID_ASI,2013,7568810
+Asia,OWID_ASI,2014,7489549
+Asia,OWID_ASI,2015,7411462
+Asia,OWID_ASI,2016,7277158
+Asia,OWID_ASI,2017,7185688
+Asia,OWID_ASI,2018,7073524
+Asia,OWID_ASI,2019,6981341
+Asia,OWID_ASI,2020,6910559
+Asia,OWID_ASI,2021,7038707
+Asia,OWID_ASI,2022,7305789
+Asia,OWID_ASI,2023,7351003
+Asia,OWID_ASI,2024,7251546
+Australia,AUS,2000,1300
+Australia,AUS,2001,1200
+Australia,AUS,2002,1300
+Australia,AUS,2003,1200
+Australia,AUS,2004,1300
+Australia,AUS,2005,1300
+Australia,AUS,2006,1400
+Australia,AUS,2007,1400
+Australia,AUS,2008,1500
+Australia,AUS,2009,1600
+Australia,AUS,2010,1500
+Australia,AUS,2011,1500
+Australia,AUS,2012,1500
+Australia,AUS,2013,1500
+Australia,AUS,2014,1500
+Australia,AUS,2015,1400
+Australia,AUS,2016,1600
+Australia,AUS,2017,1600
+Australia,AUS,2018,1600
+Australia,AUS,2019,1700
+Australia,AUS,2020,1800
+Australia,AUS,2021,1700
+Australia,AUS,2022,1500
+Australia,AUS,2023,1600
+Australia,AUS,2024,1900
+Austria,AUT,2000,1800
+Austria,AUT,2001,1500
+Austria,AUT,2002,1500
+Austria,AUT,2003,1300
+Austria,AUT,2004,1200
+Austria,AUT,2005,1200
+Austria,AUT,2006,1100
+Austria,AUT,2007,1000
+Austria,AUT,2008,960
+Austria,AUT,2009,830
+Austria,AUT,2010,820
+Austria,AUT,2011,830
+Austria,AUT,2012,760
+Austria,AUT,2013,760
+Austria,AUT,2014,680
+Austria,AUT,2015,670
+Austria,AUT,2016,730
+Austria,AUT,2017,670
+Austria,AUT,2018,560
+Austria,AUT,2019,550
+Austria,AUT,2020,450
+Austria,AUT,2021,450
+Austria,AUT,2022,430
+Austria,AUT,2023,480
+Austria,AUT,2024,450
+Azerbaijan,AZE,2000,15000
+Azerbaijan,AZE,2001,15000
+Azerbaijan,AZE,2002,16000
+Azerbaijan,AZE,2003,12000
+Azerbaijan,AZE,2004,18000
+Azerbaijan,AZE,2005,20000
+Azerbaijan,AZE,2006,17000
+Azerbaijan,AZE,2007,15000
+Azerbaijan,AZE,2008,20000
+Azerbaijan,AZE,2009,22000
+Azerbaijan,AZE,2010,17000
+Azerbaijan,AZE,2011,19000
+Azerbaijan,AZE,2012,13000
+Azerbaijan,AZE,2013,11000
+Azerbaijan,AZE,2014,10000
+Azerbaijan,AZE,2015,9300
+Azerbaijan,AZE,2016,8500
+Azerbaijan,AZE,2017,8400
+Azerbaijan,AZE,2018,7800
+Azerbaijan,AZE,2019,7300
+Azerbaijan,AZE,2020,7000
+Azerbaijan,AZE,2021,6900
+Azerbaijan,AZE,2022,6900
+Azerbaijan,AZE,2023,6800
+Azerbaijan,AZE,2024,6600
+Bahamas,BHS,2000,180
+Bahamas,BHS,2001,130
+Bahamas,BHS,2002,82
+Bahamas,BHS,2003,65
+Bahamas,BHS,2004,84
+Bahamas,BHS,2005,71
+Bahamas,BHS,2006,88
+Bahamas,BHS,2007,67
+Bahamas,BHS,2008,71
+Bahamas,BHS,2009,65
+Bahamas,BHS,2010,44
+Bahamas,BHS,2011,58
+Bahamas,BHS,2012,44
+Bahamas,BHS,2013,45
+Bahamas,BHS,2014,67
+Bahamas,BHS,2015,82
+Bahamas,BHS,2016,120
+Bahamas,BHS,2017,65
+Bahamas,BHS,2018,60
+Bahamas,BHS,2019,65
+Bahamas,BHS,2020,40
+Bahamas,BHS,2021,57
+Bahamas,BHS,2022,63
+Bahamas,BHS,2023,35
+Bahamas,BHS,2024,73
+Bahrain,BHR,2000,380
+Bahrain,BHR,2001,340
+Bahrain,BHR,2002,340
+Bahrain,BHR,2003,460
+Bahrain,BHR,2004,420
+Bahrain,BHR,2005,470
+Bahrain,BHR,2006,460
+Bahrain,BHR,2007,490
+Bahrain,BHR,2008,490
+Bahrain,BHR,2009,520
+Bahrain,BHR,2010,380
+Bahrain,BHR,2011,340
+Bahrain,BHR,2012,340
+Bahrain,BHR,2013,310
+Bahrain,BHR,2014,280
+Bahrain,BHR,2015,250
+Bahrain,BHR,2016,220
+Bahrain,BHR,2017,210
+Bahrain,BHR,2018,210
+Bahrain,BHR,2019,230
+Bahrain,BHR,2020,260
+Bahrain,BHR,2021,260
+Bahrain,BHR,2022,250
+Bahrain,BHR,2023,220
+Bahrain,BHR,2024,190
+Bangladesh,BGD,2000,298000
+Bangladesh,BGD,2001,303000
+Bangladesh,BGD,2002,307000
+Bangladesh,BGD,2003,312000
+Bangladesh,BGD,2004,316000
+Bangladesh,BGD,2005,320000
+Bangladesh,BGD,2006,324000
+Bangladesh,BGD,2007,327000
+Bangladesh,BGD,2008,331000
+Bangladesh,BGD,2009,334000
+Bangladesh,BGD,2010,337000
+Bangladesh,BGD,2011,340000
+Bangladesh,BGD,2012,343000
+Bangladesh,BGD,2013,346000
+Bangladesh,BGD,2014,349000
+Bangladesh,BGD,2015,353000
+Bangladesh,BGD,2016,356000
+Bangladesh,BGD,2017,359000
+Bangladesh,BGD,2018,362000
+Bangladesh,BGD,2019,365000
+Bangladesh,BGD,2020,368000
+Bangladesh,BGD,2021,371000
+Bangladesh,BGD,2022,375000
+Bangladesh,BGD,2023,379000
+Bangladesh,BGD,2024,384000
+Barbados,BRB,2000,3
+Barbados,BRB,2001,6
+Barbados,BRB,2002,5
+Barbados,BRB,2003,9
+Barbados,BRB,2004,19
+Barbados,BRB,2005,10
+Barbados,BRB,2006,5
+Barbados,BRB,2007,16
+Barbados,BRB,2008,3
+Barbados,BRB,2009,2
+Barbados,BRB,2010,6
+Barbados,BRB,2011,0
+Barbados,BRB,2012,4
+Barbados,BRB,2013,4
+Barbados,BRB,2014,5
+Barbados,BRB,2015,0
+Barbados,BRB,2016,3
+Barbados,BRB,2017,0
+Barbados,BRB,2018,1
+Barbados,BRB,2019,0
+Barbados,BRB,2020,6
+Barbados,BRB,2021,1
+Barbados,BRB,2022,5
+Barbados,BRB,2023,2
+Barbados,BRB,2024,3
+Belarus,BLR,2000,15000
+Belarus,BLR,2001,12000
+Belarus,BLR,2002,11000
+Belarus,BLR,2003,12000
+Belarus,BLR,2004,11000
+Belarus,BLR,2005,10000
+Belarus,BLR,2006,9300
+Belarus,BLR,2007,9200
+Belarus,BLR,2008,8400
+Belarus,BLR,2009,8200
+Belarus,BLR,2010,7600
+Belarus,BLR,2011,6900
+Belarus,BLR,2012,6900
+Belarus,BLR,2013,6300
+Belarus,BLR,2014,5300
+Belarus,BLR,2015,5100
+Belarus,BLR,2016,4300
+Belarus,BLR,2017,3600
+Belarus,BLR,2018,3000
+Belarus,BLR,2019,2700
+Belarus,BLR,2020,2500
+Belarus,BLR,2021,2200
+Belarus,BLR,2022,2000
+Belarus,BLR,2023,1700
+Belarus,BLR,2024,1500
+Belgium,BEL,2000,1700
+Belgium,BEL,2001,1800
+Belgium,BEL,2002,1600
+Belgium,BEL,2003,1400
+Belgium,BEL,2004,1400
+Belgium,BEL,2005,1400
+Belgium,BEL,2006,1300
+Belgium,BEL,2007,1200
+Belgium,BEL,2008,1200
+Belgium,BEL,2009,1100
+Belgium,BEL,2010,1200
+Belgium,BEL,2011,1100
+Belgium,BEL,2012,1100
+Belgium,BEL,2013,1100
+Belgium,BEL,2014,1000
+Belgium,BEL,2015,1100
+Belgium,BEL,2016,1100
+Belgium,BEL,2017,1100
+Belgium,BEL,2018,1000
+Belgium,BEL,2019,1000
+Belgium,BEL,2020,900
+Belgium,BEL,2021,950
+Belgium,BEL,2022,910
+Belgium,BEL,2023,290
+Belgium,BEL,2024,320
+Belize,BLZ,2000,270
+Belize,BLZ,2001,330
+Belize,BLZ,2002,300
+Belize,BLZ,2003,210
+Belize,BLZ,2004,170
+Belize,BLZ,2005,190
+Belize,BLZ,2006,160
+Belize,BLZ,2007,110
+Belize,BLZ,2008,150
+Belize,BLZ,2009,150
+Belize,BLZ,2010,240
+Belize,BLZ,2011,120
+Belize,BLZ,2012,130
+Belize,BLZ,2013,190
+Belize,BLZ,2014,110
+Belize,BLZ,2015,120
+Belize,BLZ,2016,180
+Belize,BLZ,2017,180
+Belize,BLZ,2018,150
+Belize,BLZ,2019,130
+Belize,BLZ,2020,130
+Belize,BLZ,2021,140
+Belize,BLZ,2022,140
+Belize,BLZ,2023,140
+Belize,BLZ,2024,140
+Benin,BEN,2000,5100
+Benin,BEN,2001,5600
+Benin,BEN,2002,6000
+Benin,BEN,2003,6300
+Benin,BEN,2004,6700
+Benin,BEN,2005,7000
+Benin,BEN,2006,7300
+Benin,BEN,2007,7500
+Benin,BEN,2008,7600
+Benin,BEN,2009,7700
+Benin,BEN,2010,7700
+Benin,BEN,2011,7600
+Benin,BEN,2012,7500
+Benin,BEN,2013,7400
+Benin,BEN,2014,7200
+Benin,BEN,2015,7100
+Benin,BEN,2016,6900
+Benin,BEN,2017,6800
+Benin,BEN,2018,6600
+Benin,BEN,2019,6400
+Benin,BEN,2020,6300
+Benin,BEN,2021,6200
+Benin,BEN,2022,6000
+Benin,BEN,2023,5900
+Benin,BEN,2024,5800
+Bermuda,BMU,2000,0
+Bermuda,BMU,2001,0
+Bermuda,BMU,2002,0
+Bermuda,BMU,2003,3
+Bermuda,BMU,2004,6
+Bermuda,BMU,2005,4
+Bermuda,BMU,2006,3
+Bermuda,BMU,2007,3
+Bermuda,BMU,2008,2
+Bermuda,BMU,2009,2
+Bermuda,BMU,2010,1
+Bermuda,BMU,2011,1
+Bermuda,BMU,2012,3
+Bermuda,BMU,2013,0
+Bermuda,BMU,2014,0
+Bermuda,BMU,2015,0
+Bermuda,BMU,2016,2
+Bermuda,BMU,2017,2
+Bermuda,BMU,2018,2
+Bermuda,BMU,2019,2
+Bermuda,BMU,2020,3
+Bermuda,BMU,2021,2
+Bermuda,BMU,2022,1
+Bermuda,BMU,2023,2
+Bermuda,BMU,2024,2
+Bhutan,BTN,2000,4000
+Bhutan,BTN,2001,3600
+Bhutan,BTN,2002,3700
+Bhutan,BTN,2003,3500
+Bhutan,BTN,2004,3300
+Bhutan,BTN,2005,3400
+Bhutan,BTN,2006,2900
+Bhutan,BTN,2007,3000
+Bhutan,BTN,2008,2700
+Bhutan,BTN,2009,3000
+Bhutan,BTN,2010,3300
+Bhutan,BTN,2011,3000
+Bhutan,BTN,2012,2600
+Bhutan,BTN,2013,2400
+Bhutan,BTN,2014,2300
+Bhutan,BTN,2015,2000
+Bhutan,BTN,2016,2200
+Bhutan,BTN,2017,1600
+Bhutan,BTN,2018,1600
+Bhutan,BTN,2019,1700
+Bhutan,BTN,2020,1500
+Bhutan,BTN,2021,1400
+Bhutan,BTN,2022,1300
+Bhutan,BTN,2023,1400
+Bhutan,BTN,2024,1500
+Bolivia,BOL,2000,35000
+Bolivia,BOL,2001,33000
+Bolivia,BOL,2002,32000
+Bolivia,BOL,2003,31000
+Bolivia,BOL,2004,30000
+Bolivia,BOL,2005,28000
+Bolivia,BOL,2006,27000
+Bolivia,BOL,2007,25000
+Bolivia,BOL,2008,23000
+Bolivia,BOL,2009,21000
+Bolivia,BOL,2010,20000
+Bolivia,BOL,2011,18000
+Bolivia,BOL,2012,17000
+Bolivia,BOL,2013,16000
+Bolivia,BOL,2014,15000
+Bolivia,BOL,2015,14000
+Bolivia,BOL,2016,13000
+Bolivia,BOL,2017,12000
+Bolivia,BOL,2018,11000
+Bolivia,BOL,2019,11000
+Bolivia,BOL,2020,11000
+Bolivia,BOL,2021,11000
+Bolivia,BOL,2022,12000
+Bolivia,BOL,2023,13000
+Bolivia,BOL,2024,14000
+Bosnia and Herzegovina,BIH,2000,6600
+Bosnia and Herzegovina,BIH,2001,5900
+Bosnia and Herzegovina,BIH,2002,3700
+Bosnia and Herzegovina,BIH,2003,3500
+Bosnia and Herzegovina,BIH,2004,4300
+Bosnia and Herzegovina,BIH,2005,3600
+Bosnia and Herzegovina,BIH,2006,3000
+Bosnia and Herzegovina,BIH,2007,4000
+Bosnia and Herzegovina,BIH,2008,2900
+Bosnia and Herzegovina,BIH,2009,2900
+Bosnia and Herzegovina,BIH,2010,2200
+Bosnia and Herzegovina,BIH,2011,2200
+Bosnia and Herzegovina,BIH,2012,2200
+Bosnia and Herzegovina,BIH,2013,2000
+Bosnia and Herzegovina,BIH,2014,1800
+Bosnia and Herzegovina,BIH,2015,1600
+Bosnia and Herzegovina,BIH,2016,1300
+Bosnia and Herzegovina,BIH,2017,1100
+Bosnia and Herzegovina,BIH,2018,960
+Bosnia and Herzegovina,BIH,2019,850
+Bosnia and Herzegovina,BIH,2020,830
+Bosnia and Herzegovina,BIH,2021,750
+Bosnia and Herzegovina,BIH,2022,680
+Bosnia and Herzegovina,BIH,2023,640
+Bosnia and Herzegovina,BIH,2024,650
+Botswana,BWA,2000,16000
+Botswana,BWA,2001,16000
+Botswana,BWA,2002,16000
+Botswana,BWA,2003,15000
+Botswana,BWA,2004,15000
+Botswana,BWA,2005,15000
+Botswana,BWA,2006,14000
+Botswana,BWA,2007,14000
+Botswana,BWA,2008,13000
+Botswana,BWA,2009,13000
+Botswana,BWA,2010,12000
+Botswana,BWA,2011,12000
+Botswana,BWA,2012,11000
+Botswana,BWA,2013,11000
+Botswana,BWA,2014,10000
+Botswana,BWA,2015,9600
+Botswana,BWA,2016,9000
+Botswana,BWA,2017,8400
+Botswana,BWA,2018,7800
+Botswana,BWA,2019,7100
+Botswana,BWA,2020,6500
+Botswana,BWA,2021,5800
+Botswana,BWA,2022,5100
+Botswana,BWA,2023,4400
+Botswana,BWA,2024,3600
+Brazil,BRA,2000,85000
+Brazil,BRA,2001,81000
+Brazil,BRA,2002,89000
+Brazil,BRA,2003,91000
+Brazil,BRA,2004,95000
+Brazil,BRA,2005,88000
+Brazil,BRA,2006,82000
+Brazil,BRA,2007,82000
+Brazil,BRA,2008,84000
+Brazil,BRA,2009,83000
+Brazil,BRA,2010,82000
+Brazil,BRA,2011,83000
+Brazil,BRA,2012,83000
+Brazil,BRA,2013,84000
+Brazil,BRA,2014,83000
+Brazil,BRA,2015,83000
+Brazil,BRA,2016,84000
+Brazil,BRA,2017,88000
+Brazil,BRA,2018,93000
+Brazil,BRA,2019,94000
+Brazil,BRA,2020,93000
+Brazil,BRA,2021,98000
+Brazil,BRA,2022,103000
+Brazil,BRA,2023,103000
+Brazil,BRA,2024,104000
+British Virgin Islands,VGB,2000,1
+British Virgin Islands,VGB,2001,1
+British Virgin Islands,VGB,2002,1
+British Virgin Islands,VGB,2003,1
+British Virgin Islands,VGB,2004,2
+British Virgin Islands,VGB,2005,0
+British Virgin Islands,VGB,2006,0
+British Virgin Islands,VGB,2007,0
+British Virgin Islands,VGB,2008,0
+British Virgin Islands,VGB,2009,1
+British Virgin Islands,VGB,2010,1
+British Virgin Islands,VGB,2011,0
+British Virgin Islands,VGB,2012,0
+British Virgin Islands,VGB,2013,1
+British Virgin Islands,VGB,2014,0
+British Virgin Islands,VGB,2015,0
+British Virgin Islands,VGB,2016,0
+British Virgin Islands,VGB,2017,0
+British Virgin Islands,VGB,2018,1
+British Virgin Islands,VGB,2019,1
+British Virgin Islands,VGB,2020,1
+British Virgin Islands,VGB,2021,0
+British Virgin Islands,VGB,2022,0
+British Virgin Islands,VGB,2023,0
+British Virgin Islands,VGB,2024,0
+Brunei,BRN,2000,750
+Brunei,BRN,2001,490
+Brunei,BRN,2002,480
+Brunei,BRN,2003,400
+Brunei,BRN,2004,330
+Brunei,BRN,2005,270
+Brunei,BRN,2006,330
+Brunei,BRN,2007,330
+Brunei,BRN,2008,350
+Brunei,BRN,2009,320
+Brunei,BRN,2010,350
+Brunei,BRN,2011,340
+Brunei,BRN,2012,350
+Brunei,BRN,2013,300
+Brunei,BRN,2014,280
+Brunei,BRN,2015,290
+Brunei,BRN,2016,320
+Brunei,BRN,2017,310
+Brunei,BRN,2018,330
+Brunei,BRN,2019,320
+Brunei,BRN,2020,400
+Brunei,BRN,2021,300
+Brunei,BRN,2022,280
+Brunei,BRN,2023,330
+Brunei,BRN,2024,300
+Bulgaria,BGR,2000,6600
+Bulgaria,BGR,2001,7500
+Bulgaria,BGR,2002,6300
+Bulgaria,BGR,2003,6000
+Bulgaria,BGR,2004,5500
+Bulgaria,BGR,2005,5700
+Bulgaria,BGR,2006,5500
+Bulgaria,BGR,2007,4900
+Bulgaria,BGR,2008,4900
+Bulgaria,BGR,2009,4400
+Bulgaria,BGR,2010,3900
+Bulgaria,BGR,2011,3400
+Bulgaria,BGR,2012,3200
+Bulgaria,BGR,2013,2900
+Bulgaria,BGR,2014,2700
+Bulgaria,BGR,2015,2400
+Bulgaria,BGR,2016,2200
+Bulgaria,BGR,2017,2000
+Bulgaria,BGR,2018,1800
+Bulgaria,BGR,2019,1700
+Bulgaria,BGR,2020,1200
+Bulgaria,BGR,2021,900
+Bulgaria,BGR,2022,1000
+Bulgaria,BGR,2023,1100
+Bulgaria,BGR,2024,830
+Burkina Faso,BFA,2000,11000
+Burkina Faso,BFA,2001,11000
+Burkina Faso,BFA,2002,11000
+Burkina Faso,BFA,2003,11000
+Burkina Faso,BFA,2004,12000
+Burkina Faso,BFA,2005,12000
+Burkina Faso,BFA,2006,12000
+Burkina Faso,BFA,2007,12000
+Burkina Faso,BFA,2008,12000
+Burkina Faso,BFA,2009,12000
+Burkina Faso,BFA,2010,12000
+Burkina Faso,BFA,2011,12000
+Burkina Faso,BFA,2012,12000
+Burkina Faso,BFA,2013,13000
+Burkina Faso,BFA,2014,13000
+Burkina Faso,BFA,2015,13000
+Burkina Faso,BFA,2016,13000
+Burkina Faso,BFA,2017,13000
+Burkina Faso,BFA,2018,13000
+Burkina Faso,BFA,2019,13000
+Burkina Faso,BFA,2020,13000
+Burkina Faso,BFA,2021,13000
+Burkina Faso,BFA,2022,13000
+Burkina Faso,BFA,2023,13000
+Burkina Faso,BFA,2024,13000
+Burundi,BDI,2000,14000
+Burundi,BDI,2001,14000
+Burundi,BDI,2002,14000
+Burundi,BDI,2003,14000
+Burundi,BDI,2004,14000
+Burundi,BDI,2005,14000
+Burundi,BDI,2006,14000
+Burundi,BDI,2007,14000
+Burundi,BDI,2008,14000
+Burundi,BDI,2009,14000
+Burundi,BDI,2010,14000
+Burundi,BDI,2011,14000
+Burundi,BDI,2012,14000
+Burundi,BDI,2013,14000
+Burundi,BDI,2014,14000
+Burundi,BDI,2015,14000
+Burundi,BDI,2016,13000
+Burundi,BDI,2017,13000
+Burundi,BDI,2018,13000
+Burundi,BDI,2019,12000
+Burundi,BDI,2020,12000
+Burundi,BDI,2021,12000
+Burundi,BDI,2022,12000
+Burundi,BDI,2023,12000
+Burundi,BDI,2024,12000
+Cambodia,KHM,2000,106000
+Cambodia,KHM,2001,103000
+Cambodia,KHM,2002,99000
+Cambodia,KHM,2003,95000
+Cambodia,KHM,2004,90000
+Cambodia,KHM,2005,86000
+Cambodia,KHM,2006,81000
+Cambodia,KHM,2007,76000
+Cambodia,KHM,2008,72000
+Cambodia,KHM,2009,68000
+Cambodia,KHM,2010,64000
+Cambodia,KHM,2011,61000
+Cambodia,KHM,2012,59000
+Cambodia,KHM,2013,57000
+Cambodia,KHM,2014,55000
+Cambodia,KHM,2015,53000
+Cambodia,KHM,2016,52000
+Cambodia,KHM,2017,50000
+Cambodia,KHM,2018,49000
+Cambodia,KHM,2019,48000
+Cambodia,KHM,2020,48000
+Cambodia,KHM,2021,47000
+Cambodia,KHM,2022,48000
+Cambodia,KHM,2023,48000
+Cambodia,KHM,2024,48000
+Cameroon,CMR,2000,13000
+Cameroon,CMR,2001,20000
+Cameroon,CMR,2002,27000
+Cameroon,CMR,2003,33000
+Cameroon,CMR,2004,39000
+Cameroon,CMR,2005,44000
+Cameroon,CMR,2006,48000
+Cameroon,CMR,2007,50000
+Cameroon,CMR,2008,52000
+Cameroon,CMR,2009,53000
+Cameroon,CMR,2010,53000
+Cameroon,CMR,2011,52000
+Cameroon,CMR,2012,52000
+Cameroon,CMR,2013,51000
+Cameroon,CMR,2014,50000
+Cameroon,CMR,2015,49000
+Cameroon,CMR,2016,47000
+Cameroon,CMR,2017,46000
+Cameroon,CMR,2018,44000
+Cameroon,CMR,2019,43000
+Cameroon,CMR,2020,41000
+Cameroon,CMR,2021,40000
+Cameroon,CMR,2022,40000
+Cameroon,CMR,2023,39000
+Cameroon,CMR,2024,38000
+Canada,CAN,2000,2500
+Canada,CAN,2001,2500
+Canada,CAN,2002,2300
+Canada,CAN,2003,2200
+Canada,CAN,2004,2100
+Canada,CAN,2005,2000
+Canada,CAN,2006,2000
+Canada,CAN,2007,1900
+Canada,CAN,2008,2000
+Canada,CAN,2009,1900
+Canada,CAN,2010,1700
+Canada,CAN,2011,1700
+Canada,CAN,2012,1900
+Canada,CAN,2013,1900
+Canada,CAN,2014,1800
+Canada,CAN,2015,1800
+Canada,CAN,2016,1900
+Canada,CAN,2017,2000
+Canada,CAN,2018,2000
+Canada,CAN,2019,2100
+Canada,CAN,2020,1900
+Canada,CAN,2021,2100
+Canada,CAN,2022,2200
+Canada,CAN,2023,2400
+Canada,CAN,2024,2500
+Cape Verde,CPV,2000,800
+Cape Verde,CPV,2001,780
+Cape Verde,CPV,2002,490
+Cape Verde,CPV,2003,740
+Cape Verde,CPV,2004,650
+Cape Verde,CPV,2005,610
+Cape Verde,CPV,2006,520
+Cape Verde,CPV,2007,520
+Cape Verde,CPV,2008,610
+Cape Verde,CPV,2009,580
+Cape Verde,CPV,2010,590
+Cape Verde,CPV,2011,620
+Cape Verde,CPV,2012,670
+Cape Verde,CPV,2013,470
+Cape Verde,CPV,2014,420
+Cape Verde,CPV,2015,400
+Cape Verde,CPV,2016,360
+Cape Verde,CPV,2017,360
+Cape Verde,CPV,2018,290
+Cape Verde,CPV,2019,290
+Cape Verde,CPV,2020,290
+Cape Verde,CPV,2021,260
+Cape Verde,CPV,2022,200
+Cape Verde,CPV,2023,280
+Cape Verde,CPV,2024,250
+Cayman Islands,CYM,2000,5
+Cayman Islands,CYM,2001,1
+Cayman Islands,CYM,2002,0
+Cayman Islands,CYM,2003,0
+Cayman Islands,CYM,2004,1
+Cayman Islands,CYM,2005,0
+Cayman Islands,CYM,2006,0
+Cayman Islands,CYM,2007,1
+Cayman Islands,CYM,2008,1
+Cayman Islands,CYM,2009,2
+Cayman Islands,CYM,2010,4
+Cayman Islands,CYM,2011,2
+Cayman Islands,CYM,2012,6
+Cayman Islands,CYM,2013,5
+Cayman Islands,CYM,2014,0
+Cayman Islands,CYM,2015,7
+Cayman Islands,CYM,2016,3
+Cayman Islands,CYM,2017,4
+Cayman Islands,CYM,2018,3
+Cayman Islands,CYM,2019,4
+Cayman Islands,CYM,2020,2
+Cayman Islands,CYM,2021,2
+Cayman Islands,CYM,2022,6
+Cayman Islands,CYM,2023,3
+Cayman Islands,CYM,2024,4
+Central African Republic,CAF,2000,26000
+Central African Republic,CAF,2001,26000
+Central African Republic,CAF,2002,26000
+Central African Republic,CAF,2003,26000
+Central African Republic,CAF,2004,26000
+Central African Republic,CAF,2005,26000
+Central African Republic,CAF,2006,26000
+Central African Republic,CAF,2007,26000
+Central African Republic,CAF,2008,26000
+Central African Republic,CAF,2009,26000
+Central African Republic,CAF,2010,25000
+Central African Republic,CAF,2011,25000
+Central African Republic,CAF,2012,25000
+Central African Republic,CAF,2013,24000
+Central African Republic,CAF,2014,24000
+Central African Republic,CAF,2015,23000
+Central African Republic,CAF,2016,23000
+Central African Republic,CAF,2017,23000
+Central African Republic,CAF,2018,23000
+Central African Republic,CAF,2019,23000
+Central African Republic,CAF,2020,23000
+Central African Republic,CAF,2021,23000
+Central African Republic,CAF,2022,22000
+Central African Republic,CAF,2023,22000
+Central African Republic,CAF,2024,22000
+Chad,TCD,2000,10000
+Chad,TCD,2001,11000
+Chad,TCD,2002,11000
+Chad,TCD,2003,12000
+Chad,TCD,2004,13000
+Chad,TCD,2005,14000
+Chad,TCD,2006,15000
+Chad,TCD,2007,16000
+Chad,TCD,2008,17000
+Chad,TCD,2009,19000
+Chad,TCD,2010,20000
+Chad,TCD,2011,21000
+Chad,TCD,2012,22000
+Chad,TCD,2013,23000
+Chad,TCD,2014,23000
+Chad,TCD,2015,23000
+Chad,TCD,2016,23000
+Chad,TCD,2017,23000
+Chad,TCD,2018,23000
+Chad,TCD,2019,23000
+Chad,TCD,2020,22000
+Chad,TCD,2021,23000
+Chad,TCD,2022,23000
+Chad,TCD,2023,23000
+Chad,TCD,2024,24000
+Chile,CHL,2000,5100
+Chile,CHL,2001,4900
+Chile,CHL,2002,3800
+Chile,CHL,2003,3400
+Chile,CHL,2004,3900
+Chile,CHL,2005,3500
+Chile,CHL,2006,3500
+Chile,CHL,2007,3300
+Chile,CHL,2008,3300
+Chile,CHL,2009,3300
+Chile,CHL,2010,3200
+Chile,CHL,2011,3300
+Chile,CHL,2012,3200
+Chile,CHL,2013,3100
+Chile,CHL,2014,3100
+Chile,CHL,2015,3300
+Chile,CHL,2016,3200
+Chile,CHL,2017,3400
+Chile,CHL,2018,3600
+Chile,CHL,2019,3600
+Chile,CHL,2020,3000
+Chile,CHL,2021,3200
+Chile,CHL,2022,3500
+Chile,CHL,2023,3800
+Chile,CHL,2024,3800
+China,CHN,2000,1360000
+China,CHN,2001,1330000
+China,CHN,2002,1290000
+China,CHN,2003,1260000
+China,CHN,2004,1220000
+China,CHN,2005,1190000
+China,CHN,2006,1160000
+China,CHN,2007,1120000
+China,CHN,2008,1100000
+China,CHN,2009,1090000
+China,CHN,2010,1020000
+China,CHN,2011,1020000
+China,CHN,2012,1010000
+China,CHN,2013,959000
+China,CHN,2014,928000
+China,CHN,2015,905000
+China,CHN,2016,884000
+China,CHN,2017,879000
+China,CHN,2018,861000
+China,CHN,2019,827000
+China,CHN,2020,834000
+China,CHN,2021,781000
+China,CHN,2022,748000
+China,CHN,2023,741000
+China,CHN,2024,696000
+Colombia,COL,2000,27000
+Colombia,COL,2001,25000
+Colombia,COL,2002,24000
+Colombia,COL,2003,23000
+Colombia,COL,2004,21000
+Colombia,COL,2005,18000
+Colombia,COL,2006,19000
+Colombia,COL,2007,19000
+Colombia,COL,2008,19000
+Colombia,COL,2009,18000
+Colombia,COL,2010,18000
+Colombia,COL,2011,18000
+Colombia,COL,2012,18000
+Colombia,COL,2013,17000
+Colombia,COL,2014,16000
+Colombia,COL,2015,16000
+Colombia,COL,2016,16000
+Colombia,COL,2017,16000
+Colombia,COL,2018,17000
+Colombia,COL,2019,18000
+Colombia,COL,2020,20000
+Colombia,COL,2021,21000
+Colombia,COL,2022,23000
+Colombia,COL,2023,24000
+Colombia,COL,2024,26000
+Comoros,COM,2000,270
+Comoros,COM,2001,270
+Comoros,COM,2002,260
+Comoros,COM,2003,260
+Comoros,COM,2004,260
+Comoros,COM,2005,260
+Comoros,COM,2006,260
+Comoros,COM,2007,270
+Comoros,COM,2008,280
+Comoros,COM,2009,280
+Comoros,COM,2010,290
+Comoros,COM,2011,290
+Comoros,COM,2012,290
+Comoros,COM,2013,290
+Comoros,COM,2014,300
+Comoros,COM,2015,300
+Comoros,COM,2016,300
+Comoros,COM,2017,310
+Comoros,COM,2018,300
+Comoros,COM,2019,290
+Comoros,COM,2020,280
+Comoros,COM,2021,260
+Comoros,COM,2022,240
+Comoros,COM,2023,220
+Comoros,COM,2024,190
+Congo,COG,2000,18000
+Congo,COG,2001,18000
+Congo,COG,2002,18000
+Congo,COG,2003,18000
+Congo,COG,2004,18000
+Congo,COG,2005,18000
+Congo,COG,2006,18000
+Congo,COG,2007,18000
+Congo,COG,2008,18000
+Congo,COG,2009,19000
+Congo,COG,2010,19000
+Congo,COG,2011,19000
+Congo,COG,2012,19000
+Congo,COG,2013,19000
+Congo,COG,2014,18000
+Congo,COG,2015,18000
+Congo,COG,2016,17000
+Congo,COG,2017,17000
+Congo,COG,2018,17000
+Congo,COG,2019,17000
+Congo,COG,2020,17000
+Congo,COG,2021,18000
+Congo,COG,2022,18000
+Congo,COG,2023,18000
+Congo,COG,2024,19000
+Cook Islands,COK,2000,1
+Cook Islands,COK,2001,2
+Cook Islands,COK,2002,1
+Cook Islands,COK,2003,0
+Cook Islands,COK,2004,1
+Cook Islands,COK,2005,1
+Cook Islands,COK,2006,1
+Cook Islands,COK,2007,1
+Cook Islands,COK,2008,2
+Cook Islands,COK,2009,2
+Cook Islands,COK,2010,0
+Cook Islands,COK,2011,1
+Cook Islands,COK,2012,1
+Cook Islands,COK,2013,2
+Cook Islands,COK,2014,2
+Cook Islands,COK,2015,0
+Cook Islands,COK,2016,2
+Cook Islands,COK,2017,0
+Cook Islands,COK,2018,0
+Cook Islands,COK,2019,1
+Cook Islands,COK,2020,1
+Cook Islands,COK,2021,0
+Cook Islands,COK,2022,0
+Cook Islands,COK,2023,4
+Cook Islands,COK,2024,1
+Costa Rica,CRI,2000,970
+Costa Rica,CRI,2001,1000
+Costa Rica,CRI,2002,860
+Costa Rica,CRI,2003,850
+Costa Rica,CRI,2004,1100
+Costa Rica,CRI,2005,800
+Costa Rica,CRI,2006,720
+Costa Rica,CRI,2007,790
+Costa Rica,CRI,2008,710
+Costa Rica,CRI,2009,610
+Costa Rica,CRI,2010,670
+Costa Rica,CRI,2011,690
+Costa Rica,CRI,2012,640
+Costa Rica,CRI,2013,550
+Costa Rica,CRI,2014,610
+Costa Rica,CRI,2015,550
+Costa Rica,CRI,2016,470
+Costa Rica,CRI,2017,470
+Costa Rica,CRI,2018,490
+Costa Rica,CRI,2019,500
+Costa Rica,CRI,2020,490
+Costa Rica,CRI,2021,500
+Costa Rica,CRI,2022,500
+Costa Rica,CRI,2023,490
+Costa Rica,CRI,2024,480
+Cote d'Ivoire,CIV,2000,29000
+Cote d'Ivoire,CIV,2001,33000
+Cote d'Ivoire,CIV,2002,36000
+Cote d'Ivoire,CIV,2003,38000
+Cote d'Ivoire,CIV,2004,41000
+Cote d'Ivoire,CIV,2005,43000
+Cote d'Ivoire,CIV,2006,45000
+Cote d'Ivoire,CIV,2007,46000
+Cote d'Ivoire,CIV,2008,47000
+Cote d'Ivoire,CIV,2009,47000
+Cote d'Ivoire,CIV,2010,47000
+Cote d'Ivoire,CIV,2011,46000
+Cote d'Ivoire,CIV,2012,45000
+Cote d'Ivoire,CIV,2013,44000
+Cote d'Ivoire,CIV,2014,42000
+Cote d'Ivoire,CIV,2015,41000
+Cote d'Ivoire,CIV,2016,40000
+Cote d'Ivoire,CIV,2017,38000
+Cote d'Ivoire,CIV,2018,37000
+Cote d'Ivoire,CIV,2019,35000
+Cote d'Ivoire,CIV,2020,34000
+Cote d'Ivoire,CIV,2021,33000
+Cote d'Ivoire,CIV,2022,33000
+Cote d'Ivoire,CIV,2023,32000
+Cote d'Ivoire,CIV,2024,32000
+Croatia,HRV,2000,2400
+Croatia,HRV,2001,2000
+Croatia,HRV,2002,2100
+Croatia,HRV,2003,2000
+Croatia,HRV,2004,1700
+Croatia,HRV,2005,1500
+Croatia,HRV,2006,1400
+Croatia,HRV,2007,1300
+Croatia,HRV,2008,1300
+Croatia,HRV,2009,1100
+Croatia,HRV,2010,910
+Croatia,HRV,2011,820
+Croatia,HRV,2012,710
+Croatia,HRV,2013,670
+Croatia,HRV,2014,650
+Croatia,HRV,2015,630
+Croatia,HRV,2016,580
+Croatia,HRV,2017,460
+Croatia,HRV,2018,460
+Croatia,HRV,2019,370
+Croatia,HRV,2020,220
+Croatia,HRV,2021,190
+Croatia,HRV,2022,260
+Croatia,HRV,2023,330
+Croatia,HRV,2024,260
+Cuba,CUB,2000,2500
+Cuba,CUB,2001,1800
+Cuba,CUB,2002,1700
+Cuba,CUB,2003,1500
+Cuba,CUB,2004,1300
+Cuba,CUB,2005,1200
+Cuba,CUB,2006,1100
+Cuba,CUB,2007,1100
+Cuba,CUB,2008,1100
+Cuba,CUB,2009,970
+Cuba,CUB,2010,1100
+Cuba,CUB,2011,1100
+Cuba,CUB,2012,940
+Cuba,CUB,2013,950
+Cuba,CUB,2014,900
+Cuba,CUB,2015,850
+Cuba,CUB,2016,820
+Cuba,CUB,2017,850
+Cuba,CUB,2018,850
+Cuba,CUB,2019,770
+Cuba,CUB,2020,690
+Cuba,CUB,2021,600
+Cuba,CUB,2022,850
+Cuba,CUB,2023,890
+Cuba,CUB,2024,1300
+Curacao,CUW,2010,5
+Curacao,CUW,2011,1
+Curacao,CUW,2012,1
+Curacao,CUW,2013,2
+Curacao,CUW,2014,5
+Curacao,CUW,2015,8
+Curacao,CUW,2016,4
+Curacao,CUW,2017,9
+Curacao,CUW,2018,7
+Curacao,CUW,2019,7
+Curacao,CUW,2020,6
+Curacao,CUW,2021,6
+Curacao,CUW,2022,5
+Curacao,CUW,2023,5
+Curacao,CUW,2024,5
+Cyprus,CYP,2000,78
+Cyprus,CYP,2001,86
+Cyprus,CYP,2002,40
+Cyprus,CYP,2003,64
+Cyprus,CYP,2004,51
+Cyprus,CYP,2005,54
+Cyprus,CYP,2006,56
+Cyprus,CYP,2007,63
+Cyprus,CYP,2008,73
+Cyprus,CYP,2009,77
+Cyprus,CYP,2010,90
+Cyprus,CYP,2011,74
+Cyprus,CYP,2012,88
+Cyprus,CYP,2013,56
+Cyprus,CYP,2014,52
+Cyprus,CYP,2015,82
+Cyprus,CYP,2016,72
+Cyprus,CYP,2017,65
+Cyprus,CYP,2018,63
+Cyprus,CYP,2019,82
+Cyprus,CYP,2020,42
+Cyprus,CYP,2021,59
+Cyprus,CYP,2022,120
+Cyprus,CYP,2023,96
+Cyprus,CYP,2024,75
+Czechia,CZE,2000,1900
+Czechia,CZE,2001,1700
+Czechia,CZE,2002,1500
+Czechia,CZE,2003,1500
+Czechia,CZE,2004,1400
+Czechia,CZE,2005,1300
+Czechia,CZE,2006,1300
+Czechia,CZE,2007,1000
+Czechia,CZE,2008,1100
+Czechia,CZE,2009,820
+Czechia,CZE,2010,800
+Czechia,CZE,2011,730
+Czechia,CZE,2012,720
+Czechia,CZE,2013,600
+Czechia,CZE,2014,600
+Czechia,CZE,2015,630
+Czechia,CZE,2016,620
+Czechia,CZE,2017,600
+Czechia,CZE,2018,520
+Czechia,CZE,2019,550
+Czechia,CZE,2020,430
+Czechia,CZE,2021,420
+Czechia,CZE,2022,450
+Czechia,CZE,2023,530
+Czechia,CZE,2024,530
+Democratic Republic of Congo,COD,2000,309000
+Democratic Republic of Congo,COD,2001,313000
+Democratic Republic of Congo,COD,2002,316000
+Democratic Republic of Congo,COD,2003,319000
+Democratic Republic of Congo,COD,2004,322000
+Democratic Republic of Congo,COD,2005,325000
+Democratic Republic of Congo,COD,2006,329000
+Democratic Republic of Congo,COD,2007,332000
+Democratic Republic of Congo,COD,2008,335000
+Democratic Republic of Congo,COD,2009,339000
+Democratic Republic of Congo,COD,2010,343000
+Democratic Republic of Congo,COD,2011,347000
+Democratic Republic of Congo,COD,2012,352000
+Democratic Republic of Congo,COD,2013,357000
+Democratic Republic of Congo,COD,2014,362000
+Democratic Republic of Congo,COD,2015,366000
+Democratic Republic of Congo,COD,2016,372000
+Democratic Republic of Congo,COD,2017,378000
+Democratic Republic of Congo,COD,2018,383000
+Democratic Republic of Congo,COD,2019,388000
+Democratic Republic of Congo,COD,2020,392000
+Democratic Republic of Congo,COD,2021,397000
+Democratic Republic of Congo,COD,2022,402000
+Democratic Republic of Congo,COD,2023,407000
+Democratic Republic of Congo,COD,2024,412000
+Denmark,DNK,2000,840
+Denmark,DNK,2001,700
+Denmark,DNK,2002,560
+Denmark,DNK,2003,540
+Denmark,DNK,2004,490
+Denmark,DNK,2005,540
+Denmark,DNK,2006,460
+Denmark,DNK,2007,480
+Denmark,DNK,2008,440
+Denmark,DNK,2009,390
+Denmark,DNK,2010,430
+Denmark,DNK,2011,460
+Denmark,DNK,2012,440
+Denmark,DNK,2013,420
+Denmark,DNK,2014,370
+Denmark,DNK,2015,400
+Denmark,DNK,2016,360
+Denmark,DNK,2017,310
+Denmark,DNK,2018,330
+Denmark,DNK,2019,320
+Denmark,DNK,2020,250
+Denmark,DNK,2021,230
+Denmark,DNK,2022,250
+Denmark,DNK,2023,210
+Denmark,DNK,2024,190
+Djibouti,DJI,2000,20000
+Djibouti,DJI,2001,20000
+Djibouti,DJI,2002,15000
+Djibouti,DJI,2003,14000
+Djibouti,DJI,2004,13000
+Djibouti,DJI,2005,13000
+Djibouti,DJI,2006,12000
+Djibouti,DJI,2007,12000
+Djibouti,DJI,2008,12000
+Djibouti,DJI,2009,12000
+Djibouti,DJI,2010,13000
+Djibouti,DJI,2011,11000
+Djibouti,DJI,2012,9900
+Djibouti,DJI,2013,8800
+Djibouti,DJI,2014,6500
+Djibouti,DJI,2015,7100
+Djibouti,DJI,2016,6200
+Djibouti,DJI,2017,4800
+Djibouti,DJI,2018,4600
+Djibouti,DJI,2019,4200
+Djibouti,DJI,2020,4000
+Djibouti,DJI,2021,4400
+Djibouti,DJI,2022,5300
+Djibouti,DJI,2023,5500
+Djibouti,DJI,2024,5800
+Dominica,DMA,2000,3
+Dominica,DMA,2001,4
+Dominica,DMA,2002,2
+Dominica,DMA,2003,5
+Dominica,DMA,2004,6
+Dominica,DMA,2005,7
+Dominica,DMA,2006,19
+Dominica,DMA,2007,3
+Dominica,DMA,2008,13
+Dominica,DMA,2009,4
+Dominica,DMA,2010,8
+Dominica,DMA,2011,2
+Dominica,DMA,2012,7
+Dominica,DMA,2013,3
+Dominica,DMA,2014,1
+Dominica,DMA,2015,7
+Dominica,DMA,2016,5
+Dominica,DMA,2017,1
+Dominica,DMA,2018,4
+Dominica,DMA,2019,10
+Dominica,DMA,2020,4
+Dominica,DMA,2021,0
+Dominica,DMA,2022,0
+Dominica,DMA,2023,4
+Dominica,DMA,2024,3
+Dominican Republic,DOM,2000,12000
+Dominican Republic,DOM,2001,11000
+Dominican Republic,DOM,2002,8900
+Dominican Republic,DOM,2003,10000
+Dominican Republic,DOM,2004,9400
+Dominican Republic,DOM,2005,10000
+Dominican Republic,DOM,2006,8600
+Dominican Republic,DOM,2007,7300
+Dominican Republic,DOM,2008,7200
+Dominican Republic,DOM,2009,6800
+Dominican Republic,DOM,2010,6000
+Dominican Republic,DOM,2011,6400
+Dominican Republic,DOM,2012,6200
+Dominican Republic,DOM,2013,6300
+Dominican Republic,DOM,2014,6200
+Dominican Republic,DOM,2015,6200
+Dominican Republic,DOM,2016,5800
+Dominican Republic,DOM,2017,5300
+Dominican Republic,DOM,2018,5300
+Dominican Republic,DOM,2019,4900
+Dominican Republic,DOM,2020,5100
+Dominican Republic,DOM,2021,5300
+Dominican Republic,DOM,2022,5500
+Dominican Republic,DOM,2023,5600
+Dominican Republic,DOM,2024,5800
+East Timor,TLS,2002,10000
+East Timor,TLS,2003,9800
+East Timor,TLS,2004,9400
+East Timor,TLS,2005,9000
+East Timor,TLS,2006,8700
+East Timor,TLS,2007,8400
+East Timor,TLS,2008,8000
+East Timor,TLS,2009,7700
+East Timor,TLS,2010,7300
+East Timor,TLS,2011,6900
+East Timor,TLS,2012,6500
+East Timor,TLS,2013,6100
+East Timor,TLS,2014,5700
+East Timor,TLS,2015,5300
+East Timor,TLS,2016,5000
+East Timor,TLS,2017,4800
+East Timor,TLS,2018,4800
+East Timor,TLS,2019,4900
+East Timor,TLS,2020,5100
+East Timor,TLS,2021,5400
+East Timor,TLS,2022,5800
+East Timor,TLS,2023,6300
+East Timor,TLS,2024,6900
+Ecuador,ECU,2000,16000
+Ecuador,ECU,2001,13000
+Ecuador,ECU,2002,12000
+Ecuador,ECU,2003,14000
+Ecuador,ECU,2004,13000
+Ecuador,ECU,2005,8600
+Ecuador,ECU,2006,8500
+Ecuador,ECU,2007,8600
+Ecuador,ECU,2008,8100
+Ecuador,ECU,2009,7600
+Ecuador,ECU,2010,7500
+Ecuador,ECU,2011,7600
+Ecuador,ECU,2012,7900
+Ecuador,ECU,2013,7500
+Ecuador,ECU,2014,7100
+Ecuador,ECU,2015,6800
+Ecuador,ECU,2016,7000
+Ecuador,ECU,2017,7500
+Ecuador,ECU,2018,7600
+Ecuador,ECU,2019,8000
+Ecuador,ECU,2020,6700
+Ecuador,ECU,2021,7200
+Ecuador,ECU,2022,8900
+Ecuador,ECU,2023,11000
+Ecuador,ECU,2024,12000
+Egypt,EGY,2000,15000
+Egypt,EGY,2001,15000
+Egypt,EGY,2002,15000
+Egypt,EGY,2003,15000
+Egypt,EGY,2004,15000
+Egypt,EGY,2005,15000
+Egypt,EGY,2006,14000
+Egypt,EGY,2007,14000
+Egypt,EGY,2008,14000
+Egypt,EGY,2009,14000
+Egypt,EGY,2010,14000
+Egypt,EGY,2011,13000
+Egypt,EGY,2012,13000
+Egypt,EGY,2013,13000
+Egypt,EGY,2014,13000
+Egypt,EGY,2015,13000
+Egypt,EGY,2016,13000
+Egypt,EGY,2017,13000
+Egypt,EGY,2018,12000
+Egypt,EGY,2019,12000
+Egypt,EGY,2020,12000
+Egypt,EGY,2021,12000
+Egypt,EGY,2022,12000
+Egypt,EGY,2023,12000
+Egypt,EGY,2024,12000
+El Salvador,SLV,2000,3500
+El Salvador,SLV,2001,3100
+El Salvador,SLV,2002,3100
+El Salvador,SLV,2003,2600
+El Salvador,SLV,2004,2500
+El Salvador,SLV,2005,3000
+El Salvador,SLV,2006,2600
+El Salvador,SLV,2007,2600
+El Salvador,SLV,2008,2600
+El Salvador,SLV,2009,2400
+El Salvador,SLV,2010,2400
+El Salvador,SLV,2011,2600
+El Salvador,SLV,2012,2800
+El Salvador,SLV,2013,3000
+El Salvador,SLV,2014,3000
+El Salvador,SLV,2015,3300
+El Salvador,SLV,2016,4000
+El Salvador,SLV,2017,4800
+El Salvador,SLV,2018,4700
+El Salvador,SLV,2019,3900
+El Salvador,SLV,2020,2600
+El Salvador,SLV,2021,2400
+El Salvador,SLV,2022,3200
+El Salvador,SLV,2023,5400
+El Salvador,SLV,2024,7300
+Equatorial Guinea,GNQ,2000,2300
+Equatorial Guinea,GNQ,2001,2400
+Equatorial Guinea,GNQ,2002,2500
+Equatorial Guinea,GNQ,2003,2600
+Equatorial Guinea,GNQ,2004,2700
+Equatorial Guinea,GNQ,2005,2800
+Equatorial Guinea,GNQ,2006,2800
+Equatorial Guinea,GNQ,2007,2900
+Equatorial Guinea,GNQ,2008,3000
+Equatorial Guinea,GNQ,2009,3100
+Equatorial Guinea,GNQ,2010,3100
+Equatorial Guinea,GNQ,2011,3200
+Equatorial Guinea,GNQ,2012,3300
+Equatorial Guinea,GNQ,2013,3300
+Equatorial Guinea,GNQ,2014,3400
+Equatorial Guinea,GNQ,2015,3500
+Equatorial Guinea,GNQ,2016,3500
+Equatorial Guinea,GNQ,2017,3600
+Equatorial Guinea,GNQ,2018,3600
+Equatorial Guinea,GNQ,2019,3700
+Equatorial Guinea,GNQ,2020,3700
+Equatorial Guinea,GNQ,2021,3700
+Equatorial Guinea,GNQ,2022,3700
+Equatorial Guinea,GNQ,2023,3800
+Equatorial Guinea,GNQ,2024,3800
+Eritrea,ERI,2000,32000
+Eritrea,ERI,2001,12000
+Eritrea,ERI,2002,12000
+Eritrea,ERI,2003,19000
+Eritrea,ERI,2004,16000
+Eritrea,ERI,2005,13000
+Eritrea,ERI,2006,10000
+Eritrea,ERI,2007,11000
+Eritrea,ERI,2008,8800
+Eritrea,ERI,2009,8100
+Eritrea,ERI,2010,7600
+Eritrea,ERI,2011,7900
+Eritrea,ERI,2012,7900
+Eritrea,ERI,2013,7000
+Eritrea,ERI,2014,5700
+Eritrea,ERI,2015,4800
+Eritrea,ERI,2016,5100
+Eritrea,ERI,2017,4600
+Eritrea,ERI,2018,4200
+Eritrea,ERI,2019,4100
+Eritrea,ERI,2020,3600
+Eritrea,ERI,2021,3700
+Eritrea,ERI,2022,4600
+Eritrea,ERI,2023,5200
+Eritrea,ERI,2024,4100
+Estonia,EST,2000,1500
+Estonia,EST,2001,1300
+Estonia,EST,2002,1100
+Estonia,EST,2003,1100
+Estonia,EST,2004,970
+Estonia,EST,2005,860
+Estonia,EST,2006,720
+Estonia,EST,2007,750
+Estonia,EST,2008,630
+Estonia,EST,2009,540
+Estonia,EST,2010,410
+Estonia,EST,2011,410
+Estonia,EST,2012,360
+Estonia,EST,2013,360
+Estonia,EST,2014,320
+Estonia,EST,2015,270
+Estonia,EST,2016,250
+Estonia,EST,2017,220
+Estonia,EST,2018,190
+Estonia,EST,2019,190
+Estonia,EST,2020,150
+Estonia,EST,2021,140
+Estonia,EST,2022,160
+Estonia,EST,2023,120
+Estonia,EST,2024,110
+Eswatini,SWZ,2000,10000
+Eswatini,SWZ,2001,11000
+Eswatini,SWZ,2002,12000
+Eswatini,SWZ,2003,14000
+Eswatini,SWZ,2004,14000
+Eswatini,SWZ,2005,15000
+Eswatini,SWZ,2006,16000
+Eswatini,SWZ,2007,16000
+Eswatini,SWZ,2008,15000
+Eswatini,SWZ,2009,18000
+Eswatini,SWZ,2010,18000
+Eswatini,SWZ,2011,15000
+Eswatini,SWZ,2012,13000
+Eswatini,SWZ,2013,12000
+Eswatini,SWZ,2014,9700
+Eswatini,SWZ,2015,7400
+Eswatini,SWZ,2016,6200
+Eswatini,SWZ,2017,5800
+Eswatini,SWZ,2018,5200
+Eswatini,SWZ,2019,4300
+Eswatini,SWZ,2020,4000
+Eswatini,SWZ,2021,4000
+Eswatini,SWZ,2022,4100
+Eswatini,SWZ,2023,4000
+Eswatini,SWZ,2024,4000
+Ethiopia,ETH,2000,330000
+Ethiopia,ETH,2001,321000
+Ethiopia,ETH,2002,313000
+Ethiopia,ETH,2003,304000
+Ethiopia,ETH,2004,296000
+Ethiopia,ETH,2005,287000
+Ethiopia,ETH,2006,278000
+Ethiopia,ETH,2007,269000
+Ethiopia,ETH,2008,261000
+Ethiopia,ETH,2009,252000
+Ethiopia,ETH,2010,244000
+Ethiopia,ETH,2011,236000
+Ethiopia,ETH,2012,228000
+Ethiopia,ETH,2013,221000
+Ethiopia,ETH,2014,214000
+Ethiopia,ETH,2015,207000
+Ethiopia,ETH,2016,202000
+Ethiopia,ETH,2017,196000
+Ethiopia,ETH,2018,192000
+Ethiopia,ETH,2019,188000
+Ethiopia,ETH,2020,186000
+Ethiopia,ETH,2021,184000
+Ethiopia,ETH,2022,184000
+Ethiopia,ETH,2023,184000
+Ethiopia,ETH,2024,186000
+Europe,OWID_EUR,2000,409201
+Europe,OWID_EUR,2001,399107
+Europe,OWID_EUR,2002,393621
+Europe,OWID_EUR,2003,394492
+Europe,OWID_EUR,2004,374569
+Europe,OWID_EUR,2005,370646
+Europe,OWID_EUR,2006,360065
+Europe,OWID_EUR,2007,345490
+Europe,OWID_EUR,2008,331028
+Europe,OWID_EUR,2009,314562
+Europe,OWID_EUR,2010,298237
+Europe,OWID_EUR,2011,285177
+Europe,OWID_EUR,2012,270286
+Europe,OWID_EUR,2013,256839
+Europe,OWID_EUR,2014,242830
+Europe,OWID_EUR,2015,231181
+Europe,OWID_EUR,2016,218788
+Europe,OWID_EUR,2017,203129
+Europe,OWID_EUR,2018,188678
+Europe,OWID_EUR,2019,173694
+Europe,OWID_EUR,2020,160582
+Europe,OWID_EUR,2021,160206
+Europe,OWID_EUR,2022,145882
+Europe,OWID_EUR,2023,146823
+Europe,OWID_EUR,2024,135387
+Fiji,FJI,2000,410
+Fiji,FJI,2001,490
+Fiji,FJI,2002,370
+Fiji,FJI,2003,440
+Fiji,FJI,2004,300
+Fiji,FJI,2005,290
+Fiji,FJI,2006,240
+Fiji,FJI,2007,200
+Fiji,FJI,2008,220
+Fiji,FJI,2009,290
+Fiji,FJI,2010,380
+Fiji,FJI,2011,420
+Fiji,FJI,2012,400
+Fiji,FJI,2013,470
+Fiji,FJI,2014,680
+Fiji,FJI,2015,630
+Fiji,FJI,2016,550
+Fiji,FJI,2017,630
+Fiji,FJI,2018,670
+Fiji,FJI,2019,810
+Fiji,FJI,2020,740
+Fiji,FJI,2021,580
+Fiji,FJI,2022,970
+Fiji,FJI,2023,660
+Fiji,FJI,2024,960
+Finland,FIN,2000,730
+Finland,FIN,2001,620
+Finland,FIN,2002,590
+Finland,FIN,2003,510
+Finland,FIN,2004,400
+Finland,FIN,2005,420
+Finland,FIN,2006,340
+Finland,FIN,2007,360
+Finland,FIN,2008,400
+Finland,FIN,2009,480
+Finland,FIN,2010,370
+Finland,FIN,2011,370
+Finland,FIN,2012,310
+Finland,FIN,2013,310
+Finland,FIN,2014,290
+Finland,FIN,2015,310
+Finland,FIN,2016,260
+Finland,FIN,2017,280
+Finland,FIN,2018,270
+Finland,FIN,2019,260
+Finland,FIN,2020,200
+Finland,FIN,2021,200
+Finland,FIN,2022,220
+Finland,FIN,2023,210
+Finland,FIN,2024,210
+France,FRA,2000,7400
+France,FRA,2001,7000
+France,FRA,2002,6900
+France,FRA,2003,7300
+France,FRA,2004,6200
+France,FRA,2005,6100
+France,FRA,2006,6000
+France,FRA,2007,6600
+France,FRA,2008,6600
+France,FRA,2009,6000
+France,FRA,2010,5800
+France,FRA,2011,5700
+France,FRA,2012,5700
+France,FRA,2013,5700
+France,FRA,2014,5500
+France,FRA,2015,5400
+France,FRA,2016,5700
+France,FRA,2017,5900
+France,FRA,2018,5800
+France,FRA,2019,5900
+France,FRA,2020,5300
+France,FRA,2021,4900
+France,FRA,2022,4600
+France,FRA,2023,5500
+France,FRA,2024,5200
+French Polynesia,PYF,2000,150
+French Polynesia,PYF,2001,150
+French Polynesia,PYF,2002,150
+French Polynesia,PYF,2003,110
+French Polynesia,PYF,2004,140
+French Polynesia,PYF,2005,130
+French Polynesia,PYF,2006,140
+French Polynesia,PYF,2007,130
+French Polynesia,PYF,2008,95
+French Polynesia,PYF,2009,97
+French Polynesia,PYF,2010,72
+French Polynesia,PYF,2011,110
+French Polynesia,PYF,2012,85
+French Polynesia,PYF,2013,87
+French Polynesia,PYF,2014,92
+French Polynesia,PYF,2015,74
+French Polynesia,PYF,2016,87
+French Polynesia,PYF,2017,81
+French Polynesia,PYF,2018,84
+French Polynesia,PYF,2019,75
+French Polynesia,PYF,2020,99
+French Polynesia,PYF,2021,52
+French Polynesia,PYF,2022,85
+French Polynesia,PYF,2023,54
+French Polynesia,PYF,2024,67
+Gabon,GAB,2000,4200
+Gabon,GAB,2001,4400
+Gabon,GAB,2002,4600
+Gabon,GAB,2003,4800
+Gabon,GAB,2004,5100
+Gabon,GAB,2005,5500
+Gabon,GAB,2006,5800
+Gabon,GAB,2007,6300
+Gabon,GAB,2008,6900
+Gabon,GAB,2009,7400
+Gabon,GAB,2010,7900
+Gabon,GAB,2011,8500
+Gabon,GAB,2012,8900
+Gabon,GAB,2013,9300
+Gabon,GAB,2014,9700
+Gabon,GAB,2015,10000
+Gabon,GAB,2016,10000
+Gabon,GAB,2017,9800
+Gabon,GAB,2018,9700
+Gabon,GAB,2019,9700
+Gabon,GAB,2020,9600
+Gabon,GAB,2021,9500
+Gabon,GAB,2022,9500
+Gabon,GAB,2023,9400
+Gabon,GAB,2024,9400
+Gambia,GMB,2000,2700
+Gambia,GMB,2001,2800
+Gambia,GMB,2002,2900
+Gambia,GMB,2003,3000
+Gambia,GMB,2004,3100
+Gambia,GMB,2005,3200
+Gambia,GMB,2006,3200
+Gambia,GMB,2007,3300
+Gambia,GMB,2008,3300
+Gambia,GMB,2009,3400
+Gambia,GMB,2010,3400
+Gambia,GMB,2011,3500
+Gambia,GMB,2012,3600
+Gambia,GMB,2013,3700
+Gambia,GMB,2014,3800
+Gambia,GMB,2015,3800
+Gambia,GMB,2016,3900
+Gambia,GMB,2017,3900
+Gambia,GMB,2018,3900
+Gambia,GMB,2019,3900
+Gambia,GMB,2020,3900
+Gambia,GMB,2021,3800
+Gambia,GMB,2022,3800
+Gambia,GMB,2023,3800
+Gambia,GMB,2024,3800
+Georgia,GEO,2000,9900
+Georgia,GEO,2001,9400
+Georgia,GEO,2002,8900
+Georgia,GEO,2003,8600
+Georgia,GEO,2004,8300
+Georgia,GEO,2005,8100
+Georgia,GEO,2006,7800
+Georgia,GEO,2007,7600
+Georgia,GEO,2008,7400
+Georgia,GEO,2009,7100
+Georgia,GEO,2010,6800
+Georgia,GEO,2011,6400
+Georgia,GEO,2012,6000
+Georgia,GEO,2013,5400
+Georgia,GEO,2014,4800
+Georgia,GEO,2015,4300
+Georgia,GEO,2016,4000
+Georgia,GEO,2017,3600
+Georgia,GEO,2018,3300
+Georgia,GEO,2019,3000
+Georgia,GEO,2020,2700
+Georgia,GEO,2021,2400
+Georgia,GEO,2022,2200
+Georgia,GEO,2023,1900
+Georgia,GEO,2024,1700
+Germany,DEU,2000,10000
+Germany,DEU,2001,7700
+Germany,DEU,2002,7600
+Germany,DEU,2003,7700
+Germany,DEU,2004,6800
+Germany,DEU,2005,6300
+Germany,DEU,2006,5700
+Germany,DEU,2007,5100
+Germany,DEU,2008,4500
+Germany,DEU,2009,4600
+Germany,DEU,2010,4500
+Germany,DEU,2011,4500
+Germany,DEU,2012,4400
+Germany,DEU,2013,4600
+Germany,DEU,2014,4800
+Germany,DEU,2015,6200
+Germany,DEU,2016,6300
+Germany,DEU,2017,5900
+Germany,DEU,2018,5800
+Germany,DEU,2019,5100
+Germany,DEU,2020,4400
+Germany,DEU,2021,4200
+Germany,DEU,2022,4300
+Germany,DEU,2023,4700
+Germany,DEU,2024,4600
+Ghana,GHA,2000,42000
+Ghana,GHA,2001,43000
+Ghana,GHA,2002,44000
+Ghana,GHA,2003,45000
+Ghana,GHA,2004,45000
+Ghana,GHA,2005,46000
+Ghana,GHA,2006,46000
+Ghana,GHA,2007,46000
+Ghana,GHA,2008,46000
+Ghana,GHA,2009,47000
+Ghana,GHA,2010,47000
+Ghana,GHA,2011,46000
+Ghana,GHA,2012,46000
+Ghana,GHA,2013,46000
+Ghana,GHA,2014,46000
+Ghana,GHA,2015,46000
+Ghana,GHA,2016,46000
+Ghana,GHA,2017,46000
+Ghana,GHA,2018,45000
+Ghana,GHA,2019,45000
+Ghana,GHA,2020,45000
+Ghana,GHA,2021,44000
+Ghana,GHA,2022,44000
+Ghana,GHA,2023,44000
+Ghana,GHA,2024,43000
+Greece,GRC,2000,1000
+Greece,GRC,2001,740
+Greece,GRC,2002,830
+Greece,GRC,2003,850
+Greece,GRC,2004,1000
+Greece,GRC,2005,970
+Greece,GRC,2006,860
+Greece,GRC,2007,850
+Greece,GRC,2008,810
+Greece,GRC,2009,740
+Greece,GRC,2010,600
+Greece,GRC,2011,610
+Greece,GRC,2012,690
+Greece,GRC,2013,650
+Greece,GRC,2014,630
+Greece,GRC,2015,570
+Greece,GRC,2016,520
+Greece,GRC,2017,550
+Greece,GRC,2018,520
+Greece,GRC,2019,550
+Greece,GRC,2020,470
+Greece,GRC,2021,240
+Greece,GRC,2022,370
+Greece,GRC,2023,580
+Greece,GRC,2024,360
+Greenland,GRL,2000,110
+Greenland,GRL,2001,110
+Greenland,GRL,2002,110
+Greenland,GRL,2003,110
+Greenland,GRL,2004,110
+Greenland,GRL,2005,120
+Greenland,GRL,2006,120
+Greenland,GRL,2007,120
+Greenland,GRL,2008,120
+Greenland,GRL,2009,91
+Greenland,GRL,2010,160
+Greenland,GRL,2011,160
+Greenland,GRL,2012,120
+Greenland,GRL,2013,130
+Greenland,GRL,2014,120
+Greenland,GRL,2015,110
+Greenland,GRL,2016,75
+Greenland,GRL,2017,73
+Greenland,GRL,2018,62
+Greenland,GRL,2019,80
+Greenland,GRL,2020,93
+Greenland,GRL,2021,43
+Greenland,GRL,2022,73
+Greenland,GRL,2023,61
+Greenland,GRL,2024,78
+Grenada,GRD,2000,0
+Grenada,GRD,2001,1
+Grenada,GRD,2002,1
+Grenada,GRD,2003,2
+Grenada,GRD,2004,2
+Grenada,GRD,2005,2
+Grenada,GRD,2006,1
+Grenada,GRD,2007,3
+Grenada,GRD,2008,5
+Grenada,GRD,2009,5
+Grenada,GRD,2010,4
+Grenada,GRD,2011,2
+Grenada,GRD,2012,1
+Grenada,GRD,2013,2
+Grenada,GRD,2014,0
+Grenada,GRD,2015,5
+Grenada,GRD,2016,6
+Grenada,GRD,2017,3
+Grenada,GRD,2018,2
+Grenada,GRD,2019,3
+Grenada,GRD,2020,1
+Grenada,GRD,2021,2
+Grenada,GRD,2022,1
+Grenada,GRD,2023,5
+Grenada,GRD,2024,2
+Guam,GUM,2000,130
+Guam,GUM,2001,150
+Guam,GUM,2002,120
+Guam,GUM,2003,49
+Guam,GUM,2004,110
+Guam,GUM,2005,130
+Guam,GUM,2006,90
+Guam,GUM,2007,100
+Guam,GUM,2008,170
+Guam,GUM,2009,190
+Guam,GUM,2010,180
+Guam,GUM,2011,140
+Guam,GUM,2012,120
+Guam,GUM,2013,80
+Guam,GUM,2014,92
+Guam,GUM,2015,120
+Guam,GUM,2016,120
+Guam,GUM,2017,130
+Guam,GUM,2018,110
+Guam,GUM,2019,120
+Guam,GUM,2020,88
+Guam,GUM,2021,89
+Guam,GUM,2022,91
+Guam,GUM,2023,69
+Guam,GUM,2024,92
+Guatemala,GTM,2000,3300
+Guatemala,GTM,2001,2700
+Guatemala,GTM,2002,3300
+Guatemala,GTM,2003,3000
+Guatemala,GTM,2004,3700
+Guatemala,GTM,2005,4300
+Guatemala,GTM,2006,4100
+Guatemala,GTM,2007,3500
+Guatemala,GTM,2008,3700
+Guatemala,GTM,2009,3300
+Guatemala,GTM,2010,3700
+Guatemala,GTM,2011,3400
+Guatemala,GTM,2012,3900
+Guatemala,GTM,2013,3700
+Guatemala,GTM,2014,3600
+Guatemala,GTM,2015,3700
+Guatemala,GTM,2016,3600
+Guatemala,GTM,2017,3900
+Guatemala,GTM,2018,4000
+Guatemala,GTM,2019,4200
+Guatemala,GTM,2020,3100
+Guatemala,GTM,2021,3500
+Guatemala,GTM,2022,4600
+Guatemala,GTM,2023,5300
+Guatemala,GTM,2024,5200
+Guinea,GIN,2000,10000
+Guinea,GIN,2001,11000
+Guinea,GIN,2002,12000
+Guinea,GIN,2003,14000
+Guinea,GIN,2004,15000
+Guinea,GIN,2005,16000
+Guinea,GIN,2006,17000
+Guinea,GIN,2007,18000
+Guinea,GIN,2008,18000
+Guinea,GIN,2009,19000
+Guinea,GIN,2010,20000
+Guinea,GIN,2011,20000
+Guinea,GIN,2012,20000
+Guinea,GIN,2013,20000
+Guinea,GIN,2014,21000
+Guinea,GIN,2015,21000
+Guinea,GIN,2016,21000
+Guinea,GIN,2017,22000
+Guinea,GIN,2018,23000
+Guinea,GIN,2019,23000
+Guinea,GIN,2020,24000
+Guinea,GIN,2021,25000
+Guinea,GIN,2022,25000
+Guinea,GIN,2023,26000
+Guinea,GIN,2024,26000
+Guinea-Bissau,GNB,2000,2500
+Guinea-Bissau,GNB,2001,2800
+Guinea-Bissau,GNB,2002,3200
+Guinea-Bissau,GNB,2003,3400
+Guinea-Bissau,GNB,2004,3700
+Guinea-Bissau,GNB,2005,3900
+Guinea-Bissau,GNB,2006,4000
+Guinea-Bissau,GNB,2007,4200
+Guinea-Bissau,GNB,2008,4200
+Guinea-Bissau,GNB,2009,4200
+Guinea-Bissau,GNB,2010,4200
+Guinea-Bissau,GNB,2011,4100
+Guinea-Bissau,GNB,2012,4000
+Guinea-Bissau,GNB,2013,3900
+Guinea-Bissau,GNB,2014,3800
+Guinea-Bissau,GNB,2015,3700
+Guinea-Bissau,GNB,2016,3700
+Guinea-Bissau,GNB,2017,3700
+Guinea-Bissau,GNB,2018,3700
+Guinea-Bissau,GNB,2019,3700
+Guinea-Bissau,GNB,2020,3700
+Guinea-Bissau,GNB,2021,3800
+Guinea-Bissau,GNB,2022,3800
+Guinea-Bissau,GNB,2023,3800
+Guinea-Bissau,GNB,2024,3900
+Guyana,GUY,2000,1100
+Guyana,GUY,2001,1000
+Guyana,GUY,2002,1300
+Guyana,GUY,2003,1300
+Guyana,GUY,2004,1200
+Guyana,GUY,2005,1100
+Guyana,GUY,2006,1200
+Guyana,GUY,2007,1000
+Guyana,GUY,2008,1100
+Guyana,GUY,2009,1200
+Guyana,GUY,2010,1100
+Guyana,GUY,2011,1100
+Guyana,GUY,2012,1100
+Guyana,GUY,2013,970
+Guyana,GUY,2014,760
+Guyana,GUY,2015,770
+Guyana,GUY,2016,770
+Guyana,GUY,2017,690
+Guyana,GUY,2018,670
+Guyana,GUY,2019,640
+Guyana,GUY,2020,470
+Guyana,GUY,2021,540
+Guyana,GUY,2022,510
+Guyana,GUY,2023,550
+Guyana,GUY,2024,550
+Haiti,HTI,2000,48000
+Haiti,HTI,2001,49000
+Haiti,HTI,2002,49000
+Haiti,HTI,2003,49000
+Haiti,HTI,2004,49000
+Haiti,HTI,2005,48000
+Haiti,HTI,2006,47000
+Haiti,HTI,2007,46000
+Haiti,HTI,2008,43000
+Haiti,HTI,2009,41000
+Haiti,HTI,2010,40000
+Haiti,HTI,2011,39000
+Haiti,HTI,2012,37000
+Haiti,HTI,2013,36000
+Haiti,HTI,2014,35000
+Haiti,HTI,2015,33000
+Haiti,HTI,2016,32000
+Haiti,HTI,2017,30000
+Haiti,HTI,2018,28000
+Haiti,HTI,2019,27000
+Haiti,HTI,2020,25000
+Haiti,HTI,2021,24000
+Haiti,HTI,2022,23000
+Haiti,HTI,2023,22000
+Haiti,HTI,2024,21000
+High-income countries,OWID_HIC,2000,434311
+High-income countries,OWID_HIC,2001,433623
+High-income countries,OWID_HIC,2002,415792
+High-income countries,OWID_HIC,2003,410644
+High-income countries,OWID_HIC,2004,384885
+High-income countries,OWID_HIC,2005,383791
+High-income countries,OWID_HIC,2006,374376
+High-income countries,OWID_HIC,2007,365142
+High-income countries,OWID_HIC,2008,359468
+High-income countries,OWID_HIC,2009,350590
+High-income countries,OWID_HIC,2010,339419
+High-income countries,OWID_HIC,2011,328276
+High-income countries,OWID_HIC,2012,311623
+High-income countries,OWID_HIC,2013,295616
+High-income countries,OWID_HIC,2014,282964
+High-income countries,OWID_HIC,2015,271077
+High-income countries,OWID_HIC,2016,261187
+High-income countries,OWID_HIC,2017,246756
+High-income countries,OWID_HIC,2018,233663
+High-income countries,OWID_HIC,2019,216673
+High-income countries,OWID_HIC,2020,193998
+High-income countries,OWID_HIC,2021,190076
+High-income countries,OWID_HIC,2022,171137
+High-income countries,OWID_HIC,2023,177518
+High-income countries,OWID_HIC,2024,166572
+Honduras,HND,2000,18000
+Honduras,HND,2001,13000
+Honduras,HND,2002,11000
+Honduras,HND,2003,9500
+Honduras,HND,2004,7900
+Honduras,HND,2005,6900
+Honduras,HND,2006,6400
+Honduras,HND,2007,5400
+Honduras,HND,2008,5400
+Honduras,HND,2009,5400
+Honduras,HND,2010,5200
+Honduras,HND,2011,5600
+Honduras,HND,2012,5100
+Honduras,HND,2013,4900
+Honduras,HND,2014,4500
+Honduras,HND,2015,4600
+Honduras,HND,2016,4500
+Honduras,HND,2017,4400
+Honduras,HND,2018,4400
+Honduras,HND,2019,3800
+Honduras,HND,2020,3800
+Honduras,HND,2021,3900
+Honduras,HND,2022,3900
+Honduras,HND,2023,4000
+Honduras,HND,2024,4100
+Hong Kong,HKG,2000,14000
+Hong Kong,HKG,2001,16000
+Hong Kong,HKG,2002,14000
+Hong Kong,HKG,2003,13000
+Hong Kong,HKG,2004,12000
+Hong Kong,HKG,2005,12000
+Hong Kong,HKG,2006,11000
+Hong Kong,HKG,2007,11000
+Hong Kong,HKG,2008,11000
+Hong Kong,HKG,2009,9400
+Hong Kong,HKG,2010,8700
+Hong Kong,HKG,2011,8200
+Hong Kong,HKG,2012,8200
+Hong Kong,HKG,2013,7900
+Hong Kong,HKG,2014,7800
+Hong Kong,HKG,2015,7200
+Hong Kong,HKG,2016,7000
+Hong Kong,HKG,2017,6700
+Hong Kong,HKG,2018,6700
+Hong Kong,HKG,2019,6300
+Hong Kong,HKG,2020,5600
+Hong Kong,HKG,2021,5700
+Hong Kong,HKG,2022,4900
+Hong Kong,HKG,2023,5000
+Hong Kong,HKG,2024,4900
+Hungary,HUN,2000,4600
+Hungary,HUN,2001,4400
+Hungary,HUN,2002,4000
+Hungary,HUN,2003,4000
+Hungary,HUN,2004,3300
+Hungary,HUN,2005,2600
+Hungary,HUN,2006,2400
+Hungary,HUN,2007,2200
+Hungary,HUN,2008,2100
+Hungary,HUN,2009,1800
+Hungary,HUN,2010,2200
+Hungary,HUN,2011,1800
+Hungary,HUN,2012,1600
+Hungary,HUN,2013,1400
+Hungary,HUN,2014,1100
+Hungary,HUN,2015,1100
+Hungary,HUN,2016,960
+Hungary,HUN,2017,840
+Hungary,HUN,2018,780
+Hungary,HUN,2019,680
+Hungary,HUN,2020,490
+Hungary,HUN,2021,400
+Hungary,HUN,2022,560
+Hungary,HUN,2023,630
+Hungary,HUN,2024,540
+Iceland,ISL,2000,13
+Iceland,ISL,2001,12
+Iceland,ISL,2002,8
+Iceland,ISL,2003,5
+Iceland,ISL,2004,11
+Iceland,ISL,2005,10
+Iceland,ISL,2006,13
+Iceland,ISL,2007,12
+Iceland,ISL,2008,6
+Iceland,ISL,2009,9
+Iceland,ISL,2010,22
+Iceland,ISL,2011,8
+Iceland,ISL,2012,10
+Iceland,ISL,2013,11
+Iceland,ISL,2014,8
+Iceland,ISL,2015,7
+Iceland,ISL,2016,6
+Iceland,ISL,2017,13
+Iceland,ISL,2018,8
+Iceland,ISL,2019,13
+Iceland,ISL,2020,12
+Iceland,ISL,2021,7
+Iceland,ISL,2022,16
+Iceland,ISL,2023,14
+Iceland,ISL,2024,12
+India,IND,2000,3400000
+India,IND,2001,3460000
+India,IND,2002,3510000
+India,IND,2003,3550000
+India,IND,2004,3580000
+India,IND,2005,3590000
+India,IND,2006,3580000
+India,IND,2007,3550000
+India,IND,2008,3520000
+India,IND,2009,3470000
+India,IND,2010,3430000
+India,IND,2011,3380000
+India,IND,2012,3300000
+India,IND,2013,3220000
+India,IND,2014,3190000
+India,IND,2015,3140000
+India,IND,2016,3030000
+India,IND,2017,2950000
+India,IND,2018,2860000
+India,IND,2019,2810000
+India,IND,2020,2770000
+India,IND,2021,2770000
+India,IND,2022,2790000
+India,IND,2023,2760000
+India,IND,2024,2710000
+Indonesia,IDN,2000,799000
+Indonesia,IDN,2001,808000
+Indonesia,IDN,2002,816000
+Indonesia,IDN,2003,823000
+Indonesia,IDN,2004,828000
+Indonesia,IDN,2005,832000
+Indonesia,IDN,2006,835000
+Indonesia,IDN,2007,837000
+Indonesia,IDN,2008,839000
+Indonesia,IDN,2009,840000
+Indonesia,IDN,2010,842000
+Indonesia,IDN,2011,844000
+Indonesia,IDN,2012,847000
+Indonesia,IDN,2013,850000
+Indonesia,IDN,2014,851000
+Indonesia,IDN,2015,852000
+Indonesia,IDN,2016,852000
+Indonesia,IDN,2017,852000
+Indonesia,IDN,2018,852000
+Indonesia,IDN,2019,851000
+Indonesia,IDN,2020,840000
+Indonesia,IDN,2021,915000
+Indonesia,IDN,2022,1050000
+Indonesia,IDN,2023,1090000
+Indonesia,IDN,2024,1080000
+Iran,IRN,2000,29000
+Iran,IRN,2001,28000
+Iran,IRN,2002,28000
+Iran,IRN,2003,26000
+Iran,IRN,2004,24000
+Iran,IRN,2005,22000
+Iran,IRN,2006,22000
+Iran,IRN,2007,21000
+Iran,IRN,2008,21000
+Iran,IRN,2009,22000
+Iran,IRN,2010,22000
+Iran,IRN,2011,22000
+Iran,IRN,2012,21000
+Iran,IRN,2013,20000
+Iran,IRN,2014,17000
+Iran,IRN,2015,16000
+Iran,IRN,2016,14000
+Iran,IRN,2017,13000
+Iran,IRN,2018,13000
+Iran,IRN,2019,12000
+Iran,IRN,2020,11000
+Iran,IRN,2021,11000
+Iran,IRN,2022,10000
+Iran,IRN,2023,10000
+Iran,IRN,2024,9600
+Iraq,IRQ,2000,15000
+Iraq,IRQ,2001,16000
+Iraq,IRQ,2002,18000
+Iraq,IRQ,2003,18000
+Iraq,IRQ,2004,16000
+Iraq,IRQ,2005,14000
+Iraq,IRQ,2006,12000
+Iraq,IRQ,2007,12000
+Iraq,IRQ,2008,14000
+Iraq,IRQ,2009,14000
+Iraq,IRQ,2010,15000
+Iraq,IRQ,2011,13000
+Iraq,IRQ,2012,13000
+Iraq,IRQ,2013,13000
+Iraq,IRQ,2014,13000
+Iraq,IRQ,2015,12000
+Iraq,IRQ,2016,11000
+Iraq,IRQ,2017,12000
+Iraq,IRQ,2018,11000
+Iraq,IRQ,2019,10000
+Iraq,IRQ,2020,7600
+Iraq,IRQ,2021,8800
+Iraq,IRQ,2022,10000
+Iraq,IRQ,2023,11000
+Iraq,IRQ,2024,9800
+Ireland,IRL,2000,540
+Ireland,IRL,2001,550
+Ireland,IRL,2002,520
+Ireland,IRL,2003,560
+Ireland,IRL,2004,550
+Ireland,IRL,2005,570
+Ireland,IRL,2006,590
+Ireland,IRL,2007,580
+Ireland,IRL,2008,570
+Ireland,IRL,2009,560
+Ireland,IRL,2010,510
+Ireland,IRL,2011,500
+Ireland,IRL,2012,440
+Ireland,IRL,2013,450
+Ireland,IRL,2014,370
+Ireland,IRL,2015,360
+Ireland,IRL,2016,360
+Ireland,IRL,2017,370
+Ireland,IRL,2018,360
+Ireland,IRL,2019,300
+Ireland,IRL,2020,280
+Ireland,IRL,2021,250
+Ireland,IRL,2022,240
+Ireland,IRL,2023,250
+Ireland,IRL,2024,320
+Israel,ISR,2000,770
+Israel,ISR,2001,720
+Israel,ISR,2002,650
+Israel,ISR,2003,650
+Israel,ISR,2004,620
+Israel,ISR,2005,490
+Israel,ISR,2006,450
+Israel,ISR,2007,520
+Israel,ISR,2008,420
+Israel,ISR,2009,450
+Israel,ISR,2010,430
+Israel,ISR,2011,520
+Israel,ISR,2012,630
+Israel,ISR,2013,380
+Israel,ISR,2014,440
+Israel,ISR,2015,350
+Israel,ISR,2016,300
+Israel,ISR,2017,280
+Israel,ISR,2018,350
+Israel,ISR,2019,250
+Israel,ISR,2020,180
+Israel,ISR,2021,250
+Israel,ISR,2022,240
+Israel,ISR,2023,260
+Israel,ISR,2024,230
+Italy,ITA,2000,5200
+Italy,ITA,2001,6300
+Italy,ITA,2002,5600
+Italy,ITA,2003,6100
+Italy,ITA,2004,5400
+Italy,ITA,2005,5100
+Italy,ITA,2006,5500
+Italy,ITA,2007,3600
+Italy,ITA,2008,5300
+Italy,ITA,2009,5200
+Italy,ITA,2010,5700
+Italy,ITA,2011,4300
+Italy,ITA,2012,3800
+Italy,ITA,2013,3700
+Italy,ITA,2014,4100
+Italy,ITA,2015,4200
+Italy,ITA,2016,4500
+Italy,ITA,2017,4500
+Italy,ITA,2018,4400
+Italy,ITA,2019,3700
+Italy,ITA,2020,2500
+Italy,ITA,2021,2800
+Italy,ITA,2022,2700
+Italy,ITA,2023,3200
+Italy,ITA,2024,3000
+Jamaica,JAM,2000,320
+Jamaica,JAM,2001,280
+Jamaica,JAM,2002,240
+Jamaica,JAM,2003,250
+Jamaica,JAM,2004,230
+Jamaica,JAM,2005,170
+Jamaica,JAM,2006,170
+Jamaica,JAM,2007,180
+Jamaica,JAM,2008,180
+Jamaica,JAM,2009,230
+Jamaica,JAM,2010,210
+Jamaica,JAM,2011,160
+Jamaica,JAM,2012,140
+Jamaica,JAM,2013,140
+Jamaica,JAM,2014,120
+Jamaica,JAM,2015,140
+Jamaica,JAM,2016,140
+Jamaica,JAM,2017,170
+Jamaica,JAM,2018,110
+Jamaica,JAM,2019,100
+Jamaica,JAM,2020,82
+Jamaica,JAM,2021,77
+Jamaica,JAM,2022,110
+Jamaica,JAM,2023,120
+Jamaica,JAM,2024,64
+Japan,JPN,2000,60000
+Japan,JPN,2001,53000
+Japan,JPN,2002,48000
+Japan,JPN,2003,45000
+Japan,JPN,2004,41000
+Japan,JPN,2005,37000
+Japan,JPN,2006,34000
+Japan,JPN,2007,33000
+Japan,JPN,2008,31000
+Japan,JPN,2009,30000
+Japan,JPN,2010,29000
+Japan,JPN,2011,28000
+Japan,JPN,2012,26000
+Japan,JPN,2013,25000
+Japan,JPN,2014,24000
+Japan,JPN,2015,22000
+Japan,JPN,2016,21000
+Japan,JPN,2017,20000
+Japan,JPN,2018,19000
+Japan,JPN,2019,17000
+Japan,JPN,2020,15000
+Japan,JPN,2021,14000
+Japan,JPN,2022,12000
+Japan,JPN,2023,12000
+Japan,JPN,2024,12000
+Jordan,JOR,2000,510
+Jordan,JOR,2001,560
+Jordan,JOR,2002,500
+Jordan,JOR,2003,510
+Jordan,JOR,2004,510
+Jordan,JOR,2005,570
+Jordan,JOR,2006,570
+Jordan,JOR,2007,510
+Jordan,JOR,2008,530
+Jordan,JOR,2009,540
+Jordan,JOR,2010,490
+Jordan,JOR,2011,480
+Jordan,JOR,2012,480
+Jordan,JOR,2013,510
+Jordan,JOR,2014,560
+Jordan,JOR,2015,620
+Jordan,JOR,2016,610
+Jordan,JOR,2017,770
+Jordan,JOR,2018,590
+Jordan,JOR,2019,670
+Jordan,JOR,2020,580
+Jordan,JOR,2021,530
+Jordan,JOR,2022,480
+Jordan,JOR,2023,370
+Jordan,JOR,2024,400
+Kazakhstan,KAZ,2000,26000
+Kazakhstan,KAZ,2001,26000
+Kazakhstan,KAZ,2002,28000
+Kazakhstan,KAZ,2003,35000
+Kazakhstan,KAZ,2004,29000
+Kazakhstan,KAZ,2005,29000
+Kazakhstan,KAZ,2006,27000
+Kazakhstan,KAZ,2007,27000
+Kazakhstan,KAZ,2008,23000
+Kazakhstan,KAZ,2009,25000
+Kazakhstan,KAZ,2010,24000
+Kazakhstan,KAZ,2011,25000
+Kazakhstan,KAZ,2012,18000
+Kazakhstan,KAZ,2013,19000
+Kazakhstan,KAZ,2014,15000
+Kazakhstan,KAZ,2015,14000
+Kazakhstan,KAZ,2016,12000
+Kazakhstan,KAZ,2017,13000
+Kazakhstan,KAZ,2018,13000
+Kazakhstan,KAZ,2019,13000
+Kazakhstan,KAZ,2020,12000
+Kazakhstan,KAZ,2021,11000
+Kazakhstan,KAZ,2022,11000
+Kazakhstan,KAZ,2023,10000
+Kazakhstan,KAZ,2024,9200
+Kenya,KEN,2000,138000
+Kenya,KEN,2001,158000
+Kenya,KEN,2002,174000
+Kenya,KEN,2003,205000
+Kenya,KEN,2004,220000
+Kenya,KEN,2005,225000
+Kenya,KEN,2006,239000
+Kenya,KEN,2007,235000
+Kenya,KEN,2008,221000
+Kenya,KEN,2009,229000
+Kenya,KEN,2010,221000
+Kenya,KEN,2011,217000
+Kenya,KEN,2012,207000
+Kenya,KEN,2013,199000
+Kenya,KEN,2014,195000
+Kenya,KEN,2015,179000
+Kenya,KEN,2016,168000
+Kenya,KEN,2017,157000
+Kenya,KEN,2018,146000
+Kenya,KEN,2019,137000
+Kenya,KEN,2020,129000
+Kenya,KEN,2021,132000
+Kenya,KEN,2022,129000
+Kenya,KEN,2023,119000
+Kenya,KEN,2024,117000
+Kiribati,KIR,2000,1100
+Kiribati,KIR,2001,820
+Kiribati,KIR,2002,820
+Kiribati,KIR,2003,1100
+Kiribati,KIR,2004,1200
+Kiribati,KIR,2005,1300
+Kiribati,KIR,2006,1300
+Kiribati,KIR,2007,1100
+Kiribati,KIR,2008,1000
+Kiribati,KIR,2009,790
+Kiribati,KIR,2010,770
+Kiribati,KIR,2011,890
+Kiribati,KIR,2012,880
+Kiribati,KIR,2013,1000
+Kiribati,KIR,2014,1000
+Kiribati,KIR,2015,1200
+Kiribati,KIR,2016,1200
+Kiribati,KIR,2017,860
+Kiribati,KIR,2018,710
+Kiribati,KIR,2019,890
+Kiribati,KIR,2020,830
+Kiribati,KIR,2021,700
+Kiribati,KIR,2022,770
+Kiribati,KIR,2023,1200
+Kiribati,KIR,2024,1300
+Kuwait,KWT,2000,700
+Kuwait,KWT,2001,670
+Kuwait,KWT,2002,780
+Kuwait,KWT,2003,750
+Kuwait,KWT,2004,740
+Kuwait,KWT,2005,680
+Kuwait,KWT,2006,850
+Kuwait,KWT,2007,860
+Kuwait,KWT,2008,1200
+Kuwait,KWT,2009,1300
+Kuwait,KWT,2010,1300
+Kuwait,KWT,2011,920
+Kuwait,KWT,2012,1000
+Kuwait,KWT,2013,940
+Kuwait,KWT,2014,970
+Kuwait,KWT,2015,980
+Kuwait,KWT,2016,1100
+Kuwait,KWT,2017,1300
+Kuwait,KWT,2018,1100
+Kuwait,KWT,2019,1000
+Kuwait,KWT,2020,900
+Kuwait,KWT,2021,960
+Kuwait,KWT,2022,580
+Kuwait,KWT,2023,530
+Kuwait,KWT,2024,520
+Kyrgyzstan,KGZ,2000,15000
+Kyrgyzstan,KGZ,2001,15000
+Kyrgyzstan,KGZ,2002,16000
+Kyrgyzstan,KGZ,2003,15000
+Kyrgyzstan,KGZ,2004,14000
+Kyrgyzstan,KGZ,2005,14000
+Kyrgyzstan,KGZ,2006,13000
+Kyrgyzstan,KGZ,2007,12000
+Kyrgyzstan,KGZ,2008,13000
+Kyrgyzstan,KGZ,2009,11000
+Kyrgyzstan,KGZ,2010,11000
+Kyrgyzstan,KGZ,2011,11000
+Kyrgyzstan,KGZ,2012,11000
+Kyrgyzstan,KGZ,2013,12000
+Kyrgyzstan,KGZ,2014,10000
+Kyrgyzstan,KGZ,2015,11000
+Kyrgyzstan,KGZ,2016,10000
+Kyrgyzstan,KGZ,2017,9700
+Kyrgyzstan,KGZ,2018,9200
+Kyrgyzstan,KGZ,2019,8800
+Kyrgyzstan,KGZ,2020,8700
+Kyrgyzstan,KGZ,2021,9000
+Kyrgyzstan,KGZ,2022,9200
+Kyrgyzstan,KGZ,2023,9300
+Kyrgyzstan,KGZ,2024,9200
+Laos,LAO,2000,18000
+Laos,LAO,2001,18000
+Laos,LAO,2002,17000
+Laos,LAO,2003,17000
+Laos,LAO,2004,16000
+Laos,LAO,2005,16000
+Laos,LAO,2006,15000
+Laos,LAO,2007,15000
+Laos,LAO,2008,15000
+Laos,LAO,2009,14000
+Laos,LAO,2010,14000
+Laos,LAO,2011,14000
+Laos,LAO,2012,13000
+Laos,LAO,2013,13000
+Laos,LAO,2014,13000
+Laos,LAO,2015,12000
+Laos,LAO,2016,12000
+Laos,LAO,2017,12000
+Laos,LAO,2018,12000
+Laos,LAO,2019,11000
+Laos,LAO,2020,11000
+Laos,LAO,2021,11000
+Laos,LAO,2022,10000
+Laos,LAO,2023,10000
+Laos,LAO,2024,9900
+Latvia,LVA,2000,4600
+Latvia,LVA,2001,4500
+Latvia,LVA,2002,3900
+Latvia,LVA,2003,3600
+Latvia,LVA,2004,3200
+Latvia,LVA,2005,2800
+Latvia,LVA,2006,2500
+Latvia,LVA,2007,2300
+Latvia,LVA,2008,1900
+Latvia,LVA,2009,1600
+Latvia,LVA,2010,1500
+Latvia,LVA,2011,1400
+Latvia,LVA,2012,1500
+Latvia,LVA,2013,1400
+Latvia,LVA,2014,1100
+Latvia,LVA,2015,1100
+Latvia,LVA,2016,920
+Latvia,LVA,2017,750
+Latvia,LVA,2018,640
+Latvia,LVA,2019,540
+Latvia,LVA,2020,450
+Latvia,LVA,2021,350
+Latvia,LVA,2022,420
+Latvia,LVA,2023,410
+Latvia,LVA,2024,390
+Lebanon,LBN,2000,1200
+Lebanon,LBN,2001,1100
+Lebanon,LBN,2002,850
+Lebanon,LBN,2003,700
+Lebanon,LBN,2004,700
+Lebanon,LBN,2005,660
+Lebanon,LBN,2006,620
+Lebanon,LBN,2007,780
+Lebanon,LBN,2008,840
+Lebanon,LBN,2009,790
+Lebanon,LBN,2010,800
+Lebanon,LBN,2011,760
+Lebanon,LBN,2012,950
+Lebanon,LBN,2013,1000
+Lebanon,LBN,2014,990
+Lebanon,LBN,2015,950
+Lebanon,LBN,2016,920
+Lebanon,LBN,2017,860
+Lebanon,LBN,2018,910
+Lebanon,LBN,2019,1000
+Lebanon,LBN,2020,910
+Lebanon,LBN,2021,650
+Lebanon,LBN,2022,710
+Lebanon,LBN,2023,700
+Lebanon,LBN,2024,740
+Lesotho,LSO,2000,17000
+Lesotho,LSO,2001,18000
+Lesotho,LSO,2002,20000
+Lesotho,LSO,2003,22000
+Lesotho,LSO,2004,23000
+Lesotho,LSO,2005,23000
+Lesotho,LSO,2006,24000
+Lesotho,LSO,2007,24000
+Lesotho,LSO,2008,24000
+Lesotho,LSO,2009,24000
+Lesotho,LSO,2010,24000
+Lesotho,LSO,2011,23000
+Lesotho,LSO,2012,21000
+Lesotho,LSO,2013,19000
+Lesotho,LSO,2014,18000
+Lesotho,LSO,2015,16000
+Lesotho,LSO,2016,15000
+Lesotho,LSO,2017,15000
+Lesotho,LSO,2018,14000
+Lesotho,LSO,2019,14000
+Lesotho,LSO,2020,13000
+Lesotho,LSO,2021,14000
+Lesotho,LSO,2022,14000
+Lesotho,LSO,2023,14000
+Lesotho,LSO,2024,13000
+Liberia,LBR,2000,3400
+Liberia,LBR,2001,4600
+Liberia,LBR,2002,5800
+Liberia,LBR,2003,6800
+Liberia,LBR,2004,7700
+Liberia,LBR,2005,8800
+Liberia,LBR,2006,10000
+Liberia,LBR,2007,11000
+Liberia,LBR,2008,12000
+Liberia,LBR,2009,13000
+Liberia,LBR,2010,13000
+Liberia,LBR,2011,14000
+Liberia,LBR,2012,14000
+Liberia,LBR,2013,14000
+Liberia,LBR,2014,14000
+Liberia,LBR,2015,13000
+Liberia,LBR,2016,13000
+Liberia,LBR,2017,13000
+Liberia,LBR,2018,13000
+Liberia,LBR,2019,13000
+Liberia,LBR,2020,12000
+Liberia,LBR,2021,12000
+Liberia,LBR,2022,12000
+Liberia,LBR,2023,12000
+Liberia,LBR,2024,12000
+Libya,LBY,2000,3100
+Libya,LBY,2001,3300
+Libya,LBY,2002,3500
+Libya,LBY,2003,3600
+Libya,LBY,2004,3700
+Libya,LBY,2005,3700
+Libya,LBY,2006,3700
+Libya,LBY,2007,3700
+Libya,LBY,2008,3600
+Libya,LBY,2009,3400
+Libya,LBY,2010,3200
+Libya,LBY,2011,2700
+Libya,LBY,2012,2400
+Libya,LBY,2013,2200
+Libya,LBY,2014,2100
+Libya,LBY,2015,2100
+Libya,LBY,2016,2200
+Libya,LBY,2017,2300
+Libya,LBY,2018,2500
+Libya,LBY,2019,2800
+Libya,LBY,2020,3000
+Libya,LBY,2021,3400
+Libya,LBY,2022,3800
+Libya,LBY,2023,4200
+Libya,LBY,2024,4700
+Lithuania,LTU,2000,6300
+Lithuania,LTU,2001,6000
+Lithuania,LTU,2002,5400
+Lithuania,LTU,2003,5600
+Lithuania,LTU,2004,4200
+Lithuania,LTU,2005,4300
+Lithuania,LTU,2006,4600
+Lithuania,LTU,2007,4300
+Lithuania,LTU,2008,3900
+Lithuania,LTU,2009,3400
+Lithuania,LTU,2010,3100
+Lithuania,LTU,2011,3000
+Lithuania,LTU,2012,2700
+Lithuania,LTU,2013,2500
+Lithuania,LTU,2014,2300
+Lithuania,LTU,2015,2100
+Lithuania,LTU,2016,2000
+Lithuania,LTU,2017,1900
+Lithuania,LTU,2018,1500
+Lithuania,LTU,2019,1400
+Lithuania,LTU,2020,950
+Lithuania,LTU,2021,860
+Lithuania,LTU,2022,990
+Lithuania,LTU,2023,970
+Lithuania,LTU,2024,890
+Low-income countries,OWID_LIC,2000,1152900
+Low-income countries,OWID_LIC,2001,1143400
+Low-income countries,OWID_LIC,2002,1151500
+Low-income countries,OWID_LIC,2003,1166200
+Low-income countries,OWID_LIC,2004,1176500
+Low-income countries,OWID_LIC,2005,1178200
+Low-income countries,OWID_LIC,2006,1179400
+Low-income countries,OWID_LIC,2007,1184000
+Low-income countries,OWID_LIC,2008,1167300
+Low-income countries,OWID_LIC,2009,1175400
+Low-income countries,OWID_LIC,2010,1172500
+Low-income countries,OWID_LIC,2011,1195200
+Low-income countries,OWID_LIC,2012,1194800
+Low-income countries,OWID_LIC,2013,1197200
+Low-income countries,OWID_LIC,2014,1197200
+Low-income countries,OWID_LIC,2015,1191100
+Low-income countries,OWID_LIC,2016,1197800
+Low-income countries,OWID_LIC,2017,1201700
+Low-income countries,OWID_LIC,2018,1210200
+Low-income countries,OWID_LIC,2019,1218000
+Low-income countries,OWID_LIC,2020,1222700
+Low-income countries,OWID_LIC,2021,1237000
+Low-income countries,OWID_LIC,2022,1253600
+Low-income countries,OWID_LIC,2023,1267000
+Low-income countries,OWID_LIC,2024,1288200
+Lower-middle-income countries,OWID_LMC,2000,5895340
+Lower-middle-income countries,OWID_LMC,2001,6026830
+Lower-middle-income countries,OWID_LMC,2002,6150550
+Lower-middle-income countries,OWID_LMC,2003,6263821
+Lower-middle-income countries,OWID_LMC,2004,6342084
+Lower-middle-income countries,OWID_LMC,2005,6391643
+Lower-middle-income countries,OWID_LMC,2006,6416617
+Lower-middle-income countries,OWID_LMC,2007,6396059
+Lower-middle-income countries,OWID_LMC,2008,6357961
+Lower-middle-income countries,OWID_LMC,2009,6323990
+Lower-middle-income countries,OWID_LMC,2010,6275723
+Lower-middle-income countries,OWID_LMC,2011,6208963
+Lower-middle-income countries,OWID_LMC,2012,6111422
+Lower-middle-income countries,OWID_LMC,2013,6007520
+Lower-middle-income countries,OWID_LMC,2014,5957658
+Lower-middle-income countries,OWID_LMC,2015,5888773
+Lower-middle-income countries,OWID_LMC,2016,5761675
+Lower-middle-income countries,OWID_LMC,2017,5661463
+Lower-middle-income countries,OWID_LMC,2018,5551974
+Lower-middle-income countries,OWID_LMC,2019,5487401
+Lower-middle-income countries,OWID_LMC,2020,5431978
+Lower-middle-income countries,OWID_LMC,2021,5507646
+Lower-middle-income countries,OWID_LMC,2022,5621950
+Lower-middle-income countries,OWID_LMC,2023,5618132
+Lower-middle-income countries,OWID_LMC,2024,5586306
+Luxembourg,LUX,2000,61
+Luxembourg,LUX,2001,43
+Luxembourg,LUX,2002,43
+Luxembourg,LUX,2003,74
+Luxembourg,LUX,2004,42
+Luxembourg,LUX,2005,50
+Luxembourg,LUX,2006,44
+Luxembourg,LUX,2007,52
+Luxembourg,LUX,2008,37
+Luxembourg,LUX,2009,36
+Luxembourg,LUX,2010,38
+Luxembourg,LUX,2011,32
+Luxembourg,LUX,2012,57
+Luxembourg,LUX,2013,47
+Luxembourg,LUX,2014,29
+Luxembourg,LUX,2015,36
+Luxembourg,LUX,2016,34
+Luxembourg,LUX,2017,38
+Luxembourg,LUX,2018,49
+Luxembourg,LUX,2019,56
+Luxembourg,LUX,2020,38
+Luxembourg,LUX,2021,41
+Luxembourg,LUX,2022,57
+Luxembourg,LUX,2023,51
+Luxembourg,LUX,2024,50
+Macao,MAC,2000,1100
+Macao,MAC,2001,1100
+Macao,MAC,2002,890
+Macao,MAC,2003,840
+Macao,MAC,2004,740
+Macao,MAC,2005,850
+Macao,MAC,2006,850
+Macao,MAC,2007,750
+Macao,MAC,2008,750
+Macao,MAC,2009,630
+Macao,MAC,2010,700
+Macao,MAC,2011,660
+Macao,MAC,2012,690
+Macao,MAC,2013,720
+Macao,MAC,2014,650
+Macao,MAC,2015,600
+Macao,MAC,2016,570
+Macao,MAC,2017,590
+Macao,MAC,2018,510
+Macao,MAC,2019,560
+Macao,MAC,2020,560
+Macao,MAC,2021,520
+Macao,MAC,2022,450
+Macao,MAC,2023,480
+Macao,MAC,2024,420
+Madagascar,MDG,2000,34000
+Madagascar,MDG,2001,37000
+Madagascar,MDG,2002,39000
+Madagascar,MDG,2003,41000
+Madagascar,MDG,2004,43000
+Madagascar,MDG,2005,45000
+Madagascar,MDG,2006,46000
+Madagascar,MDG,2007,48000
+Madagascar,MDG,2008,49000
+Madagascar,MDG,2009,51000
+Madagascar,MDG,2010,52000
+Madagascar,MDG,2011,52000
+Madagascar,MDG,2012,53000
+Madagascar,MDG,2013,54000
+Madagascar,MDG,2014,55000
+Madagascar,MDG,2015,56000
+Madagascar,MDG,2016,57000
+Madagascar,MDG,2017,57000
+Madagascar,MDG,2018,59000
+Madagascar,MDG,2019,60000
+Madagascar,MDG,2020,62000
+Madagascar,MDG,2021,64000
+Madagascar,MDG,2022,66000
+Madagascar,MDG,2023,69000
+Madagascar,MDG,2024,72000
+Malawi,MWI,2000,44000
+Malawi,MWI,2001,46000
+Malawi,MWI,2002,48000
+Malawi,MWI,2003,49000
+Malawi,MWI,2004,50000
+Malawi,MWI,2005,51000
+Malawi,MWI,2006,52000
+Malawi,MWI,2007,52000
+Malawi,MWI,2008,52000
+Malawi,MWI,2009,51000
+Malawi,MWI,2010,50000
+Malawi,MWI,2011,48000
+Malawi,MWI,2012,46000
+Malawi,MWI,2013,42000
+Malawi,MWI,2014,38000
+Malawi,MWI,2015,34000
+Malawi,MWI,2016,31000
+Malawi,MWI,2017,29000
+Malawi,MWI,2018,28000
+Malawi,MWI,2019,28000
+Malawi,MWI,2020,27000
+Malawi,MWI,2021,26000
+Malawi,MWI,2022,26000
+Malawi,MWI,2023,25000
+Malawi,MWI,2024,24000
+Malaysia,MYS,2000,35000
+Malaysia,MYS,2001,32000
+Malaysia,MYS,2002,29000
+Malaysia,MYS,2003,30000
+Malaysia,MYS,2004,27000
+Malaysia,MYS,2005,26000
+Malaysia,MYS,2006,27000
+Malaysia,MYS,2007,26000
+Malaysia,MYS,2008,27000
+Malaysia,MYS,2009,27000
+Malaysia,MYS,2010,29000
+Malaysia,MYS,2011,30000
+Malaysia,MYS,2012,32000
+Malaysia,MYS,2013,34000
+Malaysia,MYS,2014,34000
+Malaysia,MYS,2015,33000
+Malaysia,MYS,2016,34000
+Malaysia,MYS,2017,33000
+Malaysia,MYS,2018,33000
+Malaysia,MYS,2019,33000
+Malaysia,MYS,2020,34000
+Malaysia,MYS,2021,34000
+Malaysia,MYS,2022,34000
+Malaysia,MYS,2023,34000
+Malaysia,MYS,2024,34000
+Maldives,MDV,2000,390
+Maldives,MDV,2001,400
+Maldives,MDV,2002,360
+Maldives,MDV,2003,380
+Maldives,MDV,2004,330
+Maldives,MDV,2005,330
+Maldives,MDV,2006,240
+Maldives,MDV,2007,290
+Maldives,MDV,2008,250
+Maldives,MDV,2009,200
+Maldives,MDV,2010,180
+Maldives,MDV,2011,160
+Maldives,MDV,2012,190
+Maldives,MDV,2013,190
+Maldives,MDV,2014,210
+Maldives,MDV,2015,240
+Maldives,MDV,2016,250
+Maldives,MDV,2017,190
+Maldives,MDV,2018,200
+Maldives,MDV,2019,230
+Maldives,MDV,2020,170
+Maldives,MDV,2021,140
+Maldives,MDV,2022,180
+Maldives,MDV,2023,190
+Maldives,MDV,2024,210
+Mali,MLI,2000,8800
+Mali,MLI,2001,9200
+Mali,MLI,2002,9600
+Mali,MLI,2003,10000
+Mali,MLI,2004,10000
+Mali,MLI,2005,11000
+Mali,MLI,2006,11000
+Mali,MLI,2007,11000
+Mali,MLI,2008,11000
+Mali,MLI,2009,12000
+Mali,MLI,2010,12000
+Mali,MLI,2011,12000
+Mali,MLI,2012,12000
+Mali,MLI,2013,12000
+Mali,MLI,2014,12000
+Mali,MLI,2015,12000
+Mali,MLI,2016,12000
+Mali,MLI,2017,12000
+Mali,MLI,2018,12000
+Mali,MLI,2019,12000
+Mali,MLI,2020,12000
+Mali,MLI,2021,12000
+Mali,MLI,2022,12000
+Mali,MLI,2023,12000
+Mali,MLI,2024,12000
+Malta,MLT,2000,16
+Malta,MLT,2001,16
+Malta,MLT,2002,24
+Malta,MLT,2003,7
+Malta,MLT,2004,18
+Malta,MLT,2005,22
+Malta,MLT,2006,30
+Malta,MLT,2007,38
+Malta,MLT,2008,48
+Malta,MLT,2009,42
+Malta,MLT,2010,29
+Malta,MLT,2011,30
+Malta,MLT,2012,42
+Malta,MLT,2013,50
+Malta,MLT,2014,45
+Malta,MLT,2015,32
+Malta,MLT,2016,50
+Malta,MLT,2017,42
+Malta,MLT,2018,55
+Malta,MLT,2019,98
+Malta,MLT,2020,140
+Malta,MLT,2021,54
+Malta,MLT,2022,60
+Malta,MLT,2023,68
+Malta,MLT,2024,82
+Marshall Islands,MHL,2000,96
+Marshall Islands,MHL,2001,160
+Marshall Islands,MHL,2002,140
+Marshall Islands,MHL,2003,160
+Marshall Islands,MHL,2004,310
+Marshall Islands,MHL,2005,290
+Marshall Islands,MHL,2006,330
+Marshall Islands,MHL,2007,360
+Marshall Islands,MHL,2008,260
+Marshall Islands,MHL,2009,280
+Marshall Islands,MHL,2010,360
+Marshall Islands,MHL,2011,260
+Marshall Islands,MHL,2012,270
+Marshall Islands,MHL,2013,270
+Marshall Islands,MHL,2014,250
+Marshall Islands,MHL,2015,240
+Marshall Islands,MHL,2016,310
+Marshall Islands,MHL,2017,350
+Marshall Islands,MHL,2018,730
+Marshall Islands,MHL,2019,390
+Marshall Islands,MHL,2020,250
+Marshall Islands,MHL,2021,200
+Marshall Islands,MHL,2022,170
+Marshall Islands,MHL,2023,360
+Marshall Islands,MHL,2024,150
+Mauritania,MRT,2000,6000
+Mauritania,MRT,2001,6000
+Mauritania,MRT,2002,5900
+Mauritania,MRT,2003,5900
+Mauritania,MRT,2004,5800
+Mauritania,MRT,2005,5700
+Mauritania,MRT,2006,5600
+Mauritania,MRT,2007,5500
+Mauritania,MRT,2008,5300
+Mauritania,MRT,2009,5100
+Mauritania,MRT,2010,4900
+Mauritania,MRT,2011,4700
+Mauritania,MRT,2012,4500
+Mauritania,MRT,2013,4400
+Mauritania,MRT,2014,4300
+Mauritania,MRT,2015,4200
+Mauritania,MRT,2016,4200
+Mauritania,MRT,2017,4100
+Mauritania,MRT,2018,4100
+Mauritania,MRT,2019,4000
+Mauritania,MRT,2020,3900
+Mauritania,MRT,2021,3800
+Mauritania,MRT,2022,3600
+Mauritania,MRT,2023,3500
+Mauritania,MRT,2024,3400
+Mauritius,MUS,2000,390
+Mauritius,MUS,2001,290
+Mauritius,MUS,2002,320
+Mauritius,MUS,2003,310
+Mauritius,MUS,2004,300
+Mauritius,MUS,2005,270
+Mauritius,MUS,2006,240
+Mauritius,MUS,2007,220
+Mauritius,MUS,2008,210
+Mauritius,MUS,2009,220
+Mauritius,MUS,2010,230
+Mauritius,MUS,2011,210
+Mauritius,MUS,2012,220
+Mauritius,MUS,2013,220
+Mauritius,MUS,2014,210
+Mauritius,MUS,2015,200
+Mauritius,MUS,2016,190
+Mauritius,MUS,2017,180
+Mauritius,MUS,2018,200
+Mauritius,MUS,2019,180
+Mauritius,MUS,2020,160
+Mauritius,MUS,2021,140
+Mauritius,MUS,2022,190
+Mauritius,MUS,2023,160
+Mauritius,MUS,2024,160
+Mexico,MEX,2000,36000
+Mexico,MEX,2001,36000
+Mexico,MEX,2002,33000
+Mexico,MEX,2003,35000
+Mexico,MEX,2004,27000
+Mexico,MEX,2005,32000
+Mexico,MEX,2006,31000
+Mexico,MEX,2007,31000
+Mexico,MEX,2008,31000
+Mexico,MEX,2009,31000
+Mexico,MEX,2010,32000
+Mexico,MEX,2011,31000
+Mexico,MEX,2012,31000
+Mexico,MEX,2013,30000
+Mexico,MEX,2014,30000
+Mexico,MEX,2015,30000
+Mexico,MEX,2016,31000
+Mexico,MEX,2017,31000
+Mexico,MEX,2018,32000
+Mexico,MEX,2019,32000
+Mexico,MEX,2020,33000
+Mexico,MEX,2021,34000
+Mexico,MEX,2022,35000
+Mexico,MEX,2023,36000
+Mexico,MEX,2024,37000
+Micronesia (country),FSM,2000,310
+Micronesia (country),FSM,2001,350
+Micronesia (country),FSM,2002,420
+Micronesia (country),FSM,2003,340
+Micronesia (country),FSM,2004,370
+Micronesia (country),FSM,2005,300
+Micronesia (country),FSM,2006,300
+Micronesia (country),FSM,2007,380
+Micronesia (country),FSM,2008,420
+Micronesia (country),FSM,2009,360
+Micronesia (country),FSM,2010,380
+Micronesia (country),FSM,2011,340
+Micronesia (country),FSM,2012,330
+Micronesia (country),FSM,2013,340
+Micronesia (country),FSM,2014,420
+Micronesia (country),FSM,2015,230
+Micronesia (country),FSM,2016,320
+Micronesia (country),FSM,2017,290
+Micronesia (country),FSM,2018,210
+Micronesia (country),FSM,2019,200
+Micronesia (country),FSM,2020,200
+Micronesia (country),FSM,2021,150
+Micronesia (country),FSM,2022,100
+Micronesia (country),FSM,2023,450
+Micronesia (country),FSM,2024,300
+Moldova,MDA,2000,3000
+Moldova,MDA,2001,3600
+Moldova,MDA,2002,3800
+Moldova,MDA,2003,4300
+Moldova,MDA,2004,4900
+Moldova,MDA,2005,5200
+Moldova,MDA,2006,5000
+Moldova,MDA,2007,4900
+Moldova,MDA,2008,4500
+Moldova,MDA,2009,4500
+Moldova,MDA,2010,4200
+Moldova,MDA,2011,4300
+Moldova,MDA,2012,4500
+Moldova,MDA,2013,4500
+Moldova,MDA,2014,4100
+Moldova,MDA,2015,3600
+Moldova,MDA,2016,3600
+Moldova,MDA,2017,3400
+Moldova,MDA,2018,3100
+Moldova,MDA,2019,2800
+Moldova,MDA,2020,2600
+Moldova,MDA,2021,2400
+Moldova,MDA,2022,2300
+Moldova,MDA,2023,2100
+Moldova,MDA,2024,2000
+Monaco,MCO,2000,0
+Monaco,MCO,2001,0
+Monaco,MCO,2002,0
+Monaco,MCO,2003,0
+Monaco,MCO,2004,0
+Monaco,MCO,2005,0
+Monaco,MCO,2006,0
+Monaco,MCO,2007,0
+Monaco,MCO,2008,0
+Monaco,MCO,2009,0
+Monaco,MCO,2010,1
+Monaco,MCO,2011,0
+Monaco,MCO,2012,0
+Monaco,MCO,2013,0
+Monaco,MCO,2014,0
+Monaco,MCO,2015,0
+Monaco,MCO,2016,2
+Monaco,MCO,2017,0
+Monaco,MCO,2018,1
+Monaco,MCO,2019,0
+Monaco,MCO,2020,0
+Monaco,MCO,2021,0
+Monaco,MCO,2022,0
+Monaco,MCO,2023,0
+Monaco,MCO,2024,0
+Mongolia,MNG,2000,11000
+Mongolia,MNG,2001,11000
+Mongolia,MNG,2002,11000
+Mongolia,MNG,2003,11000
+Mongolia,MNG,2004,11000
+Mongolia,MNG,2005,11000
+Mongolia,MNG,2006,11000
+Mongolia,MNG,2007,11000
+Mongolia,MNG,2008,11000
+Mongolia,MNG,2009,11000
+Mongolia,MNG,2010,12000
+Mongolia,MNG,2011,12000
+Mongolia,MNG,2012,12000
+Mongolia,MNG,2013,12000
+Mongolia,MNG,2014,12000
+Mongolia,MNG,2015,13000
+Mongolia,MNG,2016,13000
+Mongolia,MNG,2017,13000
+Mongolia,MNG,2018,14000
+Mongolia,MNG,2019,14000
+Mongolia,MNG,2020,14000
+Mongolia,MNG,2021,14000
+Mongolia,MNG,2022,15000
+Mongolia,MNG,2023,15000
+Mongolia,MNG,2024,16000
+Montenegro,MNE,2005,260
+Montenegro,MNE,2006,270
+Montenegro,MNE,2007,240
+Montenegro,MNE,2008,210
+Montenegro,MNE,2009,180
+Montenegro,MNE,2010,170
+Montenegro,MNE,2011,170
+Montenegro,MNE,2012,150
+Montenegro,MNE,2013,180
+Montenegro,MNE,2014,170
+Montenegro,MNE,2015,120
+Montenegro,MNE,2016,130
+Montenegro,MNE,2017,110
+Montenegro,MNE,2018,120
+Montenegro,MNE,2019,110
+Montenegro,MNE,2020,110
+Montenegro,MNE,2021,100
+Montenegro,MNE,2022,100
+Montenegro,MNE,2023,110
+Montenegro,MNE,2024,100
+Montserrat,MSR,2000,0
+Montserrat,MSR,2001,0
+Montserrat,MSR,2002,0
+Montserrat,MSR,2003,1
+Montserrat,MSR,2004,0
+Montserrat,MSR,2005,1
+Montserrat,MSR,2006,0
+Montserrat,MSR,2007,2
+Montserrat,MSR,2008,1
+Montserrat,MSR,2009,1
+Montserrat,MSR,2010,0
+Montserrat,MSR,2011,0
+Montserrat,MSR,2012,0
+Montserrat,MSR,2013,0
+Montserrat,MSR,2014,0
+Montserrat,MSR,2015,0
+Montserrat,MSR,2016,0
+Montserrat,MSR,2017,0
+Montserrat,MSR,2018,0
+Montserrat,MSR,2019,0
+Montserrat,MSR,2020,0
+Montserrat,MSR,2021,0
+Montserrat,MSR,2022,0
+Montserrat,MSR,2023,0
+Montserrat,MSR,2024,0
+Morocco,MAR,2000,32000
+Morocco,MAR,2001,32000
+Morocco,MAR,2002,34000
+Morocco,MAR,2003,30000
+Morocco,MAR,2004,29000
+Morocco,MAR,2005,30000
+Morocco,MAR,2006,29000
+Morocco,MAR,2007,29000
+Morocco,MAR,2008,30000
+Morocco,MAR,2009,31000
+Morocco,MAR,2010,32000
+Morocco,MAR,2011,32000
+Morocco,MAR,2012,32000
+Morocco,MAR,2013,33000
+Morocco,MAR,2014,34000
+Morocco,MAR,2015,34000
+Morocco,MAR,2016,35000
+Morocco,MAR,2017,35000
+Morocco,MAR,2018,35000
+Morocco,MAR,2019,35000
+Morocco,MAR,2020,33000
+Morocco,MAR,2021,33000
+Morocco,MAR,2022,34000
+Morocco,MAR,2023,36000
+Morocco,MAR,2024,37000
+Mozambique,MOZ,2000,61000
+Mozambique,MOZ,2001,63000
+Mozambique,MOZ,2002,64000
+Mozambique,MOZ,2003,66000
+Mozambique,MOZ,2004,68000
+Mozambique,MOZ,2005,70000
+Mozambique,MOZ,2006,72000
+Mozambique,MOZ,2007,74000
+Mozambique,MOZ,2008,77000
+Mozambique,MOZ,2009,79000
+Mozambique,MOZ,2010,82000
+Mozambique,MOZ,2011,85000
+Mozambique,MOZ,2012,88000
+Mozambique,MOZ,2013,90000
+Mozambique,MOZ,2014,93000
+Mozambique,MOZ,2015,96000
+Mozambique,MOZ,2016,99000
+Mozambique,MOZ,2017,102000
+Mozambique,MOZ,2018,105000
+Mozambique,MOZ,2019,108000
+Mozambique,MOZ,2020,111000
+Mozambique,MOZ,2021,114000
+Mozambique,MOZ,2022,118000
+Mozambique,MOZ,2023,121000
+Mozambique,MOZ,2024,125000
+Myanmar,MMR,2000,252000
+Myanmar,MMR,2001,254000
+Myanmar,MMR,2002,256000
+Myanmar,MMR,2003,257000
+Myanmar,MMR,2004,258000
+Myanmar,MMR,2005,258000
+Myanmar,MMR,2006,258000
+Myanmar,MMR,2007,257000
+Myanmar,MMR,2008,256000
+Myanmar,MMR,2009,255000
+Myanmar,MMR,2010,245000
+Myanmar,MMR,2011,235000
+Myanmar,MMR,2012,226000
+Myanmar,MMR,2013,217000
+Myanmar,MMR,2014,208000
+Myanmar,MMR,2015,200000
+Myanmar,MMR,2016,192000
+Myanmar,MMR,2017,184000
+Myanmar,MMR,2018,177000
+Myanmar,MMR,2019,169000
+Myanmar,MMR,2020,167000
+Myanmar,MMR,2021,188000
+Myanmar,MMR,2022,233000
+Myanmar,MMR,2023,261000
+Myanmar,MMR,2024,263000
+Namibia,NAM,2000,18000
+Namibia,NAM,2001,20000
+Namibia,NAM,2002,22000
+Namibia,NAM,2003,24000
+Namibia,NAM,2004,24000
+Namibia,NAM,2005,25000
+Namibia,NAM,2006,24000
+Namibia,NAM,2007,23000
+Namibia,NAM,2008,22000
+Namibia,NAM,2009,20000
+Namibia,NAM,2010,19000
+Namibia,NAM,2011,17000
+Namibia,NAM,2012,17000
+Namibia,NAM,2013,16000
+Namibia,NAM,2014,16000
+Namibia,NAM,2015,15000
+Namibia,NAM,2016,15000
+Namibia,NAM,2017,14000
+Namibia,NAM,2018,14000
+Namibia,NAM,2019,13000
+Namibia,NAM,2020,12000
+Namibia,NAM,2021,12000
+Namibia,NAM,2022,13000
+Namibia,NAM,2023,13000
+Namibia,NAM,2024,13000
+Nauru,NRU,2000,4
+Nauru,NRU,2001,3
+Nauru,NRU,2002,5
+Nauru,NRU,2003,3
+Nauru,NRU,2004,7
+Nauru,NRU,2005,11
+Nauru,NRU,2006,12
+Nauru,NRU,2007,3
+Nauru,NRU,2008,5
+Nauru,NRU,2009,4
+Nauru,NRU,2010,3
+Nauru,NRU,2011,5
+Nauru,NRU,2012,6
+Nauru,NRU,2013,7
+Nauru,NRU,2014,8
+Nauru,NRU,2015,10
+Nauru,NRU,2016,10
+Nauru,NRU,2017,9
+Nauru,NRU,2018,5
+Nauru,NRU,2019,17
+Nauru,NRU,2020,13
+Nauru,NRU,2021,21
+Nauru,NRU,2022,19
+Nauru,NRU,2023,18
+Nauru,NRU,2024,19
+Nepal,NPL,2000,102000
+Nepal,NPL,2001,101000
+Nepal,NPL,2002,100000
+Nepal,NPL,2003,98000
+Nepal,NPL,2004,96000
+Nepal,NPL,2005,95000
+Nepal,NPL,2006,93000
+Nepal,NPL,2007,91000
+Nepal,NPL,2008,89000
+Nepal,NPL,2009,87000
+Nepal,NPL,2010,85000
+Nepal,NPL,2011,83000
+Nepal,NPL,2012,81000
+Nepal,NPL,2013,78000
+Nepal,NPL,2014,76000
+Nepal,NPL,2015,75000
+Nepal,NPL,2016,73000
+Nepal,NPL,2017,71000
+Nepal,NPL,2018,69000
+Nepal,NPL,2019,68000
+Nepal,NPL,2020,66000
+Nepal,NPL,2021,68000
+Nepal,NPL,2022,70000
+Nepal,NPL,2023,69000
+Nepal,NPL,2024,67000
+Netherlands,NLD,2000,1400
+Netherlands,NLD,2001,1600
+Netherlands,NLD,2002,1600
+Netherlands,NLD,2003,1500
+Netherlands,NLD,2004,1500
+Netherlands,NLD,2005,1300
+Netherlands,NLD,2006,1200
+Netherlands,NLD,2007,1100
+Netherlands,NLD,2008,1100
+Netherlands,NLD,2009,1300
+Netherlands,NLD,2010,1200
+Netherlands,NLD,2011,1100
+Netherlands,NLD,2012,1100
+Netherlands,NLD,2013,960
+Netherlands,NLD,2014,940
+Netherlands,NLD,2015,980
+Netherlands,NLD,2016,1000
+Netherlands,NLD,2017,890
+Netherlands,NLD,2018,910
+Netherlands,NLD,2019,860
+Netherlands,NLD,2020,710
+Netherlands,NLD,2021,770
+Netherlands,NLD,2022,720
+Netherlands,NLD,2023,820
+Netherlands,NLD,2024,860
+Netherlands Antilles,ANT,2000,5
+Netherlands Antilles,ANT,2001,9
+Netherlands Antilles,ANT,2002,15
+Netherlands Antilles,ANT,2003,9
+Netherlands Antilles,ANT,2004,11
+Netherlands Antilles,ANT,2005,8
+Netherlands Antilles,ANT,2006,5
+Netherlands Antilles,ANT,2007,5
+Netherlands Antilles,ANT,2008,5
+Netherlands Antilles,ANT,2009,5
+New Caledonia,NCL,2000,230
+New Caledonia,NCL,2001,140
+New Caledonia,NCL,2002,150
+New Caledonia,NCL,2003,85
+New Caledonia,NCL,2004,130
+New Caledonia,NCL,2005,100
+New Caledonia,NCL,2006,100
+New Caledonia,NCL,2007,93
+New Caledonia,NCL,2008,95
+New Caledonia,NCL,2009,99
+New Caledonia,NCL,2010,86
+New Caledonia,NCL,2011,90
+New Caledonia,NCL,2012,65
+New Caledonia,NCL,2013,72
+New Caledonia,NCL,2014,48
+New Caledonia,NCL,2015,90
+New Caledonia,NCL,2016,60
+New Caledonia,NCL,2017,53
+New Caledonia,NCL,2018,58
+New Caledonia,NCL,2019,36
+New Caledonia,NCL,2020,65
+New Caledonia,NCL,2021,38
+New Caledonia,NCL,2022,48
+New Caledonia,NCL,2023,49
+New Caledonia,NCL,2024,52
+New Zealand,NZL,2000,470
+New Zealand,NZL,2001,510
+New Zealand,NZL,2002,440
+New Zealand,NZL,2003,560
+New Zealand,NZL,2004,480
+New Zealand,NZL,2005,420
+New Zealand,NZL,2006,440
+New Zealand,NZL,2007,350
+New Zealand,NZL,2008,370
+New Zealand,NZL,2009,370
+New Zealand,NZL,2010,370
+New Zealand,NZL,2011,370
+New Zealand,NZL,2012,360
+New Zealand,NZL,2013,330
+New Zealand,NZL,2014,360
+New Zealand,NZL,2015,350
+New Zealand,NZL,2016,350
+New Zealand,NZL,2017,350
+New Zealand,NZL,2018,350
+New Zealand,NZL,2019,370
+New Zealand,NZL,2020,370
+New Zealand,NZL,2021,350
+New Zealand,NZL,2022,310
+New Zealand,NZL,2023,350
+New Zealand,NZL,2024,410
+Nicaragua,NIC,2000,6300
+Nicaragua,NIC,2001,6100
+Nicaragua,NIC,2002,5000
+Nicaragua,NIC,2003,5300
+Nicaragua,NIC,2004,5000
+Nicaragua,NIC,2005,4100
+Nicaragua,NIC,2006,4100
+Nicaragua,NIC,2007,4400
+Nicaragua,NIC,2008,4200
+Nicaragua,NIC,2009,3900
+Nicaragua,NIC,2010,4000
+Nicaragua,NIC,2011,4300
+Nicaragua,NIC,2012,4400
+Nicaragua,NIC,2013,4200
+Nicaragua,NIC,2014,3900
+Nicaragua,NIC,2015,3600
+Nicaragua,NIC,2016,3400
+Nicaragua,NIC,2017,3200
+Nicaragua,NIC,2018,3000
+Nicaragua,NIC,2019,3100
+Nicaragua,NIC,2020,3100
+Nicaragua,NIC,2021,3100
+Nicaragua,NIC,2022,3100
+Nicaragua,NIC,2023,3000
+Nicaragua,NIC,2024,3000
+Niger,NER,2000,9500
+Niger,NER,2001,11000
+Niger,NER,2002,13000
+Niger,NER,2003,14000
+Niger,NER,2004,16000
+Niger,NER,2005,17000
+Niger,NER,2006,18000
+Niger,NER,2007,19000
+Niger,NER,2008,20000
+Niger,NER,2009,21000
+Niger,NER,2010,21000
+Niger,NER,2011,21000
+Niger,NER,2012,21000
+Niger,NER,2013,21000
+Niger,NER,2014,20000
+Niger,NER,2015,20000
+Niger,NER,2016,19000
+Niger,NER,2017,19000
+Niger,NER,2018,19000
+Niger,NER,2019,19000
+Niger,NER,2020,19000
+Niger,NER,2021,20000
+Niger,NER,2022,21000
+Niger,NER,2023,22000
+Niger,NER,2024,23000
+Nigeria,NGA,2000,277000
+Nigeria,NGA,2001,284000
+Nigeria,NGA,2002,292000
+Nigeria,NGA,2003,301000
+Nigeria,NGA,2004,309000
+Nigeria,NGA,2005,318000
+Nigeria,NGA,2006,327000
+Nigeria,NGA,2007,336000
+Nigeria,NGA,2008,345000
+Nigeria,NGA,2009,355000
+Nigeria,NGA,2010,365000
+Nigeria,NGA,2011,375000
+Nigeria,NGA,2012,386000
+Nigeria,NGA,2013,397000
+Nigeria,NGA,2014,407000
+Nigeria,NGA,2015,418000
+Nigeria,NGA,2016,428000
+Nigeria,NGA,2017,439000
+Nigeria,NGA,2018,449000
+Nigeria,NGA,2019,459000
+Nigeria,NGA,2020,469000
+Nigeria,NGA,2021,479000
+Nigeria,NGA,2022,489000
+Nigeria,NGA,2023,499000
+Nigeria,NGA,2024,510000
+Niue,NIU,2000,0
+Niue,NIU,2001,0
+Niue,NIU,2002,4
+Niue,NIU,2003,0
+Niue,NIU,2004,0
+Niue,NIU,2005,0
+Niue,NIU,2006,0
+Niue,NIU,2007,0
+Niue,NIU,2008,0
+Niue,NIU,2009,0
+Niue,NIU,2010,0
+Niue,NIU,2011,1
+Niue,NIU,2012,0
+Niue,NIU,2013,0
+Niue,NIU,2014,0
+Niue,NIU,2015,0
+Niue,NIU,2016,0
+Niue,NIU,2017,0
+Niue,NIU,2018,2
+Niue,NIU,2019,0
+Niue,NIU,2020,1
+Niue,NIU,2021,0
+Niue,NIU,2022,0
+Niue,NIU,2023,0
+Niue,NIU,2024,1
+North America,OWID_NAM,2000,158925
+North America,OWID_NAM,2001,151799
+North America,OWID_NAM,2002,142169
+North America,OWID_NAM,2003,141839
+North America,OWID_NAM,2004,131013
+North America,OWID_NAM,2005,133983
+North America,OWID_NAM,2006,128389
+North America,OWID_NAM,2007,124552
+North America,OWID_NAM,2008,120585
+North America,OWID_NAM,2009,114675
+North America,OWID_NAM,2010,114232
+North America,OWID_NAM,2011,112139
+North America,OWID_NAM,2012,109099
+North America,OWID_NAM,2013,105568
+North America,OWID_NAM,2014,103363
+North America,OWID_NAM,2015,101745
+North America,OWID_NAM,2016,100917
+North America,OWID_NAM,2017,99271
+North America,OWID_NAM,2018,97830
+North America,OWID_NAM,2019,94534
+North America,OWID_NAM,2020,89003
+North America,OWID_NAM,2021,90702
+North America,OWID_NAM,2022,93732
+North America,OWID_NAM,2023,99575
+North America,OWID_NAM,2024,102296
+North Macedonia,MKD,2000,1200
+North Macedonia,MKD,2001,1200
+North Macedonia,MKD,2002,1300
+North Macedonia,MKD,2003,1300
+North Macedonia,MKD,2004,1200
+North Macedonia,MKD,2005,1100
+North Macedonia,MKD,2006,1000
+North Macedonia,MKD,2007,930
+North Macedonia,MKD,2008,770
+North Macedonia,MKD,2009,750
+North Macedonia,MKD,2010,630
+North Macedonia,MKD,2011,530
+North Macedonia,MKD,2012,530
+North Macedonia,MKD,2013,470
+North Macedonia,MKD,2014,410
+North Macedonia,MKD,2015,390
+North Macedonia,MKD,2016,360
+North Macedonia,MKD,2017,290
+North Macedonia,MKD,2018,300
+North Macedonia,MKD,2019,270
+North Macedonia,MKD,2020,190
+North Macedonia,MKD,2021,190
+North Macedonia,MKD,2022,190
+North Macedonia,MKD,2023,210
+North Macedonia,MKD,2024,210
+Northern Mariana Islands,MNP,2000,180
+Northern Mariana Islands,MNP,2001,140
+Northern Mariana Islands,MNP,2002,120
+Northern Mariana Islands,MNP,2003,100
+Northern Mariana Islands,MNP,2004,120
+Northern Mariana Islands,MNP,2005,120
+Northern Mariana Islands,MNP,2006,100
+Northern Mariana Islands,MNP,2007,87
+Northern Mariana Islands,MNP,2008,53
+Northern Mariana Islands,MNP,2009,69
+Northern Mariana Islands,MNP,2010,56
+Northern Mariana Islands,MNP,2011,57
+Northern Mariana Islands,MNP,2012,54
+Northern Mariana Islands,MNP,2013,55
+Northern Mariana Islands,MNP,2014,43
+Northern Mariana Islands,MNP,2015,45
+Northern Mariana Islands,MNP,2016,44
+Northern Mariana Islands,MNP,2017,64
+Northern Mariana Islands,MNP,2018,73
+Northern Mariana Islands,MNP,2019,79
+Northern Mariana Islands,MNP,2020,63
+Northern Mariana Islands,MNP,2021,54
+Northern Mariana Islands,MNP,2022,35
+Northern Mariana Islands,MNP,2023,34
+Northern Mariana Islands,MNP,2024,15
+Norway,NOR,2000,310
+Norway,NOR,2001,380
+Norway,NOR,2002,330
+Norway,NOR,2003,430
+Norway,NOR,2004,360
+Norway,NOR,2005,340
+Norway,NOR,2006,340
+Norway,NOR,2007,340
+Norway,NOR,2008,360
+Norway,NOR,2009,390
+Norway,NOR,2010,350
+Norway,NOR,2011,380
+Norway,NOR,2012,400
+Norway,NOR,2013,420
+Norway,NOR,2014,350
+Norway,NOR,2015,330
+Norway,NOR,2016,320
+Norway,NOR,2017,270
+Norway,NOR,2018,220
+Norway,NOR,2019,180
+Norway,NOR,2020,170
+Norway,NOR,2021,160
+Norway,NOR,2022,170
+Norway,NOR,2023,160
+Norway,NOR,2024,180
+Oceania,OWID_OCE,2000,65300
+Oceania,OWID_OCE,2001,61930
+Oceania,OWID_OCE,2002,58625
+Oceania,OWID_OCE,2003,55880
+Oceania,OWID_OCE,2004,53232
+Oceania,OWID_OCE,2005,50309
+Oceania,OWID_OCE,2006,48137
+Oceania,OWID_OCE,2007,46872
+Oceania,OWID_OCE,2008,44745
+Oceania,OWID_OCE,2009,44605
+Oceania,OWID_OCE,2010,45454
+Oceania,OWID_OCE,2011,48612
+Oceania,OWID_OCE,2012,50332
+Oceania,OWID_OCE,2013,53436
+Oceania,OWID_OCE,2014,57643
+Oceania,OWID_OCE,2015,60672
+Oceania,OWID_OCE,2016,61860
+Oceania,OWID_OCE,2017,62546
+Oceania,OWID_OCE,2018,62716
+Oceania,OWID_OCE,2019,64714
+Oceania,OWID_OCE,2020,65454
+Oceania,OWID_OCE,2021,66956
+Oceania,OWID_OCE,2022,70044
+Oceania,OWID_OCE,2023,72822
+Oceania,OWID_OCE,2024,76460
+Oman,OMN,2000,570
+Oman,OMN,2001,520
+Oman,OMN,2002,510
+Oman,OMN,2003,450
+Oman,OMN,2004,510
+Oman,OMN,2005,450
+Oman,OMN,2006,570
+Oman,OMN,2007,540
+Oman,OMN,2008,560
+Oman,OMN,2009,520
+Oman,OMN,2010,480
+Oman,OMN,2011,520
+Oman,OMN,2012,580
+Oman,OMN,2013,500
+Oman,OMN,2014,540
+Oman,OMN,2015,490
+Oman,OMN,2016,510
+Oman,OMN,2017,390
+Oman,OMN,2018,360
+Oman,OMN,2019,530
+Oman,OMN,2020,450
+Oman,OMN,2021,330
+Oman,OMN,2022,530
+Oman,OMN,2023,700
+Oman,OMN,2024,600
+Pakistan,PAK,2000,427000
+Pakistan,PAK,2001,439000
+Pakistan,PAK,2002,450000
+Pakistan,PAK,2003,460000
+Pakistan,PAK,2004,472000
+Pakistan,PAK,2005,484000
+Pakistan,PAK,2006,495000
+Pakistan,PAK,2007,508000
+Pakistan,PAK,2008,522000
+Pakistan,PAK,2009,536000
+Pakistan,PAK,2010,549000
+Pakistan,PAK,2011,562000
+Pakistan,PAK,2012,572000
+Pakistan,PAK,2013,581000
+Pakistan,PAK,2014,579000
+Pakistan,PAK,2015,587000
+Pakistan,PAK,2016,591000
+Pakistan,PAK,2017,595000
+Pakistan,PAK,2018,601000
+Pakistan,PAK,2019,608000
+Pakistan,PAK,2020,610000
+Pakistan,PAK,2021,646000
+Pakistan,PAK,2022,671000
+Pakistan,PAK,2023,662000
+Pakistan,PAK,2024,669000
+Palau,PLW,2000,11
+Palau,PLW,2001,11
+Palau,PLW,2002,11
+Palau,PLW,2003,9
+Palau,PLW,2004,5
+Palau,PLW,2005,10
+Palau,PLW,2006,12
+Palau,PLW,2007,11
+Palau,PLW,2008,15
+Palau,PLW,2009,19
+Palau,PLW,2010,19
+Palau,PLW,2011,12
+Palau,PLW,2012,4
+Palau,PLW,2013,8
+Palau,PLW,2014,14
+Palau,PLW,2015,14
+Palau,PLW,2016,23
+Palau,PLW,2017,20
+Palau,PLW,2018,17
+Palau,PLW,2019,6
+Palau,PLW,2020,10
+Palau,PLW,2021,8
+Palau,PLW,2022,7
+Palau,PLW,2023,15
+Palau,PLW,2024,5
+Palestine,PSE,2000,180
+Palestine,PSE,2001,140
+Palestine,PSE,2002,110
+Palestine,PSE,2003,71
+Palestine,PSE,2004,44
+Palestine,PSE,2005,53
+Palestine,PSE,2006,77
+Palestine,PSE,2007,59
+Palestine,PSE,2008,71
+Palestine,PSE,2009,60
+Palestine,PSE,2010,53
+Palestine,PSE,2011,53
+Palestine,PSE,2012,52
+Palestine,PSE,2013,60
+Palestine,PSE,2014,68
+Palestine,PSE,2015,63
+Palestine,PSE,2016,55
+Palestine,PSE,2017,43
+Palestine,PSE,2018,44
+Palestine,PSE,2019,31
+Palestine,PSE,2020,38
+Palestine,PSE,2021,36
+Palestine,PSE,2022,30
+Palestine,PSE,2023,22
+Palestine,PSE,2024,16
+Panama,PAN,2000,2100
+Panama,PAN,2001,3000
+Panama,PAN,2002,2700
+Panama,PAN,2003,2700
+Panama,PAN,2004,2800
+Panama,PAN,2005,2600
+Panama,PAN,2006,2600
+Panama,PAN,2007,2500
+Panama,PAN,2008,2500
+Panama,PAN,2009,2300
+Panama,PAN,2010,2300
+Panama,PAN,2011,2400
+Panama,PAN,2012,2200
+Panama,PAN,2013,2100
+Panama,PAN,2014,2000
+Panama,PAN,2015,2300
+Panama,PAN,2016,2500
+Panama,PAN,2017,2500
+Panama,PAN,2018,2300
+Panama,PAN,2019,1600
+Panama,PAN,2020,1500
+Panama,PAN,2021,1900
+Panama,PAN,2022,2100
+Panama,PAN,2023,2700
+Panama,PAN,2024,2800
+Papua New Guinea,PNG,2000,59000
+Papua New Guinea,PNG,2001,56000
+Papua New Guinea,PNG,2002,53000
+Papua New Guinea,PNG,2003,50000
+Papua New Guinea,PNG,2004,47000
+Papua New Guinea,PNG,2005,44000
+Papua New Guinea,PNG,2006,42000
+Papua New Guinea,PNG,2007,41000
+Papua New Guinea,PNG,2008,39000
+Papua New Guinea,PNG,2009,39000
+Papua New Guinea,PNG,2010,40000
+Papua New Guinea,PNG,2011,43000
+Papua New Guinea,PNG,2012,45000
+Papua New Guinea,PNG,2013,48000
+Papua New Guinea,PNG,2014,52000
+Papua New Guinea,PNG,2015,55000
+Papua New Guinea,PNG,2016,56000
+Papua New Guinea,PNG,2017,57000
+Papua New Guinea,PNG,2018,57000
+Papua New Guinea,PNG,2019,59000
+Papua New Guinea,PNG,2020,60000
+Papua New Guinea,PNG,2021,62000
+Papua New Guinea,PNG,2022,65000
+Papua New Guinea,PNG,2023,67000
+Papua New Guinea,PNG,2024,70000
+Paraguay,PRY,2000,5000
+Paraguay,PRY,2001,5000
+Paraguay,PRY,2002,4800
+Paraguay,PRY,2003,4900
+Paraguay,PRY,2004,4700
+Paraguay,PRY,2005,4200
+Paraguay,PRY,2006,4500
+Paraguay,PRY,2007,4000
+Paraguay,PRY,2008,3800
+Paraguay,PRY,2009,3800
+Paraguay,PRY,2010,3600
+Paraguay,PRY,2011,3600
+Paraguay,PRY,2012,3700
+Paraguay,PRY,2013,3400
+Paraguay,PRY,2014,3300
+Paraguay,PRY,2015,3400
+Paraguay,PRY,2016,3500
+Paraguay,PRY,2017,3600
+Paraguay,PRY,2018,3600
+Paraguay,PRY,2019,3900
+Paraguay,PRY,2020,3300
+Paraguay,PRY,2021,3800
+Paraguay,PRY,2022,4500
+Paraguay,PRY,2023,5200
+Paraguay,PRY,2024,5600
+Peru,PER,2000,98000
+Peru,PER,2001,88000
+Peru,PER,2002,81000
+Peru,PER,2003,68000
+Peru,PER,2004,67000
+Peru,PER,2005,64000
+Peru,PER,2006,62000
+Peru,PER,2007,55000
+Peru,PER,2008,52000
+Peru,PER,2009,49000
+Peru,PER,2010,46000
+Peru,PER,2011,45000
+Peru,PER,2012,42000
+Peru,PER,2013,41000
+Peru,PER,2014,41000
+Peru,PER,2015,40000
+Peru,PER,2016,40000
+Peru,PER,2017,40000
+Peru,PER,2018,42000
+Peru,PER,2019,43000
+Peru,PER,2020,42000
+Peru,PER,2021,45000
+Peru,PER,2022,50000
+Peru,PER,2023,50000
+Peru,PER,2024,48000
+Philippines,PHL,2000,470000
+Philippines,PHL,2001,472000
+Philippines,PHL,2002,473000
+Philippines,PHL,2003,474000
+Philippines,PHL,2004,474000
+Philippines,PHL,2005,475000
+Philippines,PHL,2006,474000
+Philippines,PHL,2007,474000
+Philippines,PHL,2008,486000
+Philippines,PHL,2009,498000
+Philippines,PHL,2010,512000
+Philippines,PHL,2011,526000
+Philippines,PHL,2012,540000
+Philippines,PHL,2013,554000
+Philippines,PHL,2014,567000
+Philippines,PHL,2015,580000
+Philippines,PHL,2016,591000
+Philippines,PHL,2017,599000
+Philippines,PHL,2018,607000
+Philippines,PHL,2019,614000
+Philippines,PHL,2020,610000
+Philippines,PHL,2021,655000
+Philippines,PHL,2022,714000
+Philippines,PHL,2023,726000
+Philippines,PHL,2024,724000
+Poland,POL,2000,18000
+Poland,POL,2001,16000
+Poland,POL,2002,16000
+Poland,POL,2003,15000
+Poland,POL,2004,13000
+Poland,POL,2005,12000
+Poland,POL,2006,12000
+Poland,POL,2007,11000
+Poland,POL,2008,10000
+Poland,POL,2009,11000
+Poland,POL,2010,9600
+Poland,POL,2011,11000
+Poland,POL,2012,9300
+Poland,POL,2013,9100
+Poland,POL,2014,8400
+Poland,POL,2015,7800
+Poland,POL,2016,7600
+Poland,POL,2017,6800
+Poland,POL,2018,6400
+Poland,POL,2019,6100
+Poland,POL,2020,3900
+Poland,POL,2021,4200
+Poland,POL,2022,4900
+Poland,POL,2023,5100
+Poland,POL,2024,4400
+Portugal,PRT,2000,6100
+Portugal,PRT,2001,6100
+Portugal,PRT,2002,6000
+Portugal,PRT,2003,5400
+Portugal,PRT,2004,4800
+Portugal,PRT,2005,4300
+Portugal,PRT,2006,4100
+Portugal,PRT,2007,3700
+Portugal,PRT,2008,3500
+Portugal,PRT,2009,3300
+Portugal,PRT,2010,3200
+Portugal,PRT,2011,3000
+Portugal,PRT,2012,3000
+Portugal,PRT,2013,2800
+Portugal,PRT,2014,2500
+Portugal,PRT,2015,2400
+Portugal,PRT,2016,2100
+Portugal,PRT,2017,2000
+Portugal,PRT,2018,2100
+Portugal,PRT,2019,2000
+Portugal,PRT,2020,1600
+Portugal,PRT,2021,1700
+Portugal,PRT,2022,1700
+Portugal,PRT,2023,1700
+Portugal,PRT,2024,1500
+Puerto Rico,PRI,2000,370
+Puerto Rico,PRI,2001,250
+Puerto Rico,PRI,2002,250
+Puerto Rico,PRI,2003,210
+Puerto Rico,PRI,2004,220
+Puerto Rico,PRI,2005,190
+Puerto Rico,PRI,2006,180
+Puerto Rico,PRI,2007,160
+Puerto Rico,PRI,2008,150
+Puerto Rico,PRI,2009,95
+Puerto Rico,PRI,2010,120
+Puerto Rico,PRI,2011,73
+Puerto Rico,PRI,2012,100
+Puerto Rico,PRI,2013,69
+Puerto Rico,PRI,2014,60
+Puerto Rico,PRI,2015,70
+Puerto Rico,PRI,2016,87
+Puerto Rico,PRI,2017,52
+Puerto Rico,PRI,2018,33
+Puerto Rico,PRI,2019,47
+Puerto Rico,PRI,2020,36
+Puerto Rico,PRI,2021,22
+Puerto Rico,PRI,2022,28
+Puerto Rico,PRI,2023,26
+Puerto Rico,PRI,2024,18
+Qatar,QAT,2000,640
+Qatar,QAT,2001,650
+Qatar,QAT,2002,630
+Qatar,QAT,2003,620
+Qatar,QAT,2004,610
+Qatar,QAT,2005,720
+Qatar,QAT,2006,700
+Qatar,QAT,2007,770
+Qatar,QAT,2008,1000
+Qatar,QAT,2009,1000
+Qatar,QAT,2010,920
+Qatar,QAT,2011,860
+Qatar,QAT,2012,1100
+Qatar,QAT,2013,870
+Qatar,QAT,2014,670
+Qatar,QAT,2015,740
+Qatar,QAT,2016,710
+Qatar,QAT,2017,850
+Qatar,QAT,2018,1000
+Qatar,QAT,2019,1200
+Qatar,QAT,2020,1200
+Qatar,QAT,2021,1300
+Qatar,QAT,2022,1200
+Qatar,QAT,2023,1200
+Qatar,QAT,2024,1100
+Romania,ROU,2000,42000
+Romania,ROU,2001,43000
+Romania,ROU,2002,44000
+Romania,ROU,2003,44000
+Romania,ROU,2004,42000
+Romania,ROU,2005,38000
+Romania,ROU,2006,35000
+Romania,ROU,2007,32000
+Romania,ROU,2008,31000
+Romania,ROU,2009,29000
+Romania,ROU,2010,26000
+Romania,ROU,2011,24000
+Romania,ROU,2012,22000
+Romania,ROU,2013,21000
+Romania,ROU,2014,20000
+Romania,ROU,2015,19000
+Romania,ROU,2016,17000
+Romania,ROU,2017,16000
+Romania,ROU,2018,15000
+Romania,ROU,2019,14000
+Romania,ROU,2020,14000
+Romania,ROU,2021,13000
+Romania,ROU,2022,12000
+Romania,ROU,2023,12000
+Romania,ROU,2024,11000
+Russia,RUS,2000,139000
+Russia,RUS,2001,134000
+Russia,RUS,2002,131000
+Russia,RUS,2003,128000
+Russia,RUS,2004,127000
+Russia,RUS,2005,127000
+Russia,RUS,2006,127000
+Russia,RUS,2007,129000
+Russia,RUS,2008,129000
+Russia,RUS,2009,127000
+Russia,RUS,2010,123000
+Russia,RUS,2011,117000
+Russia,RUS,2012,111000
+Russia,RUS,2013,106000
+Russia,RUS,2014,101000
+Russia,RUS,2015,97000
+Russia,RUS,2016,92000
+Russia,RUS,2017,86000
+Russia,RUS,2018,80000
+Russia,RUS,2019,73000
+Russia,RUS,2020,71000
+Russia,RUS,2021,69000
+Russia,RUS,2022,56000
+Russia,RUS,2023,55000
+Russia,RUS,2024,49000
+Rwanda,RWA,2000,20000
+Rwanda,RWA,2001,18000
+Rwanda,RWA,2002,16000
+Rwanda,RWA,2003,15000
+Rwanda,RWA,2004,14000
+Rwanda,RWA,2005,13000
+Rwanda,RWA,2006,11000
+Rwanda,RWA,2007,11000
+Rwanda,RWA,2008,9700
+Rwanda,RWA,2009,9000
+Rwanda,RWA,2010,8500
+Rwanda,RWA,2011,8100
+Rwanda,RWA,2012,7800
+Rwanda,RWA,2013,7700
+Rwanda,RWA,2014,7700
+Rwanda,RWA,2015,7700
+Rwanda,RWA,2016,7800
+Rwanda,RWA,2017,7900
+Rwanda,RWA,2018,8000
+Rwanda,RWA,2019,8100
+Rwanda,RWA,2020,8200
+Rwanda,RWA,2021,8400
+Rwanda,RWA,2022,8500
+Rwanda,RWA,2023,8700
+Rwanda,RWA,2024,8800
+Saint Kitts and Nevis,KNA,2000,0
+Saint Kitts and Nevis,KNA,2001,2
+Saint Kitts and Nevis,KNA,2002,3
+Saint Kitts and Nevis,KNA,2003,1
+Saint Kitts and Nevis,KNA,2004,2
+Saint Kitts and Nevis,KNA,2005,0
+Saint Kitts and Nevis,KNA,2006,1
+Saint Kitts and Nevis,KNA,2007,4
+Saint Kitts and Nevis,KNA,2008,5
+Saint Kitts and Nevis,KNA,2009,4
+Saint Kitts and Nevis,KNA,2010,2
+Saint Kitts and Nevis,KNA,2011,1
+Saint Kitts and Nevis,KNA,2012,2
+Saint Kitts and Nevis,KNA,2013,0
+Saint Kitts and Nevis,KNA,2014,7
+Saint Kitts and Nevis,KNA,2015,2
+Saint Kitts and Nevis,KNA,2016,0
+Saint Kitts and Nevis,KNA,2017,1
+Saint Kitts and Nevis,KNA,2018,0
+Saint Kitts and Nevis,KNA,2019,2
+Saint Kitts and Nevis,KNA,2020,2
+Saint Kitts and Nevis,KNA,2021,0
+Saint Kitts and Nevis,KNA,2022,1
+Saint Kitts and Nevis,KNA,2023,1
+Saint Kitts and Nevis,KNA,2024,1
+Saint Lucia,LCA,2000,9
+Saint Lucia,LCA,2001,15
+Saint Lucia,LCA,2002,17
+Saint Lucia,LCA,2003,15
+Saint Lucia,LCA,2004,15
+Saint Lucia,LCA,2005,14
+Saint Lucia,LCA,2006,15
+Saint Lucia,LCA,2007,19
+Saint Lucia,LCA,2008,21
+Saint Lucia,LCA,2009,10
+Saint Lucia,LCA,2010,9
+Saint Lucia,LCA,2011,7
+Saint Lucia,LCA,2012,11
+Saint Lucia,LCA,2013,9
+Saint Lucia,LCA,2014,6
+Saint Lucia,LCA,2015,14
+Saint Lucia,LCA,2016,3
+Saint Lucia,LCA,2017,11
+Saint Lucia,LCA,2018,5
+Saint Lucia,LCA,2019,6
+Saint Lucia,LCA,2020,8
+Saint Lucia,LCA,2021,4
+Saint Lucia,LCA,2022,2
+Saint Lucia,LCA,2023,2
+Saint Lucia,LCA,2024,1
+Saint Vincent and the Grenadines,VCT,2000,16
+Saint Vincent and the Grenadines,VCT,2001,10
+Saint Vincent and the Grenadines,VCT,2002,10
+Saint Vincent and the Grenadines,VCT,2003,14
+Saint Vincent and the Grenadines,VCT,2004,8
+Saint Vincent and the Grenadines,VCT,2005,7
+Saint Vincent and the Grenadines,VCT,2006,13
+Saint Vincent and the Grenadines,VCT,2007,12
+Saint Vincent and the Grenadines,VCT,2008,12
+Saint Vincent and the Grenadines,VCT,2009,9
+Saint Vincent and the Grenadines,VCT,2010,15
+Saint Vincent and the Grenadines,VCT,2011,17
+Saint Vincent and the Grenadines,VCT,2012,30
+Saint Vincent and the Grenadines,VCT,2013,3
+Saint Vincent and the Grenadines,VCT,2014,5
+Saint Vincent and the Grenadines,VCT,2015,7
+Saint Vincent and the Grenadines,VCT,2016,6
+Saint Vincent and the Grenadines,VCT,2017,2
+Saint Vincent and the Grenadines,VCT,2018,6
+Saint Vincent and the Grenadines,VCT,2019,4
+Saint Vincent and the Grenadines,VCT,2020,13
+Saint Vincent and the Grenadines,VCT,2021,5
+Saint Vincent and the Grenadines,VCT,2022,5
+Saint Vincent and the Grenadines,VCT,2023,4
+Saint Vincent and the Grenadines,VCT,2024,5
+Samoa,WSM,2000,43
+Samoa,WSM,2001,22
+Samoa,WSM,2002,31
+Samoa,WSM,2003,27
+Samoa,WSM,2004,34
+Samoa,WSM,2005,24
+Samoa,WSM,2006,25
+Samoa,WSM,2007,21
+Samoa,WSM,2008,12
+Samoa,WSM,2009,16
+Samoa,WSM,2010,14
+Samoa,WSM,2011,20
+Samoa,WSM,2012,22
+Samoa,WSM,2013,22
+Samoa,WSM,2014,23
+Samoa,WSM,2015,19
+Samoa,WSM,2016,13
+Samoa,WSM,2017,30
+Samoa,WSM,2018,11
+Samoa,WSM,2019,18
+Samoa,WSM,2020,13
+Samoa,WSM,2021,13
+Samoa,WSM,2022,9
+Samoa,WSM,2023,13
+Samoa,WSM,2024,12
+San Marino,SMR,2000,1
+San Marino,SMR,2001,0
+San Marino,SMR,2002,1
+San Marino,SMR,2003,1
+San Marino,SMR,2004,0
+San Marino,SMR,2005,0
+San Marino,SMR,2006,0
+San Marino,SMR,2007,0
+San Marino,SMR,2008,0
+San Marino,SMR,2009,0
+San Marino,SMR,2010,0
+San Marino,SMR,2011,0
+San Marino,SMR,2012,0
+San Marino,SMR,2013,0
+San Marino,SMR,2014,0
+San Marino,SMR,2015,0
+San Marino,SMR,2016,0
+San Marino,SMR,2017,0
+San Marino,SMR,2018,0
+San Marino,SMR,2019,0
+San Marino,SMR,2020,0
+San Marino,SMR,2021,0
+San Marino,SMR,2022,0
+San Marino,SMR,2023,0
+San Marino,SMR,2024,0
+Sao Tome and Principe,STP,2000,370
+Sao Tome and Principe,STP,2001,350
+Sao Tome and Principe,STP,2002,330
+Sao Tome and Principe,STP,2003,360
+Sao Tome and Principe,STP,2004,400
+Sao Tome and Principe,STP,2005,430
+Sao Tome and Principe,STP,2006,450
+Sao Tome and Principe,STP,2007,260
+Sao Tome and Principe,STP,2008,180
+Sao Tome and Principe,STP,2009,190
+Sao Tome and Principe,STP,2010,280
+Sao Tome and Principe,STP,2011,300
+Sao Tome and Principe,STP,2012,250
+Sao Tome and Principe,STP,2013,310
+Sao Tome and Principe,STP,2014,320
+Sao Tome and Principe,STP,2015,350
+Sao Tome and Principe,STP,2016,360
+Sao Tome and Principe,STP,2017,250
+Sao Tome and Principe,STP,2018,260
+Sao Tome and Principe,STP,2019,230
+Sao Tome and Principe,STP,2020,150
+Sao Tome and Principe,STP,2021,130
+Sao Tome and Principe,STP,2022,200
+Sao Tome and Principe,STP,2023,170
+Sao Tome and Principe,STP,2024,210
+Saudi Arabia,SAU,2000,3800
+Saudi Arabia,SAU,2001,3700
+Saudi Arabia,SAU,2002,3700
+Saudi Arabia,SAU,2003,3600
+Saudi Arabia,SAU,2004,3600
+Saudi Arabia,SAU,2005,3900
+Saudi Arabia,SAU,2006,4200
+Saudi Arabia,SAU,2007,4400
+Saudi Arabia,SAU,2008,4400
+Saudi Arabia,SAU,2009,4400
+Saudi Arabia,SAU,2010,4900
+Saudi Arabia,SAU,2011,4300
+Saudi Arabia,SAU,2012,4100
+Saudi Arabia,SAU,2013,3800
+Saudi Arabia,SAU,2014,3600
+Saudi Arabia,SAU,2015,3600
+Saudi Arabia,SAU,2016,3200
+Saudi Arabia,SAU,2017,3200
+Saudi Arabia,SAU,2018,3300
+Saudi Arabia,SAU,2019,3200
+Saudi Arabia,SAU,2020,2700
+Saudi Arabia,SAU,2021,2800
+Saudi Arabia,SAU,2022,2800
+Saudi Arabia,SAU,2023,2800
+Saudi Arabia,SAU,2024,2900
+Senegal,SEN,2000,17000
+Senegal,SEN,2001,18000
+Senegal,SEN,2002,19000
+Senegal,SEN,2003,20000
+Senegal,SEN,2004,20000
+Senegal,SEN,2005,21000
+Senegal,SEN,2006,21000
+Senegal,SEN,2007,22000
+Senegal,SEN,2008,22000
+Senegal,SEN,2009,23000
+Senegal,SEN,2010,23000
+Senegal,SEN,2011,23000
+Senegal,SEN,2012,24000
+Senegal,SEN,2013,24000
+Senegal,SEN,2014,24000
+Senegal,SEN,2015,24000
+Senegal,SEN,2016,24000
+Senegal,SEN,2017,24000
+Senegal,SEN,2018,23000
+Senegal,SEN,2019,23000
+Senegal,SEN,2020,23000
+Senegal,SEN,2021,23000
+Senegal,SEN,2022,24000
+Senegal,SEN,2023,24000
+Senegal,SEN,2024,24000
+Serbia,SRB,2005,5200
+Serbia,SRB,2006,5100
+Serbia,SRB,2007,4700
+Serbia,SRB,2008,4400
+Serbia,SRB,2009,4100
+Serbia,SRB,2010,3800
+Serbia,SRB,2011,3400
+Serbia,SRB,2012,2900
+Serbia,SRB,2013,3200
+Serbia,SRB,2014,2700
+Serbia,SRB,2015,2400
+Serbia,SRB,2016,2100
+Serbia,SRB,2017,2000
+Serbia,SRB,2018,1800
+Serbia,SRB,2019,1500
+Serbia,SRB,2020,1500
+Serbia,SRB,2021,1300
+Serbia,SRB,2022,1200
+Serbia,SRB,2023,1300
+Serbia,SRB,2024,590
+Serbia & Montenegro,,2000,2700
+Serbia & Montenegro,,2001,4300
+Serbia & Montenegro,,2002,4000
+Serbia & Montenegro,,2003,4400
+Serbia & Montenegro,,2004,3500
+Seychelles,SYC,2000,20
+Seychelles,SYC,2001,19
+Seychelles,SYC,2002,29
+Seychelles,SYC,2003,10
+Seychelles,SYC,2004,18
+Seychelles,SYC,2005,14
+Seychelles,SYC,2006,17
+Seychelles,SYC,2007,17
+Seychelles,SYC,2008,6
+Seychelles,SYC,2009,15
+Seychelles,SYC,2010,17
+Seychelles,SYC,2011,21
+Seychelles,SYC,2012,20
+Seychelles,SYC,2013,24
+Seychelles,SYC,2014,13
+Seychelles,SYC,2015,8
+Seychelles,SYC,2016,12
+Seychelles,SYC,2017,16
+Seychelles,SYC,2018,15
+Seychelles,SYC,2019,14
+Seychelles,SYC,2020,9
+Seychelles,SYC,2021,11
+Seychelles,SYC,2022,16
+Seychelles,SYC,2023,23
+Seychelles,SYC,2024,22
+Sierra Leone,SLE,2000,27000
+Sierra Leone,SLE,2001,28000
+Sierra Leone,SLE,2002,29000
+Sierra Leone,SLE,2003,29000
+Sierra Leone,SLE,2004,30000
+Sierra Leone,SLE,2005,30000
+Sierra Leone,SLE,2006,30000
+Sierra Leone,SLE,2007,30000
+Sierra Leone,SLE,2008,30000
+Sierra Leone,SLE,2009,31000
+Sierra Leone,SLE,2010,31000
+Sierra Leone,SLE,2011,31000
+Sierra Leone,SLE,2012,31000
+Sierra Leone,SLE,2013,31000
+Sierra Leone,SLE,2014,31000
+Sierra Leone,SLE,2015,31000
+Sierra Leone,SLE,2016,32000
+Sierra Leone,SLE,2017,32000
+Sierra Leone,SLE,2018,32000
+Sierra Leone,SLE,2019,32000
+Sierra Leone,SLE,2020,32000
+Sierra Leone,SLE,2021,32000
+Sierra Leone,SLE,2022,32000
+Sierra Leone,SLE,2023,32000
+Sierra Leone,SLE,2024,32000
+Singapore,SGP,2000,3100
+Singapore,SGP,2001,2700
+Singapore,SGP,2002,2600
+Singapore,SGP,2003,2600
+Singapore,SGP,2004,2300
+Singapore,SGP,2005,2200
+Singapore,SGP,2006,2000
+Singapore,SGP,2007,2000
+Singapore,SGP,2008,2100
+Singapore,SGP,2009,2000
+Singapore,SGP,2010,2000
+Singapore,SGP,2011,2000
+Singapore,SGP,2012,2800
+Singapore,SGP,2013,2600
+Singapore,SGP,2014,2600
+Singapore,SGP,2015,2500
+Singapore,SGP,2016,2800
+Singapore,SGP,2017,2700
+Singapore,SGP,2018,2700
+Singapore,SGP,2019,2400
+Singapore,SGP,2020,2700
+Singapore,SGP,2021,2800
+Singapore,SGP,2022,3000
+Singapore,SGP,2023,2400
+Singapore,SGP,2024,2500
+Sint Maarten (Dutch part),SXM,2010,3
+Sint Maarten (Dutch part),SXM,2011,2
+Sint Maarten (Dutch part),SXM,2012,1
+Sint Maarten (Dutch part),SXM,2013,2
+Sint Maarten (Dutch part),SXM,2014,0
+Sint Maarten (Dutch part),SXM,2015,2
+Sint Maarten (Dutch part),SXM,2016,0
+Sint Maarten (Dutch part),SXM,2017,5
+Sint Maarten (Dutch part),SXM,2018,2
+Sint Maarten (Dutch part),SXM,2019,7
+Sint Maarten (Dutch part),SXM,2020,1
+Sint Maarten (Dutch part),SXM,2021,1
+Sint Maarten (Dutch part),SXM,2022,2
+Sint Maarten (Dutch part),SXM,2023,3
+Sint Maarten (Dutch part),SXM,2024,3
+Slovakia,SVK,2000,1700
+Slovakia,SVK,2001,1600
+Slovakia,SVK,2002,1500
+Slovakia,SVK,2003,1500
+Slovakia,SVK,2004,980
+Slovakia,SVK,2005,1000
+Slovakia,SVK,2006,960
+Slovakia,SVK,2007,870
+Slovakia,SVK,2008,810
+Slovakia,SVK,2009,620
+Slovakia,SVK,2010,560
+Slovakia,SVK,2011,510
+Slovakia,SVK,2012,420
+Slovakia,SVK,2013,510
+Slovakia,SVK,2014,400
+Slovakia,SVK,2015,380
+Slovakia,SVK,2016,340
+Slovakia,SVK,2017,270
+Slovakia,SVK,2018,330
+Slovakia,SVK,2019,260
+Slovakia,SVK,2020,190
+Slovakia,SVK,2021,160
+Slovakia,SVK,2022,170
+Slovakia,SVK,2023,250
+Slovakia,SVK,2024,180
+Slovenia,SVN,2000,530
+Slovenia,SVN,2001,520
+Slovenia,SVN,2002,480
+Slovenia,SVN,2003,410
+Slovenia,SVN,2004,360
+Slovenia,SVN,2005,380
+Slovenia,SVN,2006,290
+Slovenia,SVN,2007,300
+Slovenia,SVN,2008,280
+Slovenia,SVN,2009,250
+Slovenia,SVN,2010,220
+Slovenia,SVN,2011,240
+Slovenia,SVN,2012,170
+Slovenia,SVN,2013,180
+Slovenia,SVN,2014,180
+Slovenia,SVN,2015,160
+Slovenia,SVN,2016,140
+Slovenia,SVN,2017,130
+Slovenia,SVN,2018,120
+Slovenia,SVN,2019,120
+Slovenia,SVN,2020,88
+Slovenia,SVN,2021,93
+Slovenia,SVN,2022,85
+Slovenia,SVN,2023,100
+Slovenia,SVN,2024,54
+Solomon Islands,SLB,2000,1200
+Solomon Islands,SLB,2001,1200
+Solomon Islands,SLB,2002,1000
+Solomon Islands,SLB,2003,1200
+Solomon Islands,SLB,2004,1300
+Solomon Islands,SLB,2005,1500
+Solomon Islands,SLB,2006,1300
+Solomon Islands,SLB,2007,1300
+Solomon Islands,SLB,2008,1200
+Solomon Islands,SLB,2009,1100
+Solomon Islands,SLB,2010,950
+Solomon Islands,SLB,2011,1100
+Solomon Islands,SLB,2012,940
+Solomon Islands,SLB,2013,910
+Solomon Islands,SLB,2014,850
+Solomon Islands,SLB,2015,990
+Solomon Islands,SLB,2016,940
+Solomon Islands,SLB,2017,850
+Solomon Islands,SLB,2018,880
+Solomon Islands,SLB,2019,800
+Solomon Islands,SLB,2020,720
+Solomon Islands,SLB,2021,820
+Solomon Islands,SLB,2022,760
+Solomon Islands,SLB,2023,780
+Solomon Islands,SLB,2024,1000
+Somalia,SOM,2000,31000
+Somalia,SOM,2001,33000
+Somalia,SOM,2002,34000
+Somalia,SOM,2003,34000
+Somalia,SOM,2004,35000
+Somalia,SOM,2005,34000
+Somalia,SOM,2006,34000
+Somalia,SOM,2007,33000
+Somalia,SOM,2008,30000
+Somalia,SOM,2009,28000
+Somalia,SOM,2010,27000
+Somalia,SOM,2011,25000
+Somalia,SOM,2012,24000
+Somalia,SOM,2013,24000
+Somalia,SOM,2014,25000
+Somalia,SOM,2015,26000
+Somalia,SOM,2016,26000
+Somalia,SOM,2017,27000
+Somalia,SOM,2018,28000
+Somalia,SOM,2019,28000
+Somalia,SOM,2020,29000
+Somalia,SOM,2021,29000
+Somalia,SOM,2022,29000
+Somalia,SOM,2023,29000
+Somalia,SOM,2024,29000
+South Africa,ZAF,2000,360000
+South Africa,ZAF,2001,413000
+South Africa,ZAF,2002,466000
+South Africa,ZAF,2003,518000
+South Africa,ZAF,2004,564000
+South Africa,ZAF,2005,601000
+South Africa,ZAF,2006,627000
+South Africa,ZAF,2007,643000
+South Africa,ZAF,2008,651000
+South Africa,ZAF,2009,651000
+South Africa,ZAF,2010,646000
+South Africa,ZAF,2011,636000
+South Africa,ZAF,2012,625000
+South Africa,ZAF,2013,604000
+South Africa,ZAF,2014,594000
+South Africa,ZAF,2015,561000
+South Africa,ZAF,2016,461000
+South Africa,ZAF,2017,426000
+South Africa,ZAF,2018,397000
+South Africa,ZAF,2019,366000
+South Africa,ZAF,2020,340000
+South Africa,ZAF,2021,315000
+South Africa,ZAF,2022,292000
+South Africa,ZAF,2023,270000
+South Africa,ZAF,2024,249000
+South America,OWID_SAM,2000,306540
+South America,OWID_SAM,2001,283180
+South America,OWID_SAM,2002,278970
+South America,OWID_SAM,2003,266820
+South America,OWID_SAM,2004,266090
+South America,OWID_SAM,2005,243550
+South America,OWID_SAM,2006,233750
+South America,OWID_SAM,2007,224000
+South America,OWID_SAM,2008,218450
+South America,OWID_SAM,2009,208160
+South America,OWID_SAM,2010,202340
+South America,OWID_SAM,2011,203200
+South America,OWID_SAM,2012,197500
+South America,OWID_SAM,2013,195380
+South America,OWID_SAM,2014,191170
+South America,OWID_SAM,2015,189980
+South America,OWID_SAM,2016,192730
+South America,OWID_SAM,2017,199570
+South America,OWID_SAM,2018,207910
+South America,OWID_SAM,2019,212630
+South America,OWID_SAM,2020,205830
+South America,OWID_SAM,2021,219080
+South America,OWID_SAM,2022,237010
+South America,OWID_SAM,2023,243250
+South America,OWID_SAM,2024,248760
+South Korea,KOR,2000,23000
+South Korea,KOR,2001,40000
+South Korea,KOR,2002,37000
+South Korea,KOR,2003,39000
+South Korea,KOR,2004,37000
+South Korea,KOR,2005,46000
+South Korea,KOR,2006,45000
+South Korea,KOR,2007,45000
+South Korea,KOR,2008,43000
+South Korea,KOR,2009,46000
+South Korea,KOR,2010,47000
+South Korea,KOR,2011,49000
+South Korea,KOR,2012,47000
+South Korea,KOR,2013,44000
+South Korea,KOR,2014,43000
+South Korea,KOR,2015,40000
+South Korea,KOR,2016,39000
+South Korea,KOR,2017,36000
+South Korea,KOR,2018,33000
+South Korea,KOR,2019,30000
+South Korea,KOR,2020,25000
+South Korea,KOR,2021,23000
+South Korea,KOR,2022,20000
+South Korea,KOR,2023,20000
+South Korea,KOR,2024,18000
+South Sudan,SSD,2011,43000
+South Sudan,SSD,2012,44000
+South Sudan,SSD,2013,45000
+South Sudan,SSD,2014,44000
+South Sudan,SSD,2015,43000
+South Sudan,SSD,2016,41000
+South Sudan,SSD,2017,38000
+South Sudan,SSD,2018,37000
+South Sudan,SSD,2019,37000
+South Sudan,SSD,2020,37000
+South Sudan,SSD,2021,37000
+South Sudan,SSD,2022,37000
+South Sudan,SSD,2023,37000
+South Sudan,SSD,2024,38000
+Spain,ESP,2000,12000
+Spain,ESP,2001,10000
+Spain,ESP,2002,11000
+Spain,ESP,2003,14000
+Spain,ESP,2004,8500
+Spain,ESP,2005,10000
+Spain,ESP,2006,11000
+Spain,ESP,2007,9900
+Spain,ESP,2008,10000
+Spain,ESP,2009,9400
+Spain,ESP,2010,8900
+Spain,ESP,2011,8100
+Spain,ESP,2012,7100
+Spain,ESP,2013,6400
+Spain,ESP,2014,5800
+Spain,ESP,2015,4700
+Spain,ESP,2016,5500
+Spain,ESP,2017,5100
+Spain,ESP,2018,5200
+Spain,ESP,2019,4700
+Spain,ESP,2020,3400
+Spain,ESP,2021,3900
+Spain,ESP,2022,3000
+Spain,ESP,2023,4700
+Spain,ESP,2024,3800
+Sri Lanka,LKA,2000,29000
+Sri Lanka,LKA,2001,27000
+Sri Lanka,LKA,2002,26000
+Sri Lanka,LKA,2003,25000
+Sri Lanka,LKA,2004,24000
+Sri Lanka,LKA,2005,23000
+Sri Lanka,LKA,2006,22000
+Sri Lanka,LKA,2007,21000
+Sri Lanka,LKA,2008,20000
+Sri Lanka,LKA,2009,19000
+Sri Lanka,LKA,2010,18000
+Sri Lanka,LKA,2011,18000
+Sri Lanka,LKA,2012,17000
+Sri Lanka,LKA,2013,17000
+Sri Lanka,LKA,2014,16000
+Sri Lanka,LKA,2015,15000
+Sri Lanka,LKA,2016,14000
+Sri Lanka,LKA,2017,14000
+Sri Lanka,LKA,2018,13000
+Sri Lanka,LKA,2019,13000
+Sri Lanka,LKA,2020,13000
+Sri Lanka,LKA,2021,13000
+Sri Lanka,LKA,2022,13000
+Sri Lanka,LKA,2023,13000
+Sri Lanka,LKA,2024,14000
+Sudan,SDN,2000,50000
+Sudan,SDN,2001,49000
+Sudan,SDN,2002,50000
+Sudan,SDN,2003,51000
+Sudan,SDN,2004,54000
+Sudan,SDN,2005,56000
+Sudan,SDN,2006,58000
+Sudan,SDN,2007,59000
+Sudan,SDN,2008,49000
+Sudan,SDN,2009,53000
+Sudan,SDN,2010,54000
+Sudan,SDN,2011,38000
+Sudan,SDN,2012,38000
+Sudan,SDN,2013,38000
+Sudan,SDN,2014,36000
+Sudan,SDN,2015,35000
+Sudan,SDN,2016,34000
+Sudan,SDN,2017,33000
+Sudan,SDN,2018,32000
+Sudan,SDN,2019,30000
+Sudan,SDN,2020,29000
+Sudan,SDN,2021,28000
+Sudan,SDN,2022,27000
+Sudan,SDN,2023,25000
+Sudan,SDN,2024,24000
+Suriname,SUR,2000,240
+Suriname,SUR,2001,180
+Suriname,SUR,2002,220
+Suriname,SUR,2003,220
+Suriname,SUR,2004,190
+Suriname,SUR,2005,220
+Suriname,SUR,2006,230
+Suriname,SUR,2007,230
+Suriname,SUR,2008,190
+Suriname,SUR,2009,300
+Suriname,SUR,2010,310
+Suriname,SUR,2011,200
+Suriname,SUR,2012,200
+Suriname,SUR,2013,210
+Suriname,SUR,2014,210
+Suriname,SUR,2015,210
+Suriname,SUR,2016,160
+Suriname,SUR,2017,180
+Suriname,SUR,2018,240
+Suriname,SUR,2019,190
+Suriname,SUR,2020,160
+Suriname,SUR,2021,140
+Suriname,SUR,2022,200
+Suriname,SUR,2023,200
+Suriname,SUR,2024,210
+Sweden,SWE,2000,590
+Sweden,SWE,2001,560
+Sweden,SWE,2002,520
+Sweden,SWE,2003,550
+Sweden,SWE,2004,590
+Sweden,SWE,2005,730
+Sweden,SWE,2006,650
+Sweden,SWE,2007,600
+Sweden,SWE,2008,660
+Sweden,SWE,2009,720
+Sweden,SWE,2010,770
+Sweden,SWE,2011,660
+Sweden,SWE,2012,720
+Sweden,SWE,2013,740
+Sweden,SWE,2014,760
+Sweden,SWE,2015,920
+Sweden,SWE,2016,830
+Sweden,SWE,2017,570
+Sweden,SWE,2018,560
+Sweden,SWE,2019,560
+Sweden,SWE,2020,370
+Sweden,SWE,2021,400
+Sweden,SWE,2022,420
+Sweden,SWE,2023,400
+Sweden,SWE,2024,350
+Switzerland,CHE,2000,800
+Switzerland,CHE,2001,750
+Switzerland,CHE,2002,800
+Switzerland,CHE,2003,760
+Switzerland,CHE,2004,720
+Switzerland,CHE,2005,660
+Switzerland,CHE,2006,600
+Switzerland,CHE,2007,530
+Switzerland,CHE,2008,580
+Switzerland,CHE,2009,620
+Switzerland,CHE,2010,620
+Switzerland,CHE,2011,640
+Switzerland,CHE,2012,500
+Switzerland,CHE,2013,560
+Switzerland,CHE,2014,510
+Switzerland,CHE,2015,630
+Switzerland,CHE,2016,670
+Switzerland,CHE,2017,620
+Switzerland,CHE,2018,550
+Switzerland,CHE,2019,460
+Switzerland,CHE,2020,400
+Switzerland,CHE,2021,410
+Switzerland,CHE,2022,400
+Switzerland,CHE,2023,470
+Switzerland,CHE,2024,480
+Syria,SYR,2000,13000
+Syria,SYR,2001,12000
+Syria,SYR,2002,11000
+Syria,SYR,2003,11000
+Syria,SYR,2004,10000
+Syria,SYR,2005,9300
+Syria,SYR,2006,8200
+Syria,SYR,2007,8500
+Syria,SYR,2008,7300
+Syria,SYR,2009,7700
+Syria,SYR,2010,6800
+Syria,SYR,2011,6600
+Syria,SYR,2012,5500
+Syria,SYR,2013,4900
+Syria,SYR,2014,6200
+Syria,SYR,2015,5100
+Syria,SYR,2016,5300
+Syria,SYR,2017,4600
+Syria,SYR,2018,4400
+Syria,SYR,2019,4200
+Syria,SYR,2020,4300
+Syria,SYR,2021,5300
+Syria,SYR,2022,4900
+Syria,SYR,2023,5500
+Syria,SYR,2024,5600
+Tajikistan,TJK,2000,8800
+Tajikistan,TJK,2001,10000
+Tajikistan,TJK,2002,12000
+Tajikistan,TJK,2003,13000
+Tajikistan,TJK,2004,14000
+Tajikistan,TJK,2005,14000
+Tajikistan,TJK,2006,15000
+Tajikistan,TJK,2007,15000
+Tajikistan,TJK,2008,14000
+Tajikistan,TJK,2009,14000
+Tajikistan,TJK,2010,13000
+Tajikistan,TJK,2011,12000
+Tajikistan,TJK,2012,12000
+Tajikistan,TJK,2013,11000
+Tajikistan,TJK,2014,10000
+Tajikistan,TJK,2015,9600
+Tajikistan,TJK,2016,9000
+Tajikistan,TJK,2017,8500
+Tajikistan,TJK,2018,8000
+Tajikistan,TJK,2019,7600
+Tajikistan,TJK,2020,7500
+Tajikistan,TJK,2021,7600
+Tajikistan,TJK,2022,7800
+Tajikistan,TJK,2023,7900
+Tajikistan,TJK,2024,7900
+Tanzania,TZA,2000,172000
+Tanzania,TZA,2001,178000
+Tanzania,TZA,2002,184000
+Tanzania,TZA,2003,189000
+Tanzania,TZA,2004,194000
+Tanzania,TZA,2005,200000
+Tanzania,TZA,2006,203000
+Tanzania,TZA,2007,204000
+Tanzania,TZA,2008,202000
+Tanzania,TZA,2009,197000
+Tanzania,TZA,2010,191000
+Tanzania,TZA,2011,185000
+Tanzania,TZA,2012,179000
+Tanzania,TZA,2013,164000
+Tanzania,TZA,2014,164000
+Tanzania,TZA,2015,159000
+Tanzania,TZA,2016,155000
+Tanzania,TZA,2017,150000
+Tanzania,TZA,2018,145000
+Tanzania,TZA,2019,140000
+Tanzania,TZA,2020,135000
+Tanzania,TZA,2021,131000
+Tanzania,TZA,2022,126000
+Tanzania,TZA,2023,122000
+Tanzania,TZA,2024,118000
+Thailand,THA,2000,152000
+Thailand,THA,2001,156000
+Thailand,THA,2002,157000
+Thailand,THA,2003,155000
+Thailand,THA,2004,152000
+Thailand,THA,2005,148000
+Thailand,THA,2006,143000
+Thailand,THA,2007,138000
+Thailand,THA,2008,133000
+Thailand,THA,2009,128000
+Thailand,THA,2010,124000
+Thailand,THA,2011,122000
+Thailand,THA,2012,120000
+Thailand,THA,2013,119000
+Thailand,THA,2014,117000
+Thailand,THA,2015,115000
+Thailand,THA,2016,113000
+Thailand,THA,2017,111000
+Thailand,THA,2018,109000
+Thailand,THA,2019,107000
+Thailand,THA,2020,103000
+Thailand,THA,2021,102000
+Thailand,THA,2022,106000
+Thailand,THA,2023,107000
+Thailand,THA,2024,104000
+Togo,TGO,2000,2600
+Togo,TGO,2001,3200
+Togo,TGO,2002,3700
+Togo,TGO,2003,4200
+Togo,TGO,2004,4700
+Togo,TGO,2005,5100
+Togo,TGO,2006,5400
+Togo,TGO,2007,5600
+Togo,TGO,2008,5800
+Togo,TGO,2009,5900
+Togo,TGO,2010,5800
+Togo,TGO,2011,5600
+Togo,TGO,2012,5400
+Togo,TGO,2013,5200
+Togo,TGO,2014,4900
+Togo,TGO,2015,4700
+Togo,TGO,2016,4500
+Togo,TGO,2017,4400
+Togo,TGO,2018,4200
+Togo,TGO,2019,4200
+Togo,TGO,2020,4100
+Togo,TGO,2021,4200
+Togo,TGO,2022,4200
+Togo,TGO,2023,4400
+Togo,TGO,2024,4500
+Tokelau,TKL,2000,0
+Tokelau,TKL,2001,0
+Tokelau,TKL,2002,0
+Tokelau,TKL,2003,0
+Tokelau,TKL,2004,0
+Tokelau,TKL,2005,0
+Tokelau,TKL,2006,0
+Tokelau,TKL,2007,0
+Tokelau,TKL,2008,0
+Tokelau,TKL,2009,0
+Tokelau,TKL,2010,0
+Tokelau,TKL,2011,0
+Tokelau,TKL,2012,0
+Tokelau,TKL,2013,0
+Tokelau,TKL,2014,0
+Tokelau,TKL,2015,2
+Tokelau,TKL,2016,0
+Tokelau,TKL,2017,0
+Tokelau,TKL,2018,0
+Tokelau,TKL,2019,0
+Tokelau,TKL,2020,0
+Tokelau,TKL,2021,0
+Tokelau,TKL,2022,0
+Tokelau,TKL,2023,0
+Tokelau,TKL,2024,0
+Tonga,TON,2000,24
+Tonga,TON,2001,12
+Tonga,TON,2002,29
+Tonga,TON,2003,16
+Tonga,TON,2004,12
+Tonga,TON,2005,18
+Tonga,TON,2006,18
+Tonga,TON,2007,23
+Tonga,TON,2008,13
+Tonga,TON,2009,8
+Tonga,TON,2010,11
+Tonga,TON,2011,9
+Tonga,TON,2012,11
+Tonga,TON,2013,10
+Tonga,TON,2014,13
+Tonga,TON,2015,14
+Tonga,TON,2016,8
+Tonga,TON,2017,11
+Tonga,TON,2018,9
+Tonga,TON,2019,10
+Tonga,TON,2020,8
+Tonga,TON,2021,7
+Tonga,TON,2022,2
+Tonga,TON,2023,8
+Tonga,TON,2024,2
+Trinidad and Tobago,TTO,2000,450
+Trinidad and Tobago,TTO,2001,440
+Trinidad and Tobago,TTO,2002,260
+Trinidad and Tobago,TTO,2003,270
+Trinidad and Tobago,TTO,2004,310
+Trinidad and Tobago,TTO,2005,270
+Trinidad and Tobago,TTO,2006,370
+Trinidad and Tobago,TTO,2007,340
+Trinidad and Tobago,TTO,2008,420
+Trinidad and Tobago,TTO,2009,400
+Trinidad and Tobago,TTO,2010,310
+Trinidad and Tobago,TTO,2011,320
+Trinidad and Tobago,TTO,2012,380
+Trinidad and Tobago,TTO,2013,340
+Trinidad and Tobago,TTO,2014,340
+Trinidad and Tobago,TTO,2015,260
+Trinidad and Tobago,TTO,2016,280
+Trinidad and Tobago,TTO,2017,260
+Trinidad and Tobago,TTO,2018,330
+Trinidad and Tobago,TTO,2019,290
+Trinidad and Tobago,TTO,2020,290
+Trinidad and Tobago,TTO,2021,230
+Trinidad and Tobago,TTO,2022,330
+Trinidad and Tobago,TTO,2023,370
+Trinidad and Tobago,TTO,2024,400
+Tunisia,TUN,2000,5600
+Tunisia,TUN,2001,4900
+Tunisia,TUN,2002,4400
+Tunisia,TUN,2003,4200
+Tunisia,TUN,2004,4000
+Tunisia,TUN,2005,3900
+Tunisia,TUN,2006,3900
+Tunisia,TUN,2007,4200
+Tunisia,TUN,2008,4100
+Tunisia,TUN,2009,3800
+Tunisia,TUN,2010,4200
+Tunisia,TUN,2011,5300
+Tunisia,TUN,2012,5600
+Tunisia,TUN,2013,5200
+Tunisia,TUN,2014,5300
+Tunisia,TUN,2015,5700
+Tunisia,TUN,2016,5600
+Tunisia,TUN,2017,5000
+Tunisia,TUN,2018,5000
+Tunisia,TUN,2019,5000
+Tunisia,TUN,2020,4900
+Tunisia,TUN,2021,4900
+Tunisia,TUN,2022,4800
+Tunisia,TUN,2023,4700
+Tunisia,TUN,2024,4700
+Turkey,TUR,2000,35000
+Turkey,TUR,2001,33000
+Turkey,TUR,2002,33000
+Turkey,TUR,2003,32000
+Turkey,TUR,2004,30000
+Turkey,TUR,2005,33000
+Turkey,TUR,2006,33000
+Turkey,TUR,2007,31000
+Turkey,TUR,2008,29000
+Turkey,TUR,2009,27000
+Turkey,TUR,2010,26000
+Turkey,TUR,2011,23000
+Turkey,TUR,2012,21000
+Turkey,TUR,2013,19000
+Turkey,TUR,2014,18000
+Turkey,TUR,2015,17000
+Turkey,TUR,2016,16000
+Turkey,TUR,2017,16000
+Turkey,TUR,2018,15000
+Turkey,TUR,2019,15000
+Turkey,TUR,2020,14000
+Turkey,TUR,2021,13000
+Turkey,TUR,2022,13000
+Turkey,TUR,2023,12000
+Turkey,TUR,2024,11000
+Turkmenistan,TKM,2000,8900
+Turkmenistan,TKM,2001,8300
+Turkmenistan,TKM,2002,7400
+Turkmenistan,TKM,2003,8300
+Turkmenistan,TKM,2004,6300
+Turkmenistan,TKM,2005,5700
+Turkmenistan,TKM,2006,5600
+Turkmenistan,TKM,2007,5800
+Turkmenistan,TKM,2008,6200
+Turkmenistan,TKM,2009,5100
+Turkmenistan,TKM,2010,5000
+Turkmenistan,TKM,2011,4200
+Turkmenistan,TKM,2012,4400
+Turkmenistan,TKM,2013,4500
+Turkmenistan,TKM,2014,3700
+Turkmenistan,TKM,2015,3100
+Turkmenistan,TKM,2016,2900
+Turkmenistan,TKM,2017,2700
+Turkmenistan,TKM,2018,2900
+Turkmenistan,TKM,2019,2900
+Turkmenistan,TKM,2020,2600
+Turkmenistan,TKM,2021,2500
+Turkmenistan,TKM,2022,3300
+Turkmenistan,TKM,2023,3000
+Turkmenistan,TKM,2024,3000
+Turks and Caicos Islands,TCA,2000,3
+Turks and Caicos Islands,TCA,2001,3
+Turks and Caicos Islands,TCA,2002,3
+Turks and Caicos Islands,TCA,2003,6
+Turks and Caicos Islands,TCA,2004,6
+Turks and Caicos Islands,TCA,2005,6
+Turks and Caicos Islands,TCA,2006,7
+Turks and Caicos Islands,TCA,2007,7
+Turks and Caicos Islands,TCA,2008,7
+Turks and Caicos Islands,TCA,2009,7
+Turks and Caicos Islands,TCA,2010,6
+Turks and Caicos Islands,TCA,2011,9
+Turks and Caicos Islands,TCA,2012,8
+Turks and Caicos Islands,TCA,2013,2
+Turks and Caicos Islands,TCA,2014,1
+Turks and Caicos Islands,TCA,2015,2
+Turks and Caicos Islands,TCA,2016,2
+Turks and Caicos Islands,TCA,2017,4
+Turks and Caicos Islands,TCA,2018,2
+Turks and Caicos Islands,TCA,2019,4
+Turks and Caicos Islands,TCA,2020,2
+Turks and Caicos Islands,TCA,2021,0
+Turks and Caicos Islands,TCA,2022,3
+Turks and Caicos Islands,TCA,2023,7
+Turks and Caicos Islands,TCA,2024,4
+Tuvalu,TUV,2000,16
+Tuvalu,TUV,2001,16
+Tuvalu,TUV,2002,13
+Tuvalu,TUV,2003,31
+Tuvalu,TUV,2004,17
+Tuvalu,TUV,2005,12
+Tuvalu,TUV,2006,9
+Tuvalu,TUV,2007,18
+Tuvalu,TUV,2008,17
+Tuvalu,TUV,2009,18
+Tuvalu,TUV,2010,14
+Tuvalu,TUV,2011,12
+Tuvalu,TUV,2012,19
+Tuvalu,TUV,2013,18
+Tuvalu,TUV,2014,15
+Tuvalu,TUV,2015,20
+Tuvalu,TUV,2016,20
+Tuvalu,TUV,2017,23
+Tuvalu,TUV,2018,27
+Tuvalu,TUV,2019,30
+Tuvalu,TUV,2020,30
+Tuvalu,TUV,2021,22
+Tuvalu,TUV,2022,26
+Tuvalu,TUV,2023,16
+Tuvalu,TUV,2024,22
+Uganda,UGA,2000,66000
+Uganda,UGA,2001,66000
+Uganda,UGA,2002,65000
+Uganda,UGA,2003,65000
+Uganda,UGA,2004,65000
+Uganda,UGA,2005,65000
+Uganda,UGA,2006,65000
+Uganda,UGA,2007,66000
+Uganda,UGA,2008,66000
+Uganda,UGA,2009,67000
+Uganda,UGA,2010,68000
+Uganda,UGA,2011,69000
+Uganda,UGA,2012,70000
+Uganda,UGA,2013,72000
+Uganda,UGA,2014,74000
+Uganda,UGA,2015,76000
+Uganda,UGA,2016,78000
+Uganda,UGA,2017,81000
+Uganda,UGA,2018,83000
+Uganda,UGA,2019,86000
+Uganda,UGA,2020,89000
+Uganda,UGA,2021,91000
+Uganda,UGA,2022,94000
+Uganda,UGA,2023,96000
+Uganda,UGA,2024,99000
+Ukraine,UKR,2000,96000
+Ukraine,UKR,2001,100000
+Ukraine,UKR,2002,102000
+Ukraine,UKR,2003,103000
+Ukraine,UKR,2004,101000
+Ukraine,UKR,2005,98000
+Ukraine,UKR,2006,93000
+Ukraine,UKR,2007,86000
+Ukraine,UKR,2008,76000
+Ukraine,UKR,2009,67000
+Ukraine,UKR,2010,63000
+Ukraine,UKR,2011,61000
+Ukraine,UKR,2012,59000
+Ukraine,UKR,2013,55000
+Ukraine,UKR,2014,53000
+Ukraine,UKR,2015,49000
+Ukraine,UKR,2016,45000
+Ukraine,UKR,2017,41000
+Ukraine,UKR,2018,37000
+Ukraine,UKR,2019,34000
+Ukraine,UKR,2020,33000
+Ukraine,UKR,2021,36000
+Ukraine,UKR,2022,36000
+Ukraine,UKR,2023,34000
+Ukraine,UKR,2024,33000
+United Arab Emirates,ARE,2000,280
+United Arab Emirates,ARE,2001,170
+United Arab Emirates,ARE,2002,200
+United Arab Emirates,ARE,2003,240
+United Arab Emirates,ARE,2004,180
+United Arab Emirates,ARE,2005,190
+United Arab Emirates,ARE,2006,160
+United Arab Emirates,ARE,2007,170
+United Arab Emirates,ARE,2008,160
+United Arab Emirates,ARE,2009,200
+United Arab Emirates,ARE,2010,220
+United Arab Emirates,ARE,2011,170
+United Arab Emirates,ARE,2012,130
+United Arab Emirates,ARE,2013,130
+United Arab Emirates,ARE,2014,91
+United Arab Emirates,ARE,2015,89
+United Arab Emirates,ARE,2016,93
+United Arab Emirates,ARE,2017,95
+United Arab Emirates,ARE,2018,120
+United Arab Emirates,ARE,2019,110
+United Arab Emirates,ARE,2020,81
+United Arab Emirates,ARE,2021,81
+United Arab Emirates,ARE,2022,79
+United Arab Emirates,ARE,2023,81
+United Arab Emirates,ARE,2024,70
+United Kingdom,GBR,2000,7000
+United Kingdom,GBR,2001,6800
+United Kingdom,GBR,2002,7800
+United Kingdom,GBR,2003,8000
+United Kingdom,GBR,2004,7900
+United Kingdom,GBR,2005,9200
+United Kingdom,GBR,2006,9300
+United Kingdom,GBR,2007,9000
+United Kingdom,GBR,2008,9300
+United Kingdom,GBR,2009,9100
+United Kingdom,GBR,2010,8800
+United Kingdom,GBR,2011,9500
+United Kingdom,GBR,2012,9300
+United Kingdom,GBR,2013,8300
+United Kingdom,GBR,2014,7400
+United Kingdom,GBR,2015,6600
+United Kingdom,GBR,2016,6500
+United Kingdom,GBR,2017,5900
+United Kingdom,GBR,2018,5400
+United Kingdom,GBR,2019,5400
+United Kingdom,GBR,2020,4700
+United Kingdom,GBR,2021,5400
+United Kingdom,GBR,2022,5300
+United Kingdom,GBR,2023,5900
+United Kingdom,GBR,2024,6700
+United States,USA,2000,22000
+United States,USA,2001,21000
+United States,USA,2002,20000
+United States,USA,2003,19000
+United States,USA,2004,18000
+United States,USA,2005,18000
+United States,USA,2006,17000
+United States,USA,2007,17000
+United States,USA,2008,16000
+United States,USA,2009,14000
+United States,USA,2010,14000
+United States,USA,2011,13000
+United States,USA,2012,12000
+United States,USA,2013,11000
+United States,USA,2014,11000
+United States,USA,2015,11000
+United States,USA,2016,10000
+United States,USA,2017,10000
+United States,USA,2018,10000
+United States,USA,2019,9900
+United States,USA,2020,8000
+United States,USA,2021,8800
+United States,USA,2022,9000
+United States,USA,2023,11000
+United States,USA,2024,11000
+Upper-middle-income countries,OWID_UMC,2000,4081627
+Upper-middle-income countries,OWID_UMC,2001,4086220
+Upper-middle-income countries,OWID_UMC,2002,4100133
+Upper-middle-income countries,OWID_UMC,2003,4119890
+Upper-middle-income countries,OWID_UMC,2004,4103974
+Upper-middle-income countries,OWID_UMC,2005,4098154
+Upper-middle-income countries,OWID_UMC,2006,4059100
+Upper-middle-income countries,OWID_UMC,2007,4008359
+Upper-middle-income countries,OWID_UMC,2008,3985573
+Upper-middle-income countries,OWID_UMC,2009,3963220
+Upper-middle-income countries,OWID_UMC,2010,3881125
+Upper-middle-income countries,OWID_UMC,2011,3876909
+Upper-middle-income countries,OWID_UMC,2012,3844211
+Upper-middle-income countries,OWID_UMC,2013,3774107
+Upper-middle-income countries,OWID_UMC,2014,3724093
+Upper-middle-income countries,OWID_UMC,2015,3664746
+Upper-middle-income countries,OWID_UMC,2016,3538811
+Upper-middle-income countries,OWID_UMC,2017,3500501
+Upper-middle-income countries,OWID_UMC,2018,3456984
+Upper-middle-income countries,OWID_UMC,2019,3385041
+Upper-middle-income countries,OWID_UMC,2020,3325039
+Upper-middle-income countries,OWID_UMC,2021,3384330
+Upper-middle-income countries,OWID_UMC,2022,3553415
+Upper-middle-income countries,OWID_UMC,2023,3590972
+Upper-middle-income countries,OWID_UMC,2024,3512501
+Uruguay,URY,2000,1100
+Uruguay,URY,2001,1100
+Uruguay,URY,2002,850
+Uruguay,URY,2003,1000
+Uruguay,URY,2004,1100
+Uruguay,URY,2005,930
+Uruguay,URY,2006,820
+Uruguay,URY,2007,870
+Uruguay,URY,2008,960
+Uruguay,URY,2009,960
+Uruguay,URY,2010,930
+Uruguay,URY,2011,1100
+Uruguay,URY,2012,1100
+Uruguay,URY,2013,1100
+Uruguay,URY,2014,1100
+Uruguay,URY,2015,1100
+Uruguay,URY,2016,1100
+Uruguay,URY,2017,1200
+Uruguay,URY,2018,1200
+Uruguay,URY,2019,1300
+Uruguay,URY,2020,1200
+Uruguay,URY,2021,1200
+Uruguay,URY,2022,1400
+Uruguay,URY,2023,1500
+Uruguay,URY,2024,1600
+Uzbekistan,UZB,2000,39000
+Uzbekistan,UZB,2001,41000
+Uzbekistan,UZB,2002,42000
+Uzbekistan,UZB,2003,43000
+Uzbekistan,UZB,2004,43000
+Uzbekistan,UZB,2005,42000
+Uzbekistan,UZB,2006,41000
+Uzbekistan,UZB,2007,38000
+Uzbekistan,UZB,2008,35000
+Uzbekistan,UZB,2009,32000
+Uzbekistan,UZB,2010,29000
+Uzbekistan,UZB,2011,27000
+Uzbekistan,UZB,2012,25000
+Uzbekistan,UZB,2013,25000
+Uzbekistan,UZB,2014,24000
+Uzbekistan,UZB,2015,24000
+Uzbekistan,UZB,2016,24000
+Uzbekistan,UZB,2017,23000
+Uzbekistan,UZB,2018,23000
+Uzbekistan,UZB,2019,22000
+Uzbekistan,UZB,2020,21000
+Uzbekistan,UZB,2021,21000
+Uzbekistan,UZB,2022,20000
+Uzbekistan,UZB,2023,19000
+Uzbekistan,UZB,2024,18000
+Vanuatu,VUT,2000,620
+Vanuatu,VUT,2001,550
+Vanuatu,VUT,2002,480
+Vanuatu,VUT,2003,430
+Vanuatu,VUT,2004,380
+Vanuatu,VUT,2005,340
+Vanuatu,VUT,2006,310
+Vanuatu,VUT,2007,290
+Vanuatu,VUT,2008,290
+Vanuatu,VUT,2009,280
+Vanuatu,VUT,2010,280
+Vanuatu,VUT,2011,270
+Vanuatu,VUT,2012,260
+Vanuatu,VUT,2013,250
+Vanuatu,VUT,2014,230
+Vanuatu,VUT,2015,220
+Vanuatu,VUT,2016,200
+Vanuatu,VUT,2017,190
+Vanuatu,VUT,2018,170
+Vanuatu,VUT,2019,160
+Vanuatu,VUT,2020,150
+Vanuatu,VUT,2021,150
+Vanuatu,VUT,2022,140
+Vanuatu,VUT,2023,140
+Vanuatu,VUT,2024,150
+Venezuela,VEN,2000,15000
+Venezuela,VEN,2001,14000
+Venezuela,VEN,2002,13000
+Venezuela,VEN,2003,13000
+Venezuela,VEN,2004,13000
+Venezuela,VEN,2005,12000
+Venezuela,VEN,2006,12000
+Venezuela,VEN,2007,11000
+Venezuela,VEN,2008,10000
+Venezuela,VEN,2009,10000
+Venezuela,VEN,2010,9900
+Venezuela,VEN,2011,9300
+Venezuela,VEN,2012,9300
+Venezuela,VEN,2013,9100
+Venezuela,VEN,2014,8600
+Venezuela,VEN,2015,9400
+Venezuela,VEN,2016,11000
+Venezuela,VEN,2017,14000
+Venezuela,VEN,2018,15000
+Venezuela,VEN,2019,14000
+Venezuela,VEN,2020,13000
+Venezuela,VEN,2021,13000
+Venezuela,VEN,2022,14000
+Venezuela,VEN,2023,13000
+Venezuela,VEN,2024,13000
+Vietnam,VNM,2000,229000
+Vietnam,VNM,2001,226000
+Vietnam,VNM,2002,224000
+Vietnam,VNM,2003,221000
+Vietnam,VNM,2004,219000
+Vietnam,VNM,2005,216000
+Vietnam,VNM,2006,213000
+Vietnam,VNM,2007,212000
+Vietnam,VNM,2008,209000
+Vietnam,VNM,2009,206000
+Vietnam,VNM,2010,202000
+Vietnam,VNM,2011,199000
+Vietnam,VNM,2012,195000
+Vietnam,VNM,2013,192000
+Vietnam,VNM,2014,188000
+Vietnam,VNM,2015,185000
+Vietnam,VNM,2016,182000
+Vietnam,VNM,2017,179000
+Vietnam,VNM,2018,175000
+Vietnam,VNM,2019,171000
+Vietnam,VNM,2020,168000
+Vietnam,VNM,2021,169000
+Vietnam,VNM,2022,177000
+Vietnam,VNM,2023,185000
+Vietnam,VNM,2024,184000
+Wallis and Futuna,WLF,2000,2
+Wallis and Futuna,WLF,2001,1
+Wallis and Futuna,WLF,2002,19
+Wallis and Futuna,WLF,2003,17
+Wallis and Futuna,WLF,2004,11
+Wallis and Futuna,WLF,2005,7
+Wallis and Futuna,WLF,2006,6
+Wallis and Futuna,WLF,2007,2
+Wallis and Futuna,WLF,2008,5
+Wallis and Futuna,WLF,2009,9
+Wallis and Futuna,WLF,2010,5
+Wallis and Futuna,WLF,2011,2
+Wallis and Futuna,WLF,2012,2
+Wallis and Futuna,WLF,2013,2
+Wallis and Futuna,WLF,2014,0
+Wallis and Futuna,WLF,2015,0
+Wallis and Futuna,WLF,2016,0
+Wallis and Futuna,WLF,2017,0
+Wallis and Futuna,WLF,2018,0
+Wallis and Futuna,WLF,2019,1
+Wallis and Futuna,WLF,2020,0
+Wallis and Futuna,WLF,2021,0
+Wallis and Futuna,WLF,2022,0
+Wallis and Futuna,WLF,2023,0
+Wallis and Futuna,WLF,2024,0
+World,OWID_WRL,2000,11564186
+World,OWID_WRL,2001,11690085
+World,OWID_WRL,2002,11818014
+World,OWID_WRL,2003,11960582
+World,OWID_WRL,2004,12007466
+World,OWID_WRL,2005,12051805
+World,OWID_WRL,2006,12029505
+World,OWID_WRL,2007,11953570
+World,OWID_WRL,2008,11870315
+World,OWID_WRL,2009,11813217
+World,OWID_WRL,2010,11668773
+World,OWID_WRL,2011,11609352
+World,OWID_WRL,2012,11462059
+World,OWID_WRL,2013,11274447
+World,OWID_WRL,2014,11161918
+World,OWID_WRL,2015,11015698
+World,OWID_WRL,2016,10759475
+World,OWID_WRL,2017,10610420
+World,OWID_WRL,2018,10452823
+World,OWID_WRL,2019,10307117
+World,OWID_WRL,2020,10173717
+World,OWID_WRL,2021,10319052
+World,OWID_WRL,2022,10600103
+World,OWID_WRL,2023,10653626
+World,OWID_WRL,2024,10553581
+Yemen,YEM,2000,18000
+Yemen,YEM,2001,18000
+Yemen,YEM,2002,16000
+Yemen,YEM,2003,14000
+Yemen,YEM,2004,14000
+Yemen,YEM,2005,12000
+Yemen,YEM,2006,11000
+Yemen,YEM,2007,11000
+Yemen,YEM,2008,11000
+Yemen,YEM,2009,12000
+Yemen,YEM,2010,12000
+Yemen,YEM,2011,12000
+Yemen,YEM,2012,13000
+Yemen,YEM,2013,14000
+Yemen,YEM,2014,13000
+Yemen,YEM,2015,10000
+Yemen,YEM,2016,13000
+Yemen,YEM,2017,13000
+Yemen,YEM,2018,13000
+Yemen,YEM,2019,14000
+Yemen,YEM,2020,12000
+Yemen,YEM,2021,13000
+Yemen,YEM,2022,14000
+Yemen,YEM,2023,15000
+Yemen,YEM,2024,16000
+Zambia,ZMB,2000,76000
+Zambia,ZMB,2001,75000
+Zambia,ZMB,2002,74000
+Zambia,ZMB,2003,73000
+Zambia,ZMB,2004,72000
+Zambia,ZMB,2005,71000
+Zambia,ZMB,2006,70000
+Zambia,ZMB,2007,70000
+Zambia,ZMB,2008,70000
+Zambia,ZMB,2009,69000
+Zambia,ZMB,2010,69000
+Zambia,ZMB,2011,69000
+Zambia,ZMB,2012,68000
+Zambia,ZMB,2013,67000
+Zambia,ZMB,2014,65000
+Zambia,ZMB,2015,64000
+Zambia,ZMB,2016,64000
+Zambia,ZMB,2017,63000
+Zambia,ZMB,2018,62000
+Zambia,ZMB,2019,62000
+Zambia,ZMB,2020,61000
+Zambia,ZMB,2021,60000
+Zambia,ZMB,2022,59000
+Zambia,ZMB,2023,59000
+Zambia,ZMB,2024,58000
+Zimbabwe,ZWE,2000,72000
+Zimbabwe,ZWE,2001,74000
+Zimbabwe,ZWE,2002,75000
+Zimbabwe,ZWE,2003,75000
+Zimbabwe,ZWE,2004,75000
+Zimbabwe,ZWE,2005,73000
+Zimbabwe,ZWE,2006,71000
+Zimbabwe,ZWE,2007,67000
+Zimbabwe,ZWE,2008,63000
+Zimbabwe,ZWE,2009,59000
+Zimbabwe,ZWE,2010,56000
+Zimbabwe,ZWE,2011,52000
+Zimbabwe,ZWE,2012,49000
+Zimbabwe,ZWE,2013,43000
+Zimbabwe,ZWE,2014,40000
+Zimbabwe,ZWE,2015,35000
+Zimbabwe,ZWE,2016,34000
+Zimbabwe,ZWE,2017,33000
+Zimbabwe,ZWE,2018,32000
+Zimbabwe,ZWE,2019,30000
+Zimbabwe,ZWE,2020,29000
+Zimbabwe,ZWE,2021,31000
+Zimbabwe,ZWE,2022,34000
+Zimbabwe,ZWE,2023,34000
+Zimbabwe,ZWE,2024,34000

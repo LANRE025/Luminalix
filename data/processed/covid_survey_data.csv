@@ -1,0 +1,21 @@
+region,country,disease,last_survey_date,reported_case_rate,data_source
+United States,United States,COVID-19,2023-05-20,39.01,real
+France,France,COVID-19,2023-07-01,17.74,real
+South Africa,South Africa,COVID-19,2024-08-04,0.0,real
+Peru,Peru,COVID-19,2024-08-04,0.0,real
+Uganda,Uganda,COVID-19,2024-08-04,0.0,real
+Pakistan,Pakistan,COVID-19,2024-08-04,0.0,real
+Philippines,Philippines,COVID-19,2024-08-04,0.0,real
+Bangladesh,Bangladesh,COVID-19,2024-08-04,0.03,real
+Mexico,Mexico,COVID-19,2024-08-04,0.38,real
+Kenya,Kenya,COVID-19,2024-08-04,0.0,real
+United Kingdom,United Kingdom,COVID-19,2024-08-04,7.12,real
+Indonesia,Indonesia,COVID-19,2024-08-04,0.02,real
+India,India,COVID-19,2024-08-04,0.03,real
+Ghana,Ghana,COVID-19,2024-08-04,0.0,real
+Ethiopia,Ethiopia,COVID-19,2024-08-04,0.0,real
+Egypt,Egypt,COVID-19,2024-08-04,0.0,real
+Democratic Republic of Congo,Democratic Republic of Congo,COVID-19,2024-08-04,0.0,real
+Brazil,Brazil,COVID-19,2024-08-04,0.0,real
+Nigeria,Nigeria,COVID-19,2024-08-04,0.0,real
+Vietnam,Vietnam,COVID-19,2024-08-04,0.0,real

@@ -8,7 +8,15 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, BackgroundTasks, Request
 
-from app.models.schemas import AgentRunStatus, AgentRunStatusValue
+from app.agent import orchestrator
+from app.agent.data_access import DataAccess
+from app.agent.datahub_client import DataHubClient
+from app.models.schemas import (
+    AgentRunStatus,
+    AgentRunStatusValue,
+    RegionAssessment,
+    VulnerableRegionsReport,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -26,22 +34,45 @@ async def run_agent(request: Request, background_tasks: BackgroundTasks) -> Agen
     if state.run_status.status == AgentRunStatusValue.RUNNING:
         return state.run_status
 
+    settings = state.settings
+    data_access = DataAccess()
+    datahub_client = DataHubClient(
+        gms_url=settings.datahub_gms_url,
+        token=settings.datahub_token,
+    )
+
     state.run_status.status = AgentRunStatusValue.RUNNING
     state.run_status.started_at = _now()
     state.run_status.completed_at = None
     state.run_status.error_message = None
 
-    background_tasks.add_task(_execute_run, state)
+    background_tasks.add_task(_execute_run, state, data_access, datahub_client)
     return state.run_status
 
 
-async def _execute_run(state) -> None:
+async def _execute_run(state, data_access: DataAccess, datahub_client: DataHubClient) -> None:
     """Run the blocking orchestrator in a worker thread and record the outcome."""
     try:
-        report = await asyncio.to_thread(state.orchestrator.run)
+        results = await asyncio.to_thread(
+            orchestrator.run,
+            data_access,
+            datahub_client,
+            output_path=str(state.settings.report_file_path),
+        )
+        report = VulnerableRegionsReport(
+            generated_at=_now(),
+            total_regions_evaluated=len(data_access.list_regions()),
+            total_flagged=len(results),
+            regions=[RegionAssessment.model_validate(r) for r in results],
+        )
+        state.report_store.save(report)
         state.run_status.status = AgentRunStatusValue.COMPLETE
         state.run_status.completed_at = _now()
-        logger.info("Agent run completed: %d of %d regions flagged", report.total_flagged, report.total_regions_evaluated)
+        logger.info(
+            "Agent run completed: %d of %d regions flagged",
+            report.total_flagged,
+            report.total_regions_evaluated,
+        )
     except Exception as exc:  # noqa: BLE001 - surface any failure as a run error
         logger.exception("Agent run failed")
         state.run_status.status = AgentRunStatusValue.ERROR

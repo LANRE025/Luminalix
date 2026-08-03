@@ -1,0 +1,34 @@
+{
+  "chart": {
+    "title": "New cases of malaria per 1,000 people at risk",
+    "subtitle": "Malaria is a life-threatening disease caused by parasites that are transmitted by certain types of mosquitoes.",
+    "citation": "World Health Organization (Global Health Observatory), via World Bank (2026)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/incidence-of-malaria?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Kenya",
+      "Malawi",
+      "Somalia",
+      "India",
+      "South Africa",
+      "World"
+    ]
+  },
+  "columns": {
+    "Incidence of malaria (per 1,000 population at risk)": {
+      "titleShort": "Incidence of malaria (per 1,000 population at risk)",
+      "titleLong": "Incidence of malaria (per 1,000 population at risk)",
+      "unit": "per 1,000 population at risk",
+      "timespan": "2000-2024",
+      "type": "Numeric",
+      "owidVariableId": 1294576,
+      "shortName": "sh_mlr_incd_p3",
+      "lastUpdated": "2026-07-27",
+      "nextUpdate": "2027-01-23",
+      "citationShort": "World Health Organization (Global Health Observatory), via World Bank (2026) – processed by Our World in Data",
+      "citationLong": "World Health Organization (Global Health Observatory), via World Bank (2026) – processed by Our World in Data. “Incidence of malaria (per 1,000 population at risk)” [dataset]. World Health Organization (Global Health Observatory), via World Bank, “World Development Indicators 129” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1294576.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-08-03",
+  "activeFilters": {}
+}

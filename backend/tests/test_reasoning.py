@@ -1,93 +1,94 @@
-"""Unit tests for the Gemini reasoning helpers (JSON parsing, trend math)."""
+"""Unit tests for the Gemini reasoning helpers (prompt building, parsing)."""
 
 from __future__ import annotations
 
-import json
-
-import pytest
-from pydantic import ValidationError
-
 from app.agent.reasoning import (
-    LLM_RESPONSE_SCHEMA,
-    RegionReasoning,
-    _parse_json,
-    pct_change,
+    VulnerabilityAssessment,
+    assess_region,
+    build_user_prompt,
 )
 
 
-def test_parse_json_plain_object():
-    assert _parse_json('{"a": 1}') == {"a": 1}
+class _FakeResponse:
+    def __init__(self, text: str) -> None:
+        self.text = text
 
 
-def test_parse_json_with_markdown_fences():
-    text = '```json\n{"region": "Region-X", "vulnerability_level": "High"}\n```'
-    assert _parse_json(text)["region"] == "Region-X"
+class _FakeModels:
+    def __init__(self, text: str) -> None:
+        self._text = text
+        self.last_kwargs: dict | None = None
+
+    def generate_content(self, **kwargs):  # noqa: ANN003
+        self.last_kwargs = kwargs
+        return _FakeResponse(self._text)
 
 
-def test_parse_json_with_fence_and_language_prefix():
-    text = '```json\n{"a": 2}\n```'
-    assert _parse_json(text) == {"a": 2}
+class _FakeClient:
+    def __init__(self, text: str) -> None:
+        self.models = _FakeModels(text)
 
 
-def test_parse_json_extracts_object_from_prose():
-    text = 'Here is the result: {"level": "Low"} thanks!'
-    assert _parse_json(text) == {"level": "Low"}
+def test_build_user_prompt_contains_all_signals():
+    prompt = build_user_prompt(
+        region="Bauchi, Nigeria",
+        days_stale=21,
+        admissions_trend={"first_value": 100, "last_value": 182, "pct_change": 82.0},
+        resources={"funding_level_pct_of_avg": 37.5, "staff_count": 12, "vaccine_stock_units": 300},
+    )
+    assert "Bauchi, Nigeria" in prompt
+    assert "21" in prompt
+    assert "82.0" in prompt
+    assert "37.5" in prompt
 
 
-def test_parse_json_raises_on_no_object():
-    with pytest.raises(json.JSONDecodeError):
-        _parse_json("not json at all")
+def test_assess_region_parses_gemini_json_response():
+    client = _FakeClient(
+        '{"vulnerability_level": "High", "justification": "Signals align.", '
+        '"confidence": "High", "key_signals": ["admissions +82%", "funding low"]}'
+    )
+    assessment = assess_region(
+        region="Bauchi, Nigeria",
+        days_stale=21,
+        admissions_trend={"first_value": 100, "last_value": 182, "pct_change": 82.0},
+        resources={"funding_level_pct_of_avg": 37.5},
+        client=client,
+    )
+    assert isinstance(assessment, VulnerabilityAssessment)
+    assert assessment.region == "Bauchi, Nigeria"
+    assert assessment.vulnerability_level == "High"
+    assert assessment.confidence == "High"
+    assert assessment.key_signals == ["admissions +82%", "funding low"]
+
+    config = client.models.last_kwargs["config"]
+    assert config["response_mime_type"] == "application/json"
+    assert "system_instruction" in config
 
 
-def test_parse_json_raises_on_invalid_inside_fences():
-    with pytest.raises(json.JSONDecodeError):
-        _parse_json('```json\n{"broken": }\n```')
-
-
-def test_region_reasoning_validates_and_coerces_enums():
-    payload = {
+def test_assessment_to_dict_matches_report_fields():
+    assessment = VulnerabilityAssessment(
+        region="Region-X",
+        vulnerability_level="Moderate",
+        justification="Watch closely.",
+        confidence="Medium",
+        key_signals=["stale survey"],
+    )
+    data = assessment.to_dict()
+    assert data == {
         "region": "Region-X",
-        "vulnerability_level": "High",
-        "justification": "Signals align.",
+        "vulnerability_level": "Moderate",
+        "justification": "Watch closely.",
         "confidence": "Medium",
-        "key_signals": ["survey stale 40 days"],
+        "key_signals": ["stale survey"],
     }
-    reasoning = RegionReasoning.model_validate(payload)
-    assert reasoning.vulnerability_level.value == "High"
-    assert reasoning.confidence.value == "Medium"
-    assert reasoning.key_signals == ["survey stale 40 days"]
 
 
-def test_region_reasoning_rejects_bad_level():
-    payload = {
-        "region": "Region-X",
-        "vulnerability_level": "Critical",
-        "justification": "nope",
-        "confidence": "High",
-        "key_signals": [],
-    }
-    with pytest.raises(ValidationError):
-        RegionReasoning.model_validate(payload)
-
-
-def test_pct_change():
-    assert pct_change([100.0, 110.0, 138.0]) == 38.0
-    assert pct_change([]) is None
-    assert pct_change([0.0, 5.0]) is None
-    assert pct_change([50.0, 50.0]) == 0.0
-
-
-def test_response_schema_matches_public_schema_fields():
-    assert LLM_RESPONSE_SCHEMA["type"] == "object"
-    assert set(LLM_RESPONSE_SCHEMA["required"]) == {
-        "region",
-        "vulnerability_level",
-        "justification",
-        "confidence",
-        "key_signals",
-    }
-    assert LLM_RESPONSE_SCHEMA["properties"]["vulnerability_level"]["enum"] == [
-        "Low",
-        "Moderate",
-        "High",
-    ]
+def test_build_user_prompt_hydrates_dataclass_style_inputs():
+    prompt = build_user_prompt(
+        region="Region-Y",
+        days_stale=40,
+        admissions_trend={"first_value": 50, "last_value": 65, "pct_change": 30.0},
+        resources={"funding_level_pct_of_avg": 70.0, "staff_count": 20, "vaccine_stock_units": 100},
+    )
+    assert "Region-Y" in prompt
+    assert "40" in prompt

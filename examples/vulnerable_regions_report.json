@@ -1,0 +1,77 @@
+[
+  {
+    "region": "Bauchi, Nigeria",
+    "vulnerability_level": "High",
+    "justification": "Admissions rose 82.2% while survey data is 21 days stale; funding at 37.5% of average.",
+    "confidence": "High",
+    "key_signals": [
+      "admissions +82.2%",
+      "funding 37.5% of avg",
+      "21 days stale"
+    ],
+    "days_stale": 21,
+    "disease": "Lassa fever",
+    "country": "Nigeria",
+    "flagged_at": "2026-08-03T02:47:08.895554"
+  },
+  {
+    "region": "Ondo, Nigeria",
+    "vulnerability_level": "High",
+    "justification": "Admissions rose 67.6% while survey data is 14 days stale; funding at 25.6% of average.",
+    "confidence": "High",
+    "key_signals": [
+      "admissions +67.6%",
+      "funding 25.6% of avg",
+      "14 days stale"
+    ],
+    "days_stale": 14,
+    "disease": "Lassa fever",
+    "country": "Nigeria",
+    "flagged_at": "2026-08-03T02:47:08.889945"
+  },
+  {
+    "region": "South Africa",
+    "vulnerability_level": "Moderate",
+    "justification": "Admissions rose 72.4% while survey data is 20 days stale; funding at 123.3% of average.",
+    "confidence": "Medium",
+    "key_signals": [
+      "admissions +72.4%",
+      "funding 123.3% of avg",
+      "20 days stale"
+    ],
+    "days_stale": 20,
+    "disease": "HIV",
+    "country": "South Africa",
+    "flagged_at": "2026-08-03T02:47:08.806871"
+  },
+  {
+    "region": "Edo, Nigeria",
+    "vulnerability_level": "Moderate",
+    "justification": "Admissions rose 70.2% while survey data is 18 days stale; funding at 102.7% of average.",
+    "confidence": "Medium",
+    "key_signals": [
+      "admissions +70.2%",
+      "funding 102.7% of avg",
+      "18 days stale"
+    ],
+    "days_stale": 18,
+    "disease": "Lassa fever",
+    "country": "Nigeria",
+    "flagged_at": "2026-08-03T02:47:08.901642"
+  },
+  {
+    "region": "United States",
+    "vulnerability_level": "Moderate",
+    "justification": "Admissions rose 69.4% while survey data is 15 days stale; funding at 103.0% of average.",
+    "confidence": "Medium",
+    "key_signals": [
+      "admissions +69.4%",
+      "funding 103.0% of avg",
+      "15 days stale"
+    ],
+    "days_stale": 15,
+    "disease": "HIV",
+    "country": "United States",
+    "flagged_at": "2026-08-03T02:47:08.796698"
+  }
+]

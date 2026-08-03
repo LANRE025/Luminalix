@@ -1,0 +1,21 @@
+region,country,disease,last_survey_date,reported_case_rate,data_source
+Nigeria,Nigeria,Tuberculosis,2024-12-31,510000,real
+Pakistan,Pakistan,Tuberculosis,2024-12-31,669000,real
+Philippines,Philippines,Tuberculosis,2024-12-31,724000,real
+Peru,Peru,Tuberculosis,2024-12-31,48000,real
+India,India,Tuberculosis,2024-12-31,2710000,real
+Indonesia,Indonesia,Tuberculosis,2024-12-31,1080000,real
+Mexico,Mexico,Tuberculosis,2024-12-31,37000,real
+Kenya,Kenya,Tuberculosis,2024-12-31,117000,real
+Uganda,Uganda,Tuberculosis,2024-12-31,99000,real
+Vietnam,Vietnam,Tuberculosis,2024-12-31,184000,real
+United Kingdom,United Kingdom,Tuberculosis,2024-12-31,6700,real
+South Africa,South Africa,Tuberculosis,2024-12-31,249000,real
+Egypt,Egypt,Tuberculosis,2024-12-31,12000,real
+Ethiopia,Ethiopia,Tuberculosis,2024-12-31,186000,real
+Ghana,Ghana,Tuberculosis,2024-12-31,43000,real
+France,France,Tuberculosis,2024-12-31,5200,real
+Brazil,Brazil,Tuberculosis,2024-12-31,104000,real
+Democratic Republic of Congo,Democratic Republic of Congo,Tuberculosis,2024-12-31,412000,real
+United States,United States,Tuberculosis,2024-12-31,11000,real
+Bangladesh,Bangladesh,Tuberculosis,2024-12-31,384000,real

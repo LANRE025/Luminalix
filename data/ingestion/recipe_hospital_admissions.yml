@@ -1,0 +1,10 @@
+source:
+  type: file
+  config:
+    path: data/synthetic/hospital_admissions.csv
+
+sink:
+  type: datahub-rest
+  config:
+    server: http://localhost:8080
+    token: ${DATAHUB_TOKEN}

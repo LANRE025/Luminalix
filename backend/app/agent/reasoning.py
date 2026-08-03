@@ -1,184 +1,140 @@
-"""Gemini-backed reasoning step.
+"""
+reasoning.py
 
-This module is implemented for real — it calls the Gemini API via the
-``google-genai`` SDK and returns structured output. It includes defensive
-handling for malformed / non-JSON responses from the model (retry once, then
-raise ``ReasoningError``).
+The LLM reasoning step — using Gemini via Vertex AI (not Claude, per project
+decision). Given a region's real survey staleness, admissions trend, and
+resource levels (all from data_access.py), produce a structured vulnerability
+assessment.
 """
 
-from __future__ import annotations
-
 import json
-import logging
-import re
+import os
+from dataclasses import dataclass, asdict
 from typing import Any
 
 from google import genai
-from google.genai import types
-from pydantic import BaseModel, Field, ValidationError
+from google.genai import errors
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
-from app.config import Settings
-from app.models.schemas import Confidence, VulnerabilityLevel
+from app.config import get_settings
 
-logger = logging.getLogger(__name__)
-
-
-class ReasoningError(RuntimeError):
-    """Raised when the Gemini step fails (API error or unparseable output)."""
+MODEL = os.getenv("AGENT_MODEL", "gemini-3.5-flash")  # fallback only; prefer settings.gemini_model
 
 
-class RegionReasoning(BaseModel):
-    """Structured output produced by the LLM for a single region.
+def _is_retryable(exc: BaseException) -> bool:
+    # Retry only transient quota / availability errors; let everything else propagate.
+    return isinstance(exc, errors.APIError) and exc.code in (429, 503)
 
-    ``days_stale`` and ``flagged_at`` are filled in by the orchestrator, not the
-    model.
-    """
 
+def _client() -> genai.Client:
+    # Vertex AI authenticates with Application Default Credentials (ADC), not an
+    # API key. Set up ADC locally with `gcloud auth application-default login`;
+    # an explicit env var override still wins for project/location.
+    settings = get_settings()
+    if not settings.vertex_project:
+        raise RuntimeError(
+            "Vertex AI project missing: set VERTEX_PROJECT in backend/.env "
+            "(or export it in the environment) before running the agent."
+        )
+    return genai.Client(
+        vertexai=True,
+        project=settings.vertex_project,
+        location=settings.vertex_location,
+    )
+
+
+def _model() -> str:
+    return get_settings().gemini_model or MODEL
+
+
+@dataclass
+class VulnerabilityAssessment:
     region: str
-    vulnerability_level: VulnerabilityLevel
+    vulnerability_level: str  # "Low" | "Moderate" | "High"
     justification: str
-    confidence: Confidence
-    key_signals: list[str] = Field(default_factory=list)
+    confidence: str  # "Low" | "Medium" | "High"
+    key_signals: list[str]
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
 
 
-# A plain dict schema (rather than the Pydantic model) so it works across the
-# widest range of google-genai SDK versions.
-LLM_RESPONSE_SCHEMA: dict[str, Any] = {
-    "type": "object",
-    "properties": {
-        "region": {"type": "string"},
-        "vulnerability_level": {"type": "string", "enum": ["Low", "Moderate", "High"]},
-        "justification": {"type": "string"},
-        "confidence": {"type": "string", "enum": ["Low", "Medium", "High"]},
-        "key_signals": {"type": "array", "items": {"type": "string"}},
-    },
-    "required": ["region", "vulnerability_level", "justification", "confidence", "key_signals"],
-    "additionalProperties": False,
-}
+SYSTEM_PROMPT = """You are an epidemiological risk assessment assistant. \
+You will be given, for a single region: how many days it has been since \
+the official survey data was last updated, a recent hospital admissions \
+trend, and the region's current resource allocation level relative to \
+its historical average.
 
-SYSTEM_PROMPT = """\
-You are an epidemiological surveillance analyst. For each region you are given three signals:
-1. How stale the official survey data is (days since the last survey).
-2. A recent hospital admissions trend (daily counts over the lookback window).
-3. The region's current resource allocation (funding, staff, vaccine stock) relative to the regional average.
+Classify the region's outbreak vulnerability as Low, Moderate, or High, \
+and explain your reasoning in 1-3 plain-language sentences a non-technical \
+health data analyst can act on immediately.
 
-Classify how vulnerable the region is to an undetected or escalating outbreak:
-- "High": survey data is stale AND admissions are clearly trending up AND/OR resources are well below the regional average.
-- "Moderate": some but not all risk signals point to an emerging problem.
-- "Low": no meaningful divergence from normal.
+Consider:
+- A stale survey alone is not necessarily high risk — it only matters if \
+  paired with a concerning admissions trend.
+- A concerning admissions trend combined with low resource allocation is \
+  more urgent than the same trend with adequate resources.
+- Be conservative: only assign "High" when multiple signals align.
 
-Respond with ONLY a JSON object matching this schema:
+Respond ONLY with a JSON object matching this schema, no other text, no \
+markdown fencing:
 {
-  "region": string,
   "vulnerability_level": "Low" | "Moderate" | "High",
-  "justification": string,   // 1-3 plain-language sentences a non-technical analyst can act on
+  "justification": "string, 1-3 sentences",
   "confidence": "Low" | "Medium" | "High",
-  "key_signals": string[]    // e.g. "survey stale 42 days", "admissions +38% over 14 days"
+  "key_signals": ["string", ...]
 }
 """
 
 
-class GeminiReasoner:
-    """Wraps the Gemini API call that turns raw signals into an assessment."""
-
-    def __init__(self, settings: Settings) -> None:
-        self._settings = settings
-        self._client = (
-            genai.Client(api_key=settings.gemini_api_key) if settings.gemini_api_key else None
-        )
-
-    def evaluate_region(
-        self,
-        *,
-        region: str,
-        country: str,
-        days_stale: int,
-        admissions_trend: list[float],
-        resources: dict[str, float],
-        resource_average: dict[str, float],
-    ) -> RegionReasoning:
-        """Ask the model to classify one region and return structured output."""
-        if self._client is None:
-            raise ReasoningError(
-                "GEMINI_API_KEY is not set. Add it to backend/.env (see .env.example)."
-            )
-
-        context = {
-            "region": region,
-            "country": country,
-            "days_since_last_survey": days_stale,
-            "hospital_admissions_daily": admissions_trend,
-            "admissions_change_pct": pct_change(admissions_trend),
-            "resource_allocation": resources,
-            "regional_average_allocation": resource_average,
-        }
-        contents = (
-            "Evaluate outbreak vulnerability for this region based on the signals below.\n\n"
-            f"{json.dumps(context, indent=2, default=str)}"
-        )
-
-        for attempt in range(2):
-            try:
-                response = self._client.models.generate_content(
-                    model=self._settings.gemini_model,
-                    contents=contents,
-                    config=types.GenerateContentConfig(
-                        system_instruction=SYSTEM_PROMPT,
-                        response_mime_type="application/json",
-                        response_schema=LLM_RESPONSE_SCHEMA,
-                        temperature=0.2,
-                    ),
-                )
-                data = _parse_json(response.text or "")
-                reasoning = RegionReasoning.model_validate(data)
-                if reasoning.region != region:
-                    logger.warning(
-                        "Model echoed region %r; expected %r — overriding.",
-                        reasoning.region,
-                        region,
-                    )
-                    reasoning.region = region
-                return reasoning
-            except (ValidationError, json.JSONDecodeError, ValueError) as exc:
-                logger.warning(
-                    "Gemini attempt %d produced malformed output: %s", attempt + 1, exc
-                )
-                if attempt == 1:
-                    raise ReasoningError(
-                        f"Gemini returned malformed output for region {region!r}: {exc}"
-                    ) from exc
-                contents += (
-                    "\n\nYour previous response was not valid JSON. "
-                    "Reply with ONLY the JSON object matching the schema."
-                )
-
-        raise ReasoningError("Gemini reasoning failed.")  # pragma: no cover
+def build_user_prompt(
+    region: str, days_stale: int, admissions_trend: dict[str, Any], resources: dict[str, Any]
+) -> str:
+    return (
+        f"Region: {region}\n"
+        f"Days since last survey update: {days_stale}\n"
+        f"Recent hospital admissions trend: {json.dumps(admissions_trend)}\n"
+        f"Current resource allocation: {json.dumps(resources)}\n"
+    )
 
 
-def pct_change(series: list[float]) -> float | None:
-    """Percent change from the start to the end of a series.
+@retry(
+    retry=retry_if_exception(_is_retryable),
+    wait=wait_exponential(multiplier=1, min=2, max=60),
+    stop=stop_after_attempt(5),
+    reraise=True,
+)
+def _generate_content(client: genai.Client, model: str, user_prompt: str) -> Any:
+    return client.models.generate_content(
+        model=model,
+        contents=user_prompt,
+        config={
+            "system_instruction": SYSTEM_PROMPT,
+            "response_mime_type": "application/json",
+        },
+    )
 
-    Returns ``None`` when the series is empty or its baseline is zero.
-    """
-    if not series:
-        return None
-    baseline = series[0]
-    if baseline == 0:
-        return None
-    return round((series[-1] - baseline) / baseline * 100.0, 1)
 
+def assess_region(
+    region: str,
+    days_stale: int,
+    admissions_trend: dict[str, Any],
+    resources: dict[str, Any],
+    client: "genai.Client | None" = None,
+) -> VulnerabilityAssessment:
+    client = client or _client()
 
-def _parse_json(text: str) -> dict[str, Any]:
-    """Parse a JSON object out of the model's text output, tolerating fences."""
-    text = text.strip()
-    if text.startswith("```"):
-        text = re.sub(r"^```(?:json)?\s*", "", text)
-        text = re.sub(r"\s*```$", "", text)
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        pass
-    match = re.search(r"\{.*\}", text, flags=re.DOTALL)
-    if match:
-        return json.loads(match.group(0))
-    raise json.JSONDecodeError("No JSON object found in model output", text, 0)
+    user_prompt = build_user_prompt(region, days_stale, admissions_trend, resources)
+
+    response = _generate_content(client, _model(), user_prompt)
+
+    raw_text = response.text.strip()
+    parsed = json.loads(raw_text)
+
+    return VulnerabilityAssessment(
+        region=region,
+        vulnerability_level=parsed["vulnerability_level"],
+        justification=parsed["justification"],
+        confidence=parsed["confidence"],
+        key_signals=parsed["key_signals"],
+    )

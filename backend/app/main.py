@@ -13,9 +13,8 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.agent.data_access import DataAccess
 from app.agent.datahub_client import DataHubClient
-from app.agent.orchestrator import Orchestrator
-from app.agent.reasoning import GeminiReasoner
 from app.api.routes_agent import router as agent_router
 from app.api.routes_regions import router as regions_router
 from app.config import get_settings
@@ -34,15 +33,12 @@ async def lifespan(app: FastAPI):
     """Build the app's singletons and stash them on ``app.state``."""
     settings = get_settings()
     app.state.settings = settings
-    app.state.datahub_client = DataHubClient()
-    app.state.reasoner = GeminiReasoner(settings)
-    app.state.report_store = ReportStore(settings.report_file_path)
-    app.state.orchestrator = Orchestrator(
-        settings=settings,
-        datahub=app.state.datahub_client,
-        reasoner=app.state.reasoner,
-        report_store=app.state.report_store,
+    app.state.data_access = DataAccess()
+    app.state.datahub_client = DataHubClient(
+        gms_url=settings.datahub_gms_url,
+        token=settings.datahub_token,
     )
+    app.state.report_store = ReportStore(settings.report_file_path)
     app.state.run_status = AgentRunStatus()
     logger.info("Outbreak Vulnerability Sentinel backend ready")
     yield
