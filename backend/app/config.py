@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     # Vertex AI. Auth uses Google Cloud Application Default Credentials (ADC) —
     # set up locally via `gcloud auth application-default login` — not an API key.
     vertex_project: str = ""
-    vertex_location: str = "us-central1"
+    vertex_location: str = "global"
 
     # Gemini Developer API. Kept only as a legacy fallback; Vertex AI is the
     # active backend and does not use an API key. Model defaults to

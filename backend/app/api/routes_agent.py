@@ -34,12 +34,10 @@ async def run_agent(request: Request, background_tasks: BackgroundTasks) -> Agen
     if state.run_status.status == AgentRunStatusValue.RUNNING:
         return state.run_status
 
-    settings = state.settings
     data_access = DataAccess()
-    datahub_client = DataHubClient(
-        gms_url=settings.datahub_gms_url,
-        token=settings.datahub_token,
-    )
+    # Reuse the app-level client so one MCP subprocess serves all runs
+    # instead of a fresh one being spawned per run.
+    datahub_client = state.datahub_client
 
     state.run_status.status = AgentRunStatusValue.RUNNING
     state.run_status.started_at = _now()

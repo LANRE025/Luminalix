@@ -1,0 +1,21 @@
+region,country,disease,last_survey_date,reported_case_rate,data_source
+Democratic Republic of Congo,Democratic Republic of Congo,Influenza,2025-11-24,3.0,real
+Ethiopia,Ethiopia,Influenza,2026-05-18,2.0,real
+Philippines,Philippines,Influenza,2026-05-25,1.0,real
+Peru,Peru,Influenza,2026-06-22,15.0,real
+Ghana,Ghana,Influenza,2026-06-29,40.0,real
+Egypt,Egypt,Influenza,2026-07-06,4.0,real
+Nigeria,Nigeria,Influenza,2026-07-06,2.0,real
+Kenya,Kenya,Influenza,2026-07-06,1.0,real
+Indonesia,Indonesia,Influenza,2026-07-13,9.0,real
+Pakistan,Pakistan,Influenza,2026-07-13,1.0,real
+South Africa,South Africa,Influenza,2026-07-13,9.0,real
+Uganda,Uganda,Influenza,2026-07-13,1.0,real
+France,France,Influenza,2026-07-13,7.0,real
+United States,United States,Influenza,2026-07-13,126.0,real
+Brazil,Brazil,Influenza,2026-07-20,19.0,real
+India,India,Influenza,2026-07-20,92.0,real
+Mexico,Mexico,Influenza,2026-07-20,10.0,real
+Bangladesh,Bangladesh,Influenza,2026-07-20,16.0,real
+United Kingdom,United Kingdom,Influenza,2026-07-20,1.0,real
+Vietnam,Vietnam,Influenza,2026-07-20,1.0,real

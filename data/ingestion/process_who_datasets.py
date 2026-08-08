@@ -55,6 +55,19 @@ COUNTRIES_OF_INTEREST = [
     "Uganda", "Ghana", "Pakistan", "Vietnam", "Peru",
 ]
 
+# WHO/FluNet naming differs from OWID's names used in COUNTRIES_OF_INTEREST.
+# Mapped BEFORE filtering. The UK sub-entities are unified to "United Kingdom"
+# so the latest-date-per-region groupby merges them into a single row.
+FLUNET_NAME_MAP = {
+    "Democratic Republic of the Congo": "Democratic Republic of Congo",
+    "United States of America": "United States",
+    "United Kingdom, England": "United Kingdom",
+    "United Kingdom, Northern Ireland": "United Kingdom",
+    "United Kingdom, Scotland": "United Kingdom",
+    "United Kingdom, Wales": "United Kingdom",
+    "Viet Nam": "Vietnam",
+}
+
 
 def process_owid_standard_csv(filepath: Path, disease: str, value_col_hint: str) -> pd.DataFrame:
     """
@@ -113,13 +126,32 @@ def process_influenza():
     if not path.exists():
         print(f"[skip] {path} not found — see download instructions at top of this file.")
         return
-    # FluNet's export format varies; inspect columns and adjust here.
+    # FluNet export columns (confirmed against the downloaded file):
+    #   COUNTRY_AREA_TERRITORY -> region
+    #   ISO_WEEKSTARTDATE      -> date
+    #   INF_ALL                -> total influenza-positive specimens
     df = pd.read_csv(path)
-    print("FluNet columns found:", list(df.columns))
-    print("Inspect the columns above and extend process_influenza() to map them "
-          "to region/date/case-rate before this will produce output.")
-    # Intentionally left as a manual step — FluNet's schema needs eyeballing
-    # once you actually have the file, rather than guessing blindly here.
+    df = df.rename(columns={
+        "COUNTRY_AREA_TERRITORY": "region",
+        "ISO_WEEKSTARTDATE": "date",
+    })
+    df["region"] = df["region"].replace(FLUNET_NAME_MAP)
+    df = df[df["region"].isin(COUNTRIES_OF_INTEREST)]
+    df["date"] = pd.to_datetime(df["date"])
+    df = df.dropna(subset=["INF_ALL"])
+
+    latest = df.sort_values("date").groupby("region").tail(1)
+    latest["country"] = latest["region"]
+    latest["disease"] = "Influenza"
+    latest["last_survey_date"] = latest["date"]
+    latest["reported_case_rate"] = latest["INF_ALL"]
+    latest["data_source"] = "real"
+
+    result = latest[["region", "country", "disease", "last_survey_date", "reported_case_rate", "data_source"]]
+    out = OUT_DIR / "influenza_survey_data.csv"
+    result.to_csv(out, index=False)
+    print(f"Wrote {len(result)} rows to {out}")
+    print(result.head(10).to_string(index=False))
 
 
 if __name__ == "__main__":

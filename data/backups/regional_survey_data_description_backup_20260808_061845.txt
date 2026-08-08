@@ -1,0 +1,47 @@
+**[Luminalix Finding — 2026-08-06 07:55 UTC]**
+Region: Brazil | Vulnerability: Moderate | Confidence: Medium
+While recent hospital admissions show a stable, slightly declining trend (-3.4%), the severe delay in survey updates (78 days) and below-average funding (86.1%) create critical data gaps and reduced capacity, warranting moderate caution.
+Key signals: Stable hospital admissions trend, High survey data latency (78 days stale), Below-average funding level (86.1%)
+
+**[Luminalix Finding — 2026-08-06 07:55 UTC]**
+Region: Nigeria | Vulnerability: Moderate | Confidence: Medium
+The region's hospital admissions are currently stable with a minimal 2.1% increase, but the 98-day delay in survey updates severely limits situational awareness. Coupled with funding that is slightly below average at 83%, these factors justify a moderate vulnerability rating due to potential undetected transmission risks.
+Key signals: 98 days since last survey update, Slightly constrained funding at 83% of historical average, Stable hospital admissions trend (+2.1%)
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Vietnam | Vulnerability: High | Confidence: Medium
+Vietnam's epidemiological vulnerability is high because a 7.2% increase in hospital admissions is occurring alongside a massive surveillance blind spot of 583 days without survey updates. This combination is further aggravated by resource constraints, as current funding is at only 79.8% of the historical average, leaving the region ill-prepared for an escalation.
+Key signals: 583 days since last survey update, 7.2% increase in recent hospital admissions, Funding level at 79.8% of historical average
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Mozambique | Vulnerability: Moderate | Confidence: Medium
+Mozambique's vulnerability is classified as Moderate due to a significant 133-day gap in official survey data combined with a slight 5.2% increase in recent hospital admissions. Additionally, resource allocation is constrained at 84.5% of its historical average, limiting the region's readiness should admissions continue to rise.
+Key signals: 133 days since last survey update, 5.2% increase in hospital admissions, Funding level at 84.5% of historical average
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Ituri, DRC | Vulnerability: High | Confidence: High
+Ituri is at high vulnerability due to a severe 74% surge in hospital admissions combined with critical resource depletion, with funding at just 29.2% of its historical average and very low vaccine stocks. Although the survey data...
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Kinshasa, DRC | Vulnerability: Moderate | Confidence: Medium
+While hospital admissions are currently stable, Kinshasa's vulnerabilit...
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Ondo, Nigeria | Vulnerability: High | Confidence: High
+Ondo is experiencing a sharp 67.6% increase in hospital admissions while operating on critically low funding at just 25.6% of its historical average. This combination of surging healthcare demand and severely depleted resources indicates a high risk of system overload.
+Key signals: 67.6% increase in hospital admissions, funding level at 25.6% of historical average, 17 days since last survey update
+
+**[Luminalix Finding — 2026-08-06 07:56 UTC]**
+Region: Bauchi, Nigeria | Vulnerability: High | Confidence: High
+Bauchi is facing a critical risk due to a sharp 82.2% increase in recent hospital admissions paired with severely depleted funding, which is currently at just 37.5% of its historical average. Because the survey data is also 24 days stale, local capacity may already be overwhelmed, requiring immediate resource intervention.
+Key signals: 82.2% increase in hospital admissions, Funding level at 37.5% of average, 24-day lag in survey data updates
+
+**[Luminalix Finding — 2026-08-06 07:57 UTC]**
+Region: Edo, Nigeria | Vulnerability: Moderate | Confidence: Medium
+Edo is experiencing a sharp 70.2% increase in recent hospital admissions, indicating a potential outbreak surge. Although current funding is slightly above average at 102.7%, the 21-day delay in survey data limits real-time visibility, warranting proactive monitoring before resources become strained.
+Key signals: 70.2% increase in hospital admissions, 21 days since last survey update, Adequate resource funding at 102.7% of average
+
+**[Luminalix Finding — 2026-08-06 07:57 UTC]**
+Region: Benue, Nigeria | Vulnerability: Moderate | Confidence: Medium
+While recent hospital admissions have declined by 14.3%, the region's epidemiological status is obscured by a 53-day delay in survey data updates. Additionally, below-average funding at 70.2% limits local capacity to respond quickly if cases begin to rise again.
+Key signals: 14.3% decrease in recent hospital admissions, 53 days since last official survey update, Funding level at 70.2% of the historical average

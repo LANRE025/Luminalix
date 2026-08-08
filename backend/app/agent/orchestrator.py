@@ -21,12 +21,15 @@ regional_survey_data dataset entity.
 """
 
 import json
+import logging
 from datetime import datetime
 from pathlib import Path
 
 from app.agent.data_access import DataAccess
 from app.agent.datahub_client import DataHubClient
 from app.agent.reasoning import assess_region, VulnerabilityAssessment  # from reasoning.py (Gemini call)
+
+logger = logging.getLogger(__name__)
 
 STALENESS_THRESHOLD_DAYS = 14  # tune based on what your demo data actually shows
 MIN_REPORT_LEVEL = "Moderate"
@@ -90,11 +93,17 @@ def run(
                     confidence=assessment.confidence,
                     key_signals=assessment.key_signals,
                 )
-            except NotImplementedError:
-                # Expected until datahub_client.py's MCP calls are wired
-                # against a live session — don't let this block the rest
-                # of the demo/report generation.
-                print(f"[orchestrator] (write-back not yet wired for {region} — see datahub_client.py TODOs)")
+            except Exception as exc:  # noqa: BLE001
+                # Log the full error (auth failures, network errors, missing
+                # dataset, ...) so write-back problems stay visible in the
+                # logs instead of silently disappearing, but don't let them
+                # block the rest of the run / report generation.
+                logger.exception(
+                    "DataHub write-back failed for %s (%s): %s",
+                    region,
+                    type(exc).__name__,
+                    exc,
+                )
 
         flagged_regions.append({
             **assessment.to_dict(),

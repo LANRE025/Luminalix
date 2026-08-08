@@ -42,6 +42,11 @@ async def lifespan(app: FastAPI):
     app.state.run_status = AgentRunStatus()
     logger.info("Outbreak Vulnerability Sentinel backend ready")
     yield
+    # Tear down the MCP subprocess cleanly on shutdown.
+    try:
+        app.state.datahub_client.close()
+    except Exception:  # noqa: BLE001
+        logger.warning("Failed to close DataHub MCP client on shutdown", exc_info=True)
 
 
 def create_app() -> FastAPI:
