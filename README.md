@@ -24,10 +24,10 @@ No GCP project or DataHub instance needed to see the system in action:
 - **Sample outputs in `examples/`**:
   - `examples/vulnerable_regions_report.json` — the real output of a full
     30-region agent run (30 evaluated, 18 flagged)
-  - `examples/sample_vulnerable_regions_report.json` — hand-curated sample
   - `data/latest_report.json` — most recent live run of the pipeline
-- **DataHub UI screenshot**: *(placeholder — add a screenshot of a Luminalix
-  finding annotation on the `regional_survey_data` dataset here)*
+- **DataHub UI screenshot**: `examples/datahub_writeback_findings.png_1` and `examples/datahub_writeback_findings.png_2` — show
+  real Luminalix findings (including High-vulnerability Bauchi, Ondo, and
+  Ituri) written to the `regional_survey_data` dataset's Documentation tab
 
 To run it yourself, follow the setup steps below — you will need a Google Cloud
 project with the Vertex AI API enabled.
