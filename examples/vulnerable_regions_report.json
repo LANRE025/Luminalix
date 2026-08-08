@@ -1,77 +1,264 @@
-[
-  {
-    "region": "Bauchi, Nigeria",
-    "vulnerability_level": "High",
-    "justification": "Admissions rose 82.2% while survey data is 21 days stale; funding at 37.5% of average.",
-    "confidence": "High",
-    "key_signals": [
-      "admissions +82.2%",
-      "funding 37.5% of avg",
-      "21 days stale"
-    ],
-    "days_stale": 21,
-    "disease": "Lassa fever",
-    "country": "Nigeria",
-    "flagged_at": "2026-08-03T02:47:08.895554"
-  },
-  {
-    "region": "Ondo, Nigeria",
-    "vulnerability_level": "High",
-    "justification": "Admissions rose 67.6% while survey data is 14 days stale; funding at 25.6% of average.",
-    "confidence": "High",
-    "key_signals": [
-      "admissions +67.6%",
-      "funding 25.6% of avg",
-      "14 days stale"
-    ],
-    "days_stale": 14,
-    "disease": "Lassa fever",
-    "country": "Nigeria",
-    "flagged_at": "2026-08-03T02:47:08.889945"
-  },
-  {
-    "region": "South Africa",
-    "vulnerability_level": "Moderate",
-    "justification": "Admissions rose 72.4% while survey data is 20 days stale; funding at 123.3% of average.",
-    "confidence": "Medium",
-    "key_signals": [
-      "admissions +72.4%",
-      "funding 123.3% of avg",
-      "20 days stale"
-    ],
-    "days_stale": 20,
-    "disease": "HIV",
-    "country": "South Africa",
-    "flagged_at": "2026-08-03T02:47:08.806871"
-  },
-  {
-    "region": "Edo, Nigeria",
-    "vulnerability_level": "Moderate",
-    "justification": "Admissions rose 70.2% while survey data is 18 days stale; funding at 102.7% of average.",
-    "confidence": "Medium",
-    "key_signals": [
-      "admissions +70.2%",
-      "funding 102.7% of avg",
-      "18 days stale"
-    ],
-    "days_stale": 18,
-    "disease": "Lassa fever",
-    "country": "Nigeria",
-    "flagged_at": "2026-08-03T02:47:08.901642"
-  },
-  {
-    "region": "United States",
-    "vulnerability_level": "Moderate",
-    "justification": "Admissions rose 69.4% while survey data is 15 days stale; funding at 103.0% of average.",
-    "confidence": "Medium",
-    "key_signals": [
-      "admissions +69.4%",
-      "funding 103.0% of avg",
-      "15 days stale"
-    ],
-    "days_stale": 15,
-    "disease": "HIV",
-    "country": "United States",
-    "flagged_at": "2026-08-03T02:47:08.796698"
-  }
-]
+﻿{
+    "generated_at":  "2026-08-08T11:26:44.958466Z",
+    "total_regions_evaluated":  30,
+    "total_flagged":  17,
+    "regions":  [
+                    {
+                        "region":  "Democratic Republic of Congo",
+                        "country":  "Democratic Republic of Congo",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "High",
+                        "justification":  "The region exhibits high vulnerability due to a 257-day lag in official survey data combined with rising hospital admissions and severely limited resources, including funding at just 68.8% of the historical average. This critical lack of situational awareness and financial capacity severely restricts the ability to detect and respond to an escalating outbreak. Analysts should prioritize immediate data collection and resource mobilization to mitigate these risks.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "257 days since last survey update",
+                                            "6.9% increase in hospital admissions",
+                                            "Funding level at 68.8% of historical average"
+                                        ],
+                        "days_stale":  257,
+                        "flagged_at":  "2026-08-08T11:24:48.254252"
+                    },
+                    {
+                        "region":  "Bauchi, Nigeria",
+                        "country":  "Nigeria",
+                        "disease":  "Lassa fever",
+                        "vulnerability_level":  "High",
+                        "justification":  "Bauchi is experiencing a severe surge in hospital admissions, which have increased by 82.2%, while operating with critical resource deficits including funding at only 37.5% of its historical average and low vaccine stocks. This combination of rapidly escalating demand and severely constrained capacity, compounded by a 26-day delay in survey data, presents an immediate outbreak risk.",
+                        "confidence":  "High",
+                        "key_signals":  [
+                                            "82.2% increase in hospital admissions",
+                                            "Funding level at 37.5% of historical average",
+                                            "Low vaccine stock of 213 units",
+                                            "26 days since last survey update"
+                                        ],
+                        "days_stale":  26,
+                        "flagged_at":  "2026-08-08T11:26:11.770665"
+                    },
+                    {
+                        "region":  "Ondo, Nigeria",
+                        "country":  "Nigeria",
+                        "disease":  "Lassa fever",
+                        "vulnerability_level":  "High",
+                        "justification":  "Ondo is experiencing a sharp 67.6% increase in hospital admissions while operating under severe resource constraints, with funding at just 25.6% of its historical average. This critical combination of a rapid outbreak surge and severely depleted resources poses an immediate threat to local healthcare capacity. Urgent resource mobilization and intervention are required to prevent system strain.",
+                        "confidence":  "High",
+                        "key_signals":  [
+                                            "67.6% increase in hospital admissions",
+                                            "Critical funding deficit at 25.6% of historical average",
+                                            "19-day delay in survey data updates"
+                                        ],
+                        "days_stale":  19,
+                        "flagged_at":  "2026-08-08T11:26:03.027896"
+                    },
+                    {
+                        "region":  "Ituri, DRC",
+                        "country":  "Democratic Republic of Congo",
+                        "disease":  "Ebola",
+                        "vulnerability_level":  "High",
+                        "justification":  "Ituri is experiencing a severe 74% surge in hospital admissions while operating with critically depleted resources, including funding at just 29.2% of its historical average and extremely low vaccine stock. Despite a minor 17-day lag in official survey updates, the alignment of rapidly rising clinical demand and severe resource shortages indicates an immediate threat of healthcare system overload. Action should be taken immediately to deploy emergency funding and vaccines to the region.",
+                        "confidence":  "High",
+                        "key_signals":  [
+                                            "74.0% increase in hospital admissions",
+                                            "Critical funding deficit at 29.2% of historical average",
+                                            "Low vaccine stock of 160 units",
+                                            "17-day delay in survey data update"
+                                        ],
+                        "days_stale":  17,
+                        "flagged_at":  "2026-08-08T11:25:36.029192"
+                    },
+                    {
+                        "region":  "Mozambique",
+                        "country":  "Mozambique",
+                        "disease":  "HIV",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Mozambique exhibits moderate vulnerability because hospital admissions are rising slightly (5.2%) while resource funding remains below average at 84.5%. Additionally, the survey data is highly outdated (135 days stale), which limits visibility into actual community transmission levels.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "135 days since last survey update",
+                                            "5.2% increase in hospital admissions",
+                                            "Funding level at 84.5% of historical average"
+                                        ],
+                        "days_stale":  135,
+                        "flagged_at":  "2026-08-08T11:25:25.103563"
+                    },
+                    {
+                        "region":  "Ethiopia",
+                        "country":  "Ethiopia",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Hospital admissions are currently stable, but the 82-day lag in official survey updates creates a significant information gap. Combined with below-average funding levels at 87.7%, this warrants cautious monitoring despite the flat admission trend.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "Stable hospital admissions (0.0% change)",
+                                            "82 days since last survey update",
+                                            "Funding level at 87.7% of historical average"
+                                        ],
+                        "days_stale":  82,
+                        "flagged_at":  "2026-08-08T11:24:23.565330"
+                    },
+                    {
+                        "region":  "Benue, Nigeria",
+                        "country":  "Nigeria",
+                        "disease":  "Lassa fever",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "While hospital admissions have decreased by 14.3%, the epidemiological survey data is significantly outdated at 55 days. This data lag, combined with below-average funding at 70.2% of the historical average, warrants a Moderate classification to ensure continued surveillance and preparedness.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "Decreasing hospital admissions trend (-14.3%)",
+                                            "Outdated survey data (55 days since update)",
+                                            "Reduced funding level (70.2% of historical average)"
+                                        ],
+                        "days_stale":  55,
+                        "flagged_at":  "2026-08-08T11:26:44.942815"
+                    },
+                    {
+                        "region":  "Kinshasa, DRC",
+                        "country":  "Democratic Republic of Congo",
+                        "disease":  "Ebola",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Although recent hospital admissions remain stable, Kinshasa\u0027s vulnerability is elevated to Moderate due to a significant funding deficit at 60.1% of its historical average. Additionally, the 45-day delay in survey updates limits real-time situational awareness, making the region susceptible to resource strain if an undetected surge occurs.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "Stable hospital admissions (0% change)",
+                                            "Significant funding deficit (60.1% of historical average)",
+                                            "Stale survey data (45 days since last update)"
+                                        ],
+                        "days_stale":  45,
+                        "flagged_at":  "2026-08-08T11:25:53.533957"
+                    },
+                    {
+                        "region":  "Ghana",
+                        "country":  "Ghana",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Ghana is experiencing a 10.9% increase in recent hospital admissions alongside a 40-day lag in official survey updates, indicating a potential undetected rise in community transmission. However, the vulnerability is moderated because resource allocation remains stable at 101% of the historical average, suggesting the health system currently has adequate capacity to manage the increase.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "Increasing hospital admissions trend (+10.9%)",
+                                            "Lagged survey data (40 days old)",
+                                            "Stable funding at 101% of historical average"
+                                        ],
+                        "days_stale":  40,
+                        "flagged_at":  "2026-08-08T11:24:11.947262"
+                    },
+                    {
+                        "region":  "Egypt",
+                        "country":  "Egypt",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Egypt is experiencing a modest 8.9% increase in recent hospital admissions while operating with survey data that is 33 days out of date. Although current funding remains relatively stable at 93.8% of the historical average, the combined upward trend in admissions and data lag warrants a moderate vulnerability level and closer monitoring.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "8.9% increase in hospital admissions",
+                                            "33 days since last survey update",
+                                            "Resource funding at 93.8% of historical average"
+                                        ],
+                        "days_stale":  33,
+                        "flagged_at":  "2026-08-08T11:24:33.360657"
+                    },
+                    {
+                        "region":  "Uganda",
+                        "country":  "Uganda",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Uganda is experiencing a moderate increase in hospital admissions (8.0%) alongside a significant reduction in funding, which stands at only 63.5% of its historical average. While the 26-day delay in survey updates limits real-time visibility, the combination of rising admissions and constrained resources presents a clear vulnerability that requires close monitoring.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "8.0% increase in hospital admissions",
+                                            "Funding level at 63.5% of historical average",
+                                            "26 days since last survey update"
+                                        ],
+                        "days_stale":  26,
+                        "flagged_at":  "2026-08-08T11:22:48.923203"
+                    },
+                    {
+                        "region":  "Pakistan",
+                        "country":  "Pakistan",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "While hospital admissions are currently on a downward trend, Pakistan\u0027s significantly reduced funding level of 61.5% and moderately stale survey data create a systemic vulnerability. The lack of resources and lagging surveillance mean any sudden reversal in disease dynamics could quickly overwhelm local capacity.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "Hospital admissions decreased by 11.1%",
+                                            "Funding level is at 61.5% of the historical average",
+                                            "Survey data has not been updated in 26 days"
+                                        ],
+                        "days_stale":  26,
+                        "flagged_at":  "2026-08-08T11:23:01.346915"
+                    },
+                    {
+                        "region":  "Indonesia",
+                        "country":  "Indonesia",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Hospital admissions show a moderate upward trend of 9.3% and the official survey data has not been updated in 26 days, which limits real-time visibility. However, the region\u0027s funding is currently strong at 109.1% of its historical average, providing a buffer to manage this slight increase in demand.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "9.3% increase in recent hospital admissions",
+                                            "26 days since last survey update",
+                                            "Resource funding at 109.1% of historical average"
+                                        ],
+                        "days_stale":  26,
+                        "flagged_at":  "2026-08-08T11:23:52.495300"
+                    },
+                    {
+                        "region":  "South Africa",
+                        "country":  "South Africa",
+                        "disease":  "HIV",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "A substantial 72.4% increase in hospital admissions signals a growing outbreak, compounded by slightly outdated survey data. However, the region\u0027s above-average funding level of 123.3% provides a strong buffer to manage this surge, keeping the vulnerability level moderate.",
+                        "confidence":  "High",
+                        "key_signals":  [
+                                            "72.4% increase in hospital admissions",
+                                            "25 days since last survey update",
+                                            "Resource funding at 123.3% of historical average"
+                                        ],
+                        "days_stale":  25,
+                        "flagged_at":  "2026-08-08T11:22:30.313737"
+                    },
+                    {
+                        "region":  "Edo, Nigeria",
+                        "country":  "Nigeria",
+                        "disease":  "Lassa fever",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Edo is experiencing a sharp 70.2% increase in hospital admissions, signaling a potential outbreak surge. Although the 23-day-old survey data adds some uncertainty, the region\u0027s stable resource allocation at 102.7% of its historical average provides an active buffer to manage the current influx.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "70.2% increase in hospital admissions",
+                                            "23 days since last survey update",
+                                            "Resource funding at 102.7% of historical average"
+                                        ],
+                        "days_stale":  23,
+                        "flagged_at":  "2026-08-08T11:26:24.209904"
+                    },
+                    {
+                        "region":  "United States",
+                        "country":  "United States",
+                        "disease":  "HIV",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Although hospital admissions have surged by 69.4%, the region\u0027s vulnerability is tempered by resource funding that remains slightly above historical averages. The 20-day lag in survey updates suggests a need for fresher data, but the current resource levels provide an adequate buffer to manage the rising caseload.",
+                        "confidence":  "High",
+                        "key_signals":  [
+                                            "69.4% increase in hospital admissions",
+                                            "Resource funding at 103.0% of historical average",
+                                            "20 days since last official survey update"
+                                        ],
+                        "days_stale":  20,
+                        "flagged_at":  "2026-08-08T11:22:12.672686"
+                    },
+                    {
+                        "region":  "Vietnam",
+                        "country":  "Vietnam",
+                        "disease":  "Influenza",
+                        "vulnerability_level":  "Moderate",
+                        "justification":  "Vietnam is experiencing a 7.2% increase in hospital admissions while operating under constrained resources, with funding at just 79.8% of the historical average. Although the 19-day delay in survey data is not critically long, the combination of rising admissions and below-average funding warrants a Moderate vulnerability rating.",
+                        "confidence":  "Medium",
+                        "key_signals":  [
+                                            "7.2% increase in hospital admissions",
+                                            "Funding at 79.8% of historical average",
+                                            "19 days since last survey update"
+                                        ],
+                        "days_stale":  19,
+                        "flagged_at":  "2026-08-08T11:25:15.372698"
+                    }
+                ]
+}
