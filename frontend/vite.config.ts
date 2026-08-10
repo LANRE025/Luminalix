@@ -9,6 +9,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/agent": "http://localhost:8000",
+      "/ingestion": "http://localhost:8000",
       "/regions": "http://localhost:8000",
       "/health": "http://localhost:8000",
     },

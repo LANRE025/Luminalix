@@ -6,12 +6,13 @@ database file, so DataHub's sqlalchemy source can ingest them with
 automatic schema inference.
 
 Run from the project root:
-    python data/ingestion/load_csvs_to_sqlite.py
+    python data/ingestion/load_csvs_to_sqlite.py [--db <path>]
 
 Produces:
     data/combined/luminalix.db
 """
 
+import argparse
 import sqlite3
 from pathlib import Path
 
@@ -28,7 +29,16 @@ DB_PATH = "data/combined/luminalix.db"
 
 
 def main():
-    db_path = Path(DB_PATH)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--db",
+        default=DB_PATH,
+        help="Output database path (default: data/combined/luminalix.db). Used by "
+        "the manual re-ingestion flow to build into a temp file before an atomic swap.",
+    )
+    args = parser.parse_args()
+
+    db_path = Path(args.db)
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
     conn = sqlite3.connect(db_path)

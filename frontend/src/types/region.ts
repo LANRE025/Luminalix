@@ -30,3 +30,25 @@ export interface AgentRunStatus {
   completed_at: string | null;
   error_message: string | null;
 }
+
+export type IngestionRunStatusValue = "idle" | "running" | "complete" | "error";
+
+// Mirrors IngestionRunStatus in backend/app/models/schemas.py.
+export interface IngestionRunStatus {
+  source: string;
+  status: IngestionRunStatusValue;
+  rows_ingested: number;
+  started_at: string | null;
+  completed_at: string | null;
+  error_message: string | null;
+}
+
+// Mirrors IngestionSourceInfo in backend/app/models/schemas.py.
+export interface IngestionSourceInfo {
+  name: string;
+  display_name: string;
+  input_type: "url" | "file";
+  description: string;
+  last_status: IngestionRunStatusValue | null;
+  last_completed_at: string | null;
+}

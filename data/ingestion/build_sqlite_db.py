@@ -9,9 +9,13 @@ way a real DataHub deployment would point at an underlying warehouse.
 
 Run after data/ingestion/run_pipeline.py.
 
+Usage:
+    python data/ingestion/build_sqlite_db.py [--db <path>]
+
 Output: data/luminalix.db
 """
 
+import argparse
 import sqlite3
 import pandas as pd
 from pathlib import Path
@@ -26,8 +30,19 @@ TABLES = {
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--db",
+        default=DB_PATH,
+        help="Output database path (default: data/luminalix.db). Used by the "
+        "manual re-ingestion flow to build into a temp file before an atomic swap.",
+    )
+    args = parser.parse_args()
+
+    db_path = Path(args.db)
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(db_path)
 
     for table_name, csv_path in TABLES.items():
         path = Path(csv_path)
@@ -39,7 +54,7 @@ def main():
         print(f"[loaded] {table_name}: {len(df)} rows from {csv_path}")
 
     conn.close()
-    print(f"\nDatabase ready at {DB_PATH}")
+    print(f"\nDatabase ready at {db_path}")
 
 
 if __name__ == "__main__":

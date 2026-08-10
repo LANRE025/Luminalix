@@ -1,4 +1,4 @@
-"""Pydantic models for the Outbreak Vulnerability Sentinel.
+"""Pydantic models for Luminalix.
 
 These mirror the Data Schema section of the scaffold spec and MUST stay in sync
 with the TypeScript types in ``frontend/src/types/region.ts``.
@@ -77,3 +77,36 @@ class AgentRunStatus(BaseModel):
     started_at: datetime | None = None
     completed_at: datetime | None = None
     error_message: str | None = None
+
+
+class IngestionRunStatusValue(str, Enum):
+    IDLE = "idle"
+    RUNNING = "running"
+    COMPLETE = "complete"
+    ERROR = "error"
+
+
+class IngestionRunStatus(BaseModel):
+    """Lifecycle status of the most recent re-ingestion for one source.
+
+    Mirrors ``AgentRunStatus`` (same status values) plus the source name and
+    row count reported by run_reingestion().
+    """
+
+    source: str
+    status: IngestionRunStatusValue = IngestionRunStatusValue.IDLE
+    rows_ingested: int = 0
+    started_at: datetime | None = None
+    completed_at: datetime | None = None
+    error_message: str | None = None
+
+
+class IngestionSourceInfo(BaseModel):
+    """One entry from the ingestion sources registry, plus last-known status."""
+
+    name: str
+    display_name: str
+    input_type: str
+    description: str
+    last_status: IngestionRunStatusValue | None = None
+    last_completed_at: datetime | None = None

@@ -16,9 +16,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.agent.data_access import DataAccess
 from app.agent.datahub_client import DataHubClient
 from app.api.routes_agent import router as agent_router
+from app.api.routes_ingestion import router as ingestion_router
 from app.api.routes_regions import router as regions_router
 from app.config import get_settings
 from app.models.schemas import AgentRunStatus
+from app.storage.ingestion_status_store import IngestionStatusStore
 from app.storage.report_store import ReportStore
 
 logging.basicConfig(
@@ -40,7 +42,8 @@ async def lifespan(app: FastAPI):
     )
     app.state.report_store = ReportStore(settings.report_file_path)
     app.state.run_status = AgentRunStatus()
-    logger.info("Outbreak Vulnerability Sentinel backend ready")
+    app.state.ingestion_status_store = IngestionStatusStore(settings.ingestion_status_dir)
+    logger.info("Luminalix backend ready")
     yield
     # Tear down the MCP subprocess cleanly on shutdown.
     try:
@@ -52,7 +55,7 @@ async def lifespan(app: FastAPI):
 def create_app() -> FastAPI:
     settings = get_settings()
     app = FastAPI(
-        title="Outbreak Vulnerability Sentinel API",
+        title="Luminalix API",
         description=(
             "Detects blind spots in global disease surveillance by cross-referencing "
             "survey staleness, hospital admissions trends, and resource allocation "
@@ -69,6 +72,7 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
     app.include_router(agent_router)
+    app.include_router(ingestion_router)
     app.include_router(regions_router)
 
     @app.get("/health")

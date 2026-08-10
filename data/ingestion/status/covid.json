@@ -1,0 +1,8 @@
+{
+  "source": "covid",
+  "status": "error",
+  "rows_ingested": 0,
+  "started_at": "2026-08-10T20:37:43.702552+00:00",
+  "completed_at": "2026-08-10T20:45:53.728433+00:00",
+  "error_message": "[WinError 5] Access is denied: 'C:\\\\DEV\\\\Luminalix\\\\data\\\\luminalix.tmp' -> 'C:\\\\DEV\\\\Luminalix\\\\data\\\\luminalix.db'"
+}

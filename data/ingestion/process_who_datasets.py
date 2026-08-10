@@ -35,12 +35,17 @@ MANUAL DOWNLOAD STEPS (do this once, on your own machine)
 ============================================================
 
 Once all three files are in data/raw/, run this script:
-    python3 data/ingestion/process_who_datasets.py
+    python3 data/ingestion/process_who_datasets.py            # all three
+    python3 data/ingestion/process_who_datasets.py tb         # just TB
+    python3 data/ingestion/process_who_datasets.py malaria    # just malaria
+    python3 data/ingestion/process_who_datasets.py influenza  # just influenza
 
 Output: data/processed/tb_survey_data.csv
         data/processed/malaria_survey_data.csv
         data/processed/influenza_survey_data.csv
 """
+
+import sys
 
 import pandas as pd
 from pathlib import Path
@@ -156,6 +161,20 @@ def process_influenza():
 
 if __name__ == "__main__":
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    process_tb()
-    process_malaria()
-    process_influenza()
+    # Optional single-disease selection so a user-triggered re-ingestion of one
+    # source reprocesses only that source. No arg (or "all") keeps the original
+    # behaviour of reprocessing everything that has a raw file available.
+    selection = sys.argv[1] if len(sys.argv) > 1 else "all"
+    handlers = {
+        "tb": process_tb,
+        "malaria": process_malaria,
+        "influenza": process_influenza,
+        "all": lambda: (process_tb(), process_malaria(), process_influenza()),
+    }
+    if selection not in handlers:
+        print(
+            f"[error] Unknown disease selection {selection!r}. "
+            f"Expected one of: tb, malaria, influenza, all"
+        )
+        sys.exit(1)
+    handlers[selection]()

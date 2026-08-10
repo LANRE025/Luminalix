@@ -25,7 +25,7 @@ def test_append_finding_to_empty_description():
 
 
 def test_append_finding_keeps_preamble():
-    preamble = "Regional survey data snapshot for the sentinel pipeline."
+    preamble = "Regional survey data snapshot for the Luminalix pipeline."
     combined = DataHubClient._append_finding(f"{preamble}\n\n{_note(1)}", _note(2))
     assert combined.startswith(preamble)
     assert "Finding 1." in combined

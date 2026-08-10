@@ -18,7 +18,7 @@ BACKEND_DIR = Path(__file__).resolve().parent.parent
 
 
 class Settings(BaseSettings):
-    """Settings for the Outbreak Vulnerability Sentinel backend."""
+    """Settings for the Luminalix backend."""
 
     # Vertex AI. Auth uses Google Cloud Application Default Credentials (ADC) —
     # set up locally via `gcloud auth application-default login` — not an API key.
@@ -42,6 +42,9 @@ class Settings(BaseSettings):
     # Where the latest run report is persisted. Relative values resolve against
     # the process working directory; the default is anchored to the repo root.
     report_file_path: Path = BACKEND_DIR.parent / "data" / "latest_report.json"
+
+    # Where per-source re-ingestion status files are persisted (one JSON per source).
+    ingestion_status_dir: Path = BACKEND_DIR.parent / "data" / "ingestion" / "status"
 
     # Allowed frontend origins for CORS. pydantic-settings parses JSON lists.
     cors_origins: list[str] = ["http://localhost:5173"]

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import { api } from "./api/client";
 import { RunAgentButton } from "./components/RunAgentButton";
+import DataSourcesPanel from "./components/DataSourcesPanel";
 import RegionsList from "./components/RegionsList";
 import RegionDetail from "./components/RegionDetail";
 import type { VulnerableRegionsReport } from "./types/region";
@@ -34,18 +35,28 @@ export default function App() {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-4 py-4">
           <Link to="/" className="flex items-center gap-3">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-emerald-600 text-sm font-bold text-white">
-              OVS
+              LX
             </span>
             <div>
               <h1 className="text-lg font-semibold leading-tight">
-                Outbreak Vulnerability Sentinel
+                Luminalix
               </h1>
               <p className="text-xs text-slate-500">
                 Survey staleness x admissions trends x resource allocation
               </p>
             </div>
           </Link>
-          <RunAgentButton onComplete={loadReport} />
+          <div className="flex items-center gap-4">
+            <nav className="flex items-center gap-3 text-sm">
+              <Link to="/" className="text-slate-600 hover:text-slate-900">
+                Regions
+              </Link>
+              <Link to="/sources" className="text-slate-600 hover:text-slate-900">
+                Data sources
+              </Link>
+            </nav>
+            <RunAgentButton onComplete={loadReport} />
+          </div>
         </div>
       </header>
 
@@ -63,6 +74,7 @@ export default function App() {
             }
           />
           <Route path="/regions/:regionId" element={<RegionDetail />} />
+          <Route path="/sources" element={<DataSourcesPanel />} />
         </Routes>
       </main>
     </div>

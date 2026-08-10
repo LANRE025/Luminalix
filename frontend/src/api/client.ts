@@ -1,5 +1,7 @@
 import type {
   AgentRunStatus,
+  IngestionRunStatus,
+  IngestionSourceInfo,
   RegionAssessment,
   VulnerableRegionsReport,
   VulnerabilityLevel,
@@ -58,4 +60,19 @@ export const api = {
   /** Fetch a single region assessment by region id. */
   getRegion: (regionId: string) =>
     request<RegionAssessment>(`/regions/${encodeURIComponent(regionId)}`),
+
+  /** List the defined ingestion sources with their last-known status. */
+  getIngestionSources: () => request<IngestionSourceInfo[]>("/ingestion/sources"),
+
+  /** Trigger a manual re-ingestion of one source (background task). */
+  runIngestion: (sourceName: string) =>
+    request<IngestionRunStatus>(`/ingestion/run/${encodeURIComponent(sourceName)}`, {
+      method: "POST",
+    }),
+
+  /** Poll the most recent re-ingestion result for one source. */
+  getIngestionStatus: (sourceName: string) =>
+    request<IngestionRunStatus>(
+      `/ingestion/status/${encodeURIComponent(sourceName)}`,
+    ),
 };
