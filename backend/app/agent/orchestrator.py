@@ -27,6 +27,7 @@ from pathlib import Path
 
 from app.agent.data_access import DataAccess
 from app.agent.datahub_client import DataHubClient
+from app.agent.freshness_monitor import monitor_datasets_freshness
 from app.agent.reasoning import assess_region, VulnerabilityAssessment  # from reasoning.py (Gemini call)
 
 logger = logging.getLogger(__name__)
@@ -41,9 +42,11 @@ def run(
     datahub_client: DataHubClient,
     output_path: str = "examples/vulnerable_regions_report.json",
     write_back_enabled: bool = True,
+    freshness_monitoring_enabled: bool = True,
 ) -> list[dict]:
     flagged_regions: list[dict] = []
     regions = data_access.list_regions()
+    touched_datasets: set[str] = {"regional_survey_data"}
     print(f"[orchestrator] Evaluating {len(regions)} regions from real data")
 
     for region in regions:
@@ -57,7 +60,9 @@ def run(
         print(f"[orchestrator] {region}: stale by {survey.days_stale} days ({survey.disease}) — checking proxy signals")
 
         trend = data_access.get_admissions_trend(region)
+        touched_datasets.add("hospital_admissions")
         resources = data_access.get_resource_level(region)
+        touched_datasets.add("resource_allocation")
 
         if resources is None:
             print(f"[orchestrator] {region}: no resource data, skipping")
@@ -123,6 +128,27 @@ def run(
         json.dump(flagged_regions, f, indent=2, default=str)
 
     print(f"[orchestrator] Wrote {len(flagged_regions)} flagged regions to {output_path}")
+
+    # Freshness monitoring runs ONCE per full run (not per region), as a
+    # separate step after the per-region Gemini/write_finding loop has
+    # completed. It registers + evaluates + publishes DataHub freshness
+    # assertions for each distinct dataset touched above and never blocks the
+    # rest of the run: monitor_datasets_freshness swallows its own failures,
+    # and this extra guard keeps even unexpected errors out of the run path.
+    if freshness_monitoring_enabled:
+        try:
+            monitor_datasets_freshness(
+                data_access=data_access,
+                datahub_client=datahub_client,
+                datasets=touched_datasets,
+            )
+        except Exception as exc:  # noqa: BLE001
+            logger.exception(
+                "DataHub freshness monitoring failed for this run (%s): %s",
+                type(exc).__name__,
+                exc,
+            )
+
     return flagged_regions
 
 

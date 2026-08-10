@@ -223,3 +223,73 @@ def test_region_without_survey_or_resources_is_skipped(tmp_path, monkeypatch):
     results = run(da, _make_datahub(), output_path=str(tmp_path / "report.json"))
 
     assert [r["region"] for r in results] == ["Region-A"]
+
+
+def test_freshness_monitoring_runs_once_with_touched_datasets(tmp_path, monkeypatch):
+    regions = ["Region-A"]
+    surveys = {"Region-A": _survey("Region-A", 45)}
+    resources = {"Region-A": _resources("Region-A")}
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return _assessment(region, "High")
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+    monitor = Mock(return_value=None)
+    monkeypatch.setattr("app.agent.orchestrator.monitor_datasets_freshness", monitor)
+
+    da = FakeDataAccess(regions, surveys, resources=resources)
+    run(da, _make_datahub(), output_path=str(tmp_path / "report.json"))
+
+    # Called exactly once for the whole run (not per region), after the loop.
+    assert monitor.call_count == 1
+    _, kwargs = monitor.call_args
+    assert kwargs["data_access"] is da
+    assert set(kwargs["datasets"]) == {
+        "regional_survey_data",
+        "hospital_admissions",
+        "resource_allocation",
+    }
+
+
+def test_freshness_monitoring_can_be_disabled(tmp_path, monkeypatch):
+    regions = ["Region-A"]
+    surveys = {"Region-A": _survey("Region-A", 45)}
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return _assessment(region, "High")
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+    monitor = Mock()
+    monkeypatch.setattr("app.agent.orchestrator.monitor_datasets_freshness", monitor)
+
+    run(
+        FakeDataAccess(regions, surveys),
+        _make_datahub(),
+        output_path=str(tmp_path / "report.json"),
+        freshness_monitoring_enabled=False,
+    )
+
+    monitor.assert_not_called()
+
+
+def test_freshness_monitoring_failure_does_not_block_run(tmp_path, monkeypatch):
+    regions = ["Region-A"]
+    surveys = {"Region-A": _survey("Region-A", 45)}
+
+    def fake_assess_region(region, days_stale, admissions_trend, resources, client=None):
+        return _assessment(region, "High")
+
+    monkeypatch.setattr("app.agent.orchestrator.assess_region", fake_assess_region)
+
+    def boom(*args, **kwargs):
+        raise RuntimeError("GMS unreachable")
+
+    monkeypatch.setattr("app.agent.orchestrator.monitor_datasets_freshness", boom)
+
+    results = run(
+        FakeDataAccess(regions, surveys),
+        _make_datahub(),
+        output_path=str(tmp_path / "report.json"),
+    )
+
+    assert [r["region"] for r in results] == ["Region-A"]
